@@ -165,6 +165,20 @@ Shown unstandardised, as returned by the source.
 ## Repository contents
 
 ```
+src/
+  common/
+    config.py         .env loading, API key parsing, shared paths
+    raw_writer.py      envelope timestamp/hash helpers, partitioned raw path
+    state.py            seen_ids load/save
+    query_log.py        query_log.csv append
+  collectors/
+    jooble.py            Jooble collector (POST, key in URL path)
+    jsearch.py            JSearch collector (GET, key in x-api-key header, key rotation)
+  matrices/
+    jooble_matrix.py       consolidated layer runner: l1 | l1b | l1c | l1d | l2 | l2b
+    jsearch_matrix.py      consolidated layer runner: coverage | kw | temporal
+probes/                    one-off probe scripts used to establish source constraints
+docs/                       documentation (in progress)
 samples/
   jooble_sample_200.csv               200 unique records, selected fields
   jsearch_sample_200.csv              200 unique records, selected fields
@@ -172,7 +186,25 @@ samples/
   jsearch_raw_envelope_example.json   one raw landed page, unmodified
 ```
 
-The envelope examples show the raw layer format: the server response stored as an unmodified string, wrapped with `source_id`, `batch_id`, `ingested_at`, `http_status` and the exact request that produced it.
+The envelope examples show the raw layer format: the server response stored as an unmodified string, wrapped with `source_id`, `batch_id`, `ingested_at`, `http_status` and the exact request that produced it. Raw output is written as a Hive-style partition, `raw/<source>/ingest_date=YYYY-MM-DD/<batch_id>__page_NNN.json`.
+
+API keys are read from `JOOBLE_API_KEYS` / `JSEARCH_API_KEYS` environment variables (comma-separated) via a `.env` file; see `.env.example`. No key is stored in source control.
+
+---
+
+## Code
+
+`src/collectors/` holds the two collectors (Jooble, JSearch); `src/common/`
+holds the logic genuinely shared between them (config/env loading, the
+partitioned raw writer, seen-id state, query logging); `src/matrices/` holds
+the consolidated query-matrix runners that drive the collectors over a
+target list. `probes/` holds the one-off scripts used to establish source
+constraints before the matrices were built.
+
+- [docs/collection_methodology.md](docs/collection_methodology.md): how and
+  why each collector and matrix behaves the way it does.
+- [docs/raw_layer.md](docs/raw_layer.md): the partitioned raw storage
+  format, the envelope schema, and how resume works.
 
 ---
 
