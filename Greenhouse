@@ -1,0 +1,85 @@
+import requests
+import json
+
+# =========================
+# Company information
+# =========================
+
+board_token = "recruitis"
+company_name = "recruitis"
+
+# =========================
+# Get jobs from Greenhouse
+# =========================
+
+url = f"https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs?content=true"
+
+response = requests.get(url)
+
+print("Status:", response.status_code)
+
+data = response.json()
+
+print("Total jobs from Greenhouse:", len(data["jobs"]))
+
+# =========================
+# Saudi Arabia filter
+# =========================
+
+saudi_keywords = [
+    "saudi arabia",
+    "saudi",
+    "ksa",
+    "riyadh",
+    "jeddah",
+    "dammam",
+    "khobar",
+    "al khobar",
+    "dhahran",
+    "jubail",
+    "mecca",
+    "makkah",
+    "medina",
+    "madinah",
+    "jazan",
+    "jizan",
+    "tabuk",
+    "abha",
+    "taif",
+    "yanbu",
+    "al ahsa",
+    "hofuf",
+    "neom",
+    "king abdullah economic city",
+    "eastern province",
+    "western province"
+]
+
+saudi_jobs = []
+
+for job in data["jobs"]:
+
+    location = job.get("location", {}).get("name", "").lower()
+
+    if any(keyword in location for keyword in saudi_keywords):
+        saudi_jobs.append(job)
+
+# =========================
+# Results
+# =========================
+
+print("Saudi jobs:", len(saudi_jobs))
+
+for job in saudi_jobs:
+    print(job["title"], "|", job["location"]["name"])
+
+# =========================
+# Save Saudi jobs
+# =========================
+
+data["jobs"] = saudi_jobs
+
+with open(f"{company_name}_jobs.json", "w", encoding="utf-8") as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
+
+print(f"Data saved successfully to {company_name}_jobs.json")
