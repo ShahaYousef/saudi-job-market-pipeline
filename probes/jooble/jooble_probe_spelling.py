@@ -2,8 +2,8 @@
 """Spelling probe only. One request per variant, no full pull."""
 import os, sys, time, json
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # repo/
-from src.collectors import jooble as jc
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
+from ingestion.jooble import collector as jc
 
 VARIANTS = ["Buraidah", "Burayda", "Neom", "Tabuk"]
 

@@ -1,8 +1,8 @@
 # Raw layer design
 
 How raw data is stored on disk and why, grounded in
-`src/common/raw_writer.py` and the `land_raw` functions in
-`src/collectors/jooble.py` / `src/collectors/jsearch.py`.
+`pipeline/common/raw_writer.py` and the `land_raw` functions in
+`pipeline/ingestion/jooble/collector.py` / `pipeline/ingestion/jsearch/collector.py`.
 
 ## Partition path
 

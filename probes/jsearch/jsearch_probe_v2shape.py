@@ -2,8 +2,8 @@
 """Inspect the actual shape of search-v2 response."""
 import json, urllib.parse, urllib.request, urllib.error, sys, os
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # repo/
-from src.collectors import jsearch as jc
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
+from ingestion.jsearch import collector as jc
 
 qs = urllib.parse.urlencode({"query": "jobs in Saudi Arabia", "country": "sa", "language": "en"})
 url = "https://api.openwebninja.com/jsearch/search-v2?" + qs

@@ -3,8 +3,8 @@
 import json, urllib.request, urllib.error, time, collections
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # repo/
-from src.common import config
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
+from common import config
 
 API_KEY = config.jsearch_api_keys()[0]
 BASE = "https://api.openwebninja.com/jsearch/search"

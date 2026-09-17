@@ -2,9 +2,9 @@
 """Follow the search-v2 cursor and measure depth, novelty and failure rate."""
 import json, time, urllib.parse, urllib.request, urllib.error, sys, os
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # repo/
-from src.collectors import jsearch as jc
-from src.common import state
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
+from ingestion.jsearch import collector as jc
+from common import state
 
 BASE = "https://api.openwebninja.com/jsearch/search-v2"
 MAX_STEPS = 10

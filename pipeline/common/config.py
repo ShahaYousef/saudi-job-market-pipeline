@@ -8,10 +8,10 @@ try:
 except ImportError:
     load_dotenv = None
 
-_THIS_DIR = Path(__file__).resolve().parent          # repo/src/common
-SRC_DIR   = _THIS_DIR.parent                          # repo/src
-REPO_DIR  = SRC_DIR.parent                            # repo
-CAP_DIR   = str(REPO_DIR.parent)                      # capstone (sibling of repo/, holds raw/)
+_THIS_DIR    = Path(__file__).resolve().parent        # repo/pipeline/common
+PIPELINE_DIR = _THIS_DIR.parent                       # repo/pipeline
+REPO_DIR     = PIPELINE_DIR.parent                    # repo
+CAP_DIR      = str(REPO_DIR.parent)                   # capstone (sibling of repo/, holds raw/)
 
 if load_dotenv is not None:
     load_dotenv(REPO_DIR / ".env")

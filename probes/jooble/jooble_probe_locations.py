@@ -2,9 +2,9 @@
 """Probe only. One request per location. No pulling."""
 import os, sys, time, json, csv
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # repo/
-from src.collectors import jooble as jc
-from src.common import config
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
+from ingestion.jooble import collector as jc
+from common import config
 
 CANDIDATES = [
     "Al Dhahran", "Medina", "Yanbu", "Al Ahsa", "Al Kharj",

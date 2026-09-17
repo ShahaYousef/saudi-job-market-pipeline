@@ -6,8 +6,8 @@ import sys, time, json, urllib.parse, urllib.request, urllib.error
 from pathlib import Path
 from datetime import datetime, timezone
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo/
-from src.common import config, raw_writer, state, query_log
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # pipeline/
+from common import config, raw_writer, state, query_log
 
 SOURCE_ID = "jsearch"
 API_KEYS  = config.jsearch_api_keys()

@@ -3,7 +3,7 @@
 (jsearch_matrix.py, jsearch_matrix_kw.py, jsearch_matrix_temporal.py) behind
 one CLI argument:
 
-    python jsearch_matrix.py <coverage|kw|temporal>
+    python matrix.py <coverage|kw|temporal>
 
 IMPORTANT behavioural difference preserved between layers: "coverage" runs
 city queries then keyword queries as ONE continuous sequence with a SINGLE
@@ -16,9 +16,9 @@ original jsearch_matrix_kw.py and jsearch_matrix_temporal.py did.
 import os, sys, time, random
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo/
-from src.collectors import jsearch as jc
-from src.common import state
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # pipeline/
+from ingestion.jsearch import collector as jc
+from common import state
 
 
 def pages_in_last_batch(label):
@@ -216,5 +216,5 @@ LAYERS = {
 
 if __name__ == "__main__":
     if len(sys.argv) != 2 or sys.argv[1] not in LAYERS:
-        sys.exit("Usage: python jsearch_matrix.py <%s>" % "|".join(LAYERS))
+        sys.exit("Usage: python matrix.py <%s>" % "|".join(LAYERS))
     LAYERS[sys.argv[1]]()

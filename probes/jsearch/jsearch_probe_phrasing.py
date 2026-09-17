@@ -3,8 +3,8 @@
 import json, time, urllib.parse, urllib.request, urllib.error
 import sys, os
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # repo/
-from src.collectors import jsearch as jc
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
+from ingestion.jsearch import collector as jc
 
 VARIANTS = [
     "architect jobs in Riyadh",

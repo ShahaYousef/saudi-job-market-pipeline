@@ -1,8 +1,9 @@
 # Collection methodology
 
 How the Jooble and JSearch collectors work, and why they were built this way.
-Every claim below is grounded in `src/collectors/jooble.py`, `src/collectors/jsearch.py`
-and `src/matrices/*.py` as they exist in this repo.
+Every claim below is grounded in `pipeline/ingestion/jooble/collector.py`,
+`pipeline/ingestion/jsearch/collector.py` and `pipeline/ingestion/*/matrix.py`
+as they exist in this repo.
 
 ## Why both sources are query-scoped
 
@@ -91,11 +92,11 @@ each query, average that yield over the last 5 queries, and stop expanding
 an axis once that average drops below 2.0.
 
 **This is only actually enforced in the JSearch matrices.** All three layers
-in `src/matrices/jsearch_matrix.py` (`run_coverage`, `run_kw`, `run_temporal`)
+in `pipeline/ingestion/jsearch/matrix.py` (`run_coverage`, `run_kw`, `run_temporal`)
 compute the trailing 5-query mean after every query and `break` out of the
 loop the moment it falls below 2.0, printing `STOPPING RULE MET`.
 
-In `src/matrices/jooble_matrix.py`, the rule is **not enforced as a break in
+In `pipeline/ingestion/jooble/matrix.py`, the rule is **not enforced as a break in
 any of the six layers**:
 - `l1`, `l1b`, `l1c`, `l1d` never compute a rolling yield at all; they run
   their full target list every time regardless of yield.

@@ -3,8 +3,8 @@ import sys, time, json
 from pathlib import Path
 from datetime import datetime, timezone
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo/
-from src.common import config, raw_writer, state, query_log
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # pipeline/
+from common import config, raw_writer, state, query_log
 
 import urllib.request, urllib.error
 

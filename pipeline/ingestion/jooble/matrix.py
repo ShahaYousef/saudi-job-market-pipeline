@@ -2,7 +2,7 @@
 """Jooble matrix runner. Consolidates the six original layer scripts
 (l1, l1b, l1c, l1d, l2, l2b) behind one CLI argument:
 
-    python jooble_matrix.py <l1|l1b|l1c|l1d|l2|l2b>
+    python matrix.py <l1|l1b|l1c|l1d|l2|l2b>
 
 Each layer keeps its own original behaviour verbatim: none of these layers
 enforced a break-based stopping rule while running (l2 and l2b only print a
@@ -12,9 +12,9 @@ JSearch matrices below actually break out of a layer early. Preserved as-is.
 import os, sys, time, json, random
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # repo/
-from src.collectors import jooble as jc
-from src.common import state
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))  # pipeline/
+from ingestion.jooble import collector as jc
+from common import state
 
 
 def pages_in_last_batch(label):
@@ -356,5 +356,5 @@ LAYERS = {
 
 if __name__ == "__main__":
     if len(sys.argv) != 2 or sys.argv[1] not in LAYERS:
-        sys.exit("Usage: python jooble_matrix.py <%s>" % "|".join(LAYERS))
+        sys.exit("Usage: python matrix.py <%s>" % "|".join(LAYERS))
     LAYERS[sys.argv[1]]()
