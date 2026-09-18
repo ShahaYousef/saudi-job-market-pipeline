@@ -1,0 +1,126 @@
+[
+  {
+    "id": "743999673318972",
+    "name": "Dish-Washer / Cleaner",
+    "uuid": "bb677969-4015-4d74-9357-0c91cec41a1f",
+    "jobAdId": "4f663189-449c-4236-9078-83208ae4469a",
+    "defaultJobAd": true,
+    "refNumber": "REF4W",
+    "company": {
+      "identifier": "FacilInternationalCompanyForHotelsFood",
+      "name": "Facil International Company for Hotels & Food"
+    },
+    "releasedDate": "2018-07-11T09:57:39.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "address": "Prince Sultan Road",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.6169835",
+      "longitude": "39.138778",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "other",
+      "label": "Other"
+    },
+    "typeOfEmployment": {
+      "id": "contract",
+      "label": "Contract"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5b45d1b86d8bc50530ca3dea",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Facil International Company for Hotels & Food"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/FacilInternationalCompanyForHotelsFood/postings/743999673318972",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999673318752",
+    "name": "Waiter",
+    "uuid": "e9b30268-a928-4df3-a34c-18bdaf8ef1a1",
+    "jobAdId": "47e63953-2b13-44aa-819c-073c649c863e",
+    "defaultJobAd": true,
+    "refNumber": "REF2Y",
+    "company": {
+      "identifier": "FacilInternationalCompanyForHotelsFood",
+      "name": "Facil International Company for Hotels & Food"
+    },
+    "releasedDate": "2018-07-11T09:51:39.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "address": "Prince Sultan Road",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.6169835",
+      "longitude": "39.138778",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "other",
+      "label": "Other"
+    },
+    "typeOfEmployment": {
+      "id": "contract",
+      "label": "Contract"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5b45d1b86d8bc50530ca3dea",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Facil International Company for Hotels & Food"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/FacilInternationalCompanyForHotelsFood/postings/743999673318752",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  }
+]
