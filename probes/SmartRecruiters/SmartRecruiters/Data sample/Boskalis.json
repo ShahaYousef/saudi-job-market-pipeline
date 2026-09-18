@@ -1,0 +1,141 @@
+[
+  {
+    "id": "744000146147878",
+    "name": "Senior Marine Pilot",
+    "uuid": "35582037-7504-44bd-95b3-b6d694e6761f",
+    "jobAdId": "53be3208-d420-4588-b68f-47a4475747f0",
+    "defaultJobAd": true,
+    "refNumber": "REF3477W",
+    "company": {
+      "identifier": "Boskalis",
+      "name": "Boskalis"
+    },
+    "releasedDate": "2026-08-28T09:24:05.911Z",
+    "location": {
+      "city": "Jazan",
+      "region": "Jazan Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "16.8893586",
+      "longitude": "42.57056740000001",
+      "fullLocation": "Jazan, Jazan Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "maritime",
+      "label": "Maritime"
+    },
+    "department": {
+      "id": "13605991",
+      "label": "Smit Lamnalco"
+    },
+    "function": {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "60e83af4b34b1a2758b2f925",
+        "fieldLabel": "Level of experience",
+        "valueId": "527732cc-b0e1-4316-b93d-62e3767f69c8",
+        "valueLabel": "Professional"
+      },
+      {
+        "fieldId": "60e83a418dda0706cae6aa3b",
+        "fieldLabel": "Organisation",
+        "valueId": "815fec16-19ec-4d4b-a16d-5b6d7403dd5c",
+        "valueLabel": "Towage"
+      },
+      {
+        "fieldId": "60e83b364b0eee24ce634fc4",
+        "fieldLabel": "Region",
+        "valueId": "91ca44ac-47e0-40d0-831c-571f840c7170",
+        "valueLabel": "Middle East"
+      },
+      {
+        "fieldId": "60e83cb530ee107d6719b1a4",
+        "fieldLabel": "Vacancy communication language",
+        "valueId": "f20e9d58-6441-47ec-ba80-dcb22844c197",
+        "valueLabel": "English"
+      },
+      {
+        "fieldId": "62fcc05113c61616b1435fe4",
+        "fieldLabel": "What we ask of you 1",
+        "valueId": "bdce686d-ec72-4efd-8945-2012044f2abb",
+        "valueLabel": "Excited to work abroad"
+      },
+      {
+        "fieldId": "62fcc021fe00377ebc5a787c",
+        "fieldLabel": "What we promise 3",
+        "valueId": "8d5381d4-e7dd-408a-9ac1-3bee295ab99c",
+        "valueLabel": "Not your average 9-to-5"
+      },
+      {
+        "fieldId": "605dacd9c56095598fbac5eb",
+        "fieldLabel": "Department",
+        "valueId": "13605991",
+        "valueLabel": "Smit Lamnalco"
+      },
+      {
+        "fieldId": "62fcbfd83c04bb5e25d9d574",
+        "fieldLabel": "What we promise 1",
+        "valueId": "f5a4f860-daa1-4ded-8767-16a45effa987",
+        "valueLabel": "An international career"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "62fcc09ff1270e61b8feffda",
+        "fieldLabel": "What we ask of you 3",
+        "valueId": "c3d86fee-dd11-450c-bc45-f631f7ebca72",
+        "valueLabel": "Problem Solving"
+      },
+      {
+        "fieldId": "60e83a96962ec0323e705d0f",
+        "fieldLabel": "Disciplines",
+        "valueId": "eb060056-3dc2-467b-9ab4-2bdac344d386",
+        "valueLabel": "Operations"
+      },
+      {
+        "fieldId": "62fcbfffc6ef56001c927f3d",
+        "fieldLabel": "What we promise 2",
+        "valueId": "17270d6e-6f3c-4bc6-909b-c80322ba0355",
+        "valueLabel": "Expat contract conditions"
+      },
+      {
+        "fieldId": "605dacd9c56095598fbac5ea",
+        "fieldLabel": "Brands",
+        "valueId": "9f421c9f-fa78-4555-ae9b-7bf2c1d677f9",
+        "valueLabel": "Smit Lamnalco"
+      },
+      {
+        "fieldId": "62fcc06e3c04bb5e25d9d575",
+        "fieldLabel": "What we ask of you 2",
+        "valueId": "b5c74b63-292f-484f-a26d-3cc54f6f3f94",
+        "valueLabel": "Planning and Organizing"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/Boskalis/postings/744000146147878",
+    "creator": {
+      "name": "Catherine Buenaagua"
+    },
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  }
+]

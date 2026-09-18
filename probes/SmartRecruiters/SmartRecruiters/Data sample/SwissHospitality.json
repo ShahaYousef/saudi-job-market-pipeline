@@ -1,0 +1,552 @@
+[
+  {
+    "id": "743999967263154",
+    "name": "Education Business Development Manager",
+    "uuid": "e3314ad6-4944-4ae5-bf7d-ac00814b6a8a",
+    "jobAdId": "dc30dec4-62ff-44df-8e75-e97e0739f2ea",
+    "defaultJobAd": true,
+    "refNumber": "REF52J",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2024-02-13T08:43:41.164Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "business_development",
+      "label": "Business Development"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999967263154",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999954375263",
+    "name": "Student Recruitment Manager",
+    "uuid": "15e2a1d0-e693-4733-ba72-72c2397db54d",
+    "jobAdId": "365e611d-40e2-44e3-821e-cd5b1156c6e6",
+    "defaultJobAd": true,
+    "refNumber": "REF51V",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-12-24T10:07:51.915Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "sales",
+      "label": "Sales"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999954375263",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999938549619",
+    "name": "Sales Executive (Education and Training Programs)",
+    "uuid": "9f2fd127-c98a-44b9-af91-10e1732b836e",
+    "jobAdId": "a4e37d93-74db-4152-9fe6-e66b01f5d7d9",
+    "defaultJobAd": true,
+    "refNumber": "REF22Y",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-10-20T15:47:27.599Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "sales",
+      "label": "Sales"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "not_applicable",
+      "label": "Not Applicable"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999938549619",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999894591108",
+    "name": "Project Manager",
+    "uuid": "88955d50-a47e-4598-858c-cdbd61bec2b2",
+    "jobAdId": "a7acc094-7cc1-499e-9fb9-553f9e8e55c7",
+    "defaultJobAd": true,
+    "refNumber": "REF38J",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-03-22T09:28:56.464Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "project_management",
+      "label": "Project Management"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999894591108",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999893195978",
+    "name": "Account Manager",
+    "uuid": "6a5598ee-430e-4ea2-9b19-1f1568335da9",
+    "jobAdId": "62b265ee-dab7-4839-b370-3d1ae328fd70",
+    "defaultJobAd": true,
+    "refNumber": "REF37Q",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-03-14T13:03:23.437Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "business_development",
+      "label": "Business Development"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999893195978",
+    "creator": {
+      "name": "Karim Darwish"
+    },
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999803850011",
+    "name": "Executive Assistant To CEO",
+    "uuid": "be348e8d-7fea-4689-b7ed-fa8ac087e7fa",
+    "jobAdId": "64ba0aae-add6-4573-8b52-ac740eca1e23",
+    "defaultJobAd": true,
+    "refNumber": "REF32D",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2022-02-07T11:07:40.000Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Riyadh, Riyadh, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "consulting",
+      "label": "Consulting"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999803850011",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999798894535",
+    "name": "Graphic Designer",
+    "uuid": "fba65a25-f430-466a-80b6-fdc3a39230bb",
+    "jobAdId": "def111a8-fe7d-4285-8734-09294d196b94",
+    "defaultJobAd": true,
+    "refNumber": "REF7N",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2022-01-17T19:20:54.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.485811",
+      "longitude": "39.19250479999999",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "design",
+      "label": "Design"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "not_applicable",
+      "label": "Not Applicable"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999798894535",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999789679980",
+    "name": "Key Account Specialist - Training and Recruitment",
+    "uuid": "fff8bc03-65ae-4d31-8a14-e5387d0ba55a",
+    "jobAdId": "09708338-0a28-474a-9289-e179f55db901",
+    "defaultJobAd": true,
+    "refNumber": "REF23F",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2021-11-28T13:18:18.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.485811",
+      "longitude": "39.19250479999999",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "human_resources",
+      "label": "Human Resources"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999789679980",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999763258376",
+    "name": "Project Manager - (Training & Recruitment)",
+    "uuid": "1b76c75c-8442-4cbe-9fed-1311a0f49bd2",
+    "jobAdId": "8b9176c0-be4f-4f80-ac2a-0bed294519d2",
+    "defaultJobAd": true,
+    "refNumber": "REF8S",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2021-07-26T14:42:47.000Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "project_management",
+      "label": "Project Management"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999763258376",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  }
+]

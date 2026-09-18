@@ -1,0 +1,183 @@
+[
+  {
+    "id": "743999812580154",
+    "name": "Job Alert for Academic Year 2022 - 2023",
+    "uuid": "1f55f04f-2f49-417a-abdb-c2bfbb4b9cb0",
+    "jobAdId": "87d1ad17-1c85-429d-a418-463d90136166",
+    "defaultJobAd": true,
+    "refNumber": "REF10F",
+    "company": {
+      "identifier": "QualityEducationCompany",
+      "name": "Quality Education Company"
+    },
+    "releasedDate": "2022-03-17T10:03:50.000Z",
+    "location": {
+      "city": "Multiple Cities",
+      "country": "sa",
+      "address": "Multiple Cities",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Multiple Cities, , Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "education",
+      "label": "Education"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5afffa1ab60a5e1605e84e48",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Quality Education Company"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/QualityEducationCompany/postings/743999812580154",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "743999717193765",
+    "name": "English Teacher",
+    "uuid": "70be019d-86be-4bac-9297-551a8b2505c7",
+    "jobAdId": "1c34d417-6982-4810-9414-c84d0cd095cf",
+    "defaultJobAd": true,
+    "refNumber": "REF8Z",
+    "company": {
+      "identifier": "QualityEducationCompany",
+      "name": "Quality Education Company"
+    },
+    "releasedDate": "2020-08-12T07:40:01.000Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Central Region",
+      "country": "sa",
+      "address": "Riyadh",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Riyadh, Central Region, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "education",
+      "label": "Education"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5afffa1ab60a5e1605e84e48",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Quality Education Company"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/QualityEducationCompany/postings/743999717193765",
+    "language": {
+      "code": "ar",
+      "label": "Arabic",
+      "labelNative": "العربية"
+    }
+  },
+  {
+    "id": "743999698836637",
+    "name": "Female ESL teacher (Relocation to Saudi Arabia)",
+    "uuid": "d93a7509-e07e-43cf-ad41-c191bc9ea35d",
+    "jobAdId": "6d1197af-c015-423e-860b-3f5aa0323eb0",
+    "defaultJobAd": true,
+    "refNumber": "REF7U",
+    "company": {
+      "identifier": "QualityEducationCompany",
+      "name": "Quality Education Company"
+    },
+    "releasedDate": "2019-11-05T07:06:05.000Z",
+    "location": {
+      "city": "Al Ahsa",
+      "region": "Eastern Province",
+      "country": "sa",
+      "address": "Riyadh Road",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "25.3519789",
+      "longitude": "49.48792679999997",
+      "fullLocation": "Al Ahsa, Eastern Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "education",
+      "label": "Education"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5afffa1ab60a5e1605e84e48",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Quality Education Company"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/QualityEducationCompany/postings/743999698836637",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  }
+]

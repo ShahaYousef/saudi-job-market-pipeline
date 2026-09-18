@@ -1,0 +1,151 @@
+[
+  {
+    "id": "744000137816014",
+    "name": "Business Expert",
+    "uuid": "10e12862-1c6b-44c2-9daa-e4e1022de734",
+    "jobAdId": "3e8ea214-946e-4b11-a104-c2522c2a34bd",
+    "defaultJobAd": true,
+    "refNumber": "REF389O",
+    "company": {
+      "identifier": "CREALOGIX",
+      "name": "CREALOGIX"
+    },
+    "releasedDate": "2026-07-15T07:16:03.950Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Region",
+      "country": "sa",
+      "address": "Al Tawuniya Tower (South Tower), Level 16 King, Fahad Road",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Riyadh, Riyadh Region, Saudi Arabia"
+    },
+    "industry": {
+      "id": "banking",
+      "label": "Banking"
+    },
+    "department": {
+      "id": "2588784",
+      "label": "Business Analysis"
+    },
+    "function": {
+      "id": "information_technology",
+      "label": "Information Technology"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60c35dcd54f31e71ad19d12a",
+        "fieldLabel": "Field of Expertise",
+        "valueId": "2588784",
+        "valueLabel": "Business Analysis"
+      },
+      {
+        "fieldId": "60caf9e01faf991ed768a939",
+        "fieldLabel": "Career Level",
+        "valueId": "18b3c852-7ad7-4ef0-9c82-a30c9db29aab",
+        "valueLabel": "Professional / Senior"
+      },
+      {
+        "fieldId": "60c35dcd54f31e71ad19d129",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "CREALOGIX"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/CREALOGIX/postings/744000137816014",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000134987899",
+    "name": "Manual QA Tester (senior)",
+    "uuid": "dc4cc77f-43ac-4ad4-a5c1-e2b0fc6dd5e2",
+    "jobAdId": "628542ff-e0f1-4b73-87ee-ce5dc47597bd",
+    "defaultJobAd": true,
+    "refNumber": "REF343H",
+    "company": {
+      "identifier": "CREALOGIX",
+      "name": "CREALOGIX"
+    },
+    "releasedDate": "2026-06-30T11:10:17.639Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Mecca Region",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Jeddah, Mecca Region, Saudi Arabia"
+    },
+    "industry": {
+      "id": "it_and_services",
+      "label": "Information Technology And Services"
+    },
+    "department": {
+      "id": "2588801",
+      "label": "Engineering / Technology / Operations"
+    },
+    "function": {
+      "id": "information_technology",
+      "label": "Information Technology"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60c35dcd54f31e71ad19d12a",
+        "fieldLabel": "Field of Expertise",
+        "valueId": "2588801",
+        "valueLabel": "Engineering / Technology / Operations"
+      },
+      {
+        "fieldId": "60caf9e01faf991ed768a939",
+        "fieldLabel": "Career Level",
+        "valueId": "18b3c852-7ad7-4ef0-9c82-a30c9db29aab",
+        "valueLabel": "Professional / Senior"
+      },
+      {
+        "fieldId": "60c35dcd54f31e71ad19d129",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "CREALOGIX"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/CREALOGIX/postings/744000134987899",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  }
+]

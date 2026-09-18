@@ -1,0 +1,498 @@
+[
+  {
+    "id": "744000148519179",
+    "name": "Multimedia Designer",
+    "uuid": "650fd391-5f17-474b-9534-8ccd0577afce",
+    "jobAdId": "63a7ac12-fc81-4757-8b6b-dbcd1a040efa",
+    "defaultJobAd": true,
+    "refNumber": "REF250M",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-09-09T14:10:19.033Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "design",
+      "label": "Design"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000148519179",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000147169459",
+    "name": "Social Media Manager",
+    "uuid": "8de67311-4d6e-40db-8341-e97dd4635be6",
+    "jobAdId": "df0d9a99-09b6-48eb-ad11-9304a11dd1c7",
+    "defaultJobAd": true,
+    "refNumber": "REF249D",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-09-03T07:34:12.095Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "advertising",
+      "label": "Advertising"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000147169459",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000145980201",
+    "name": "Creative Content Lead",
+    "uuid": "ada426b7-9930-46be-bb69-c15d421cd04b",
+    "jobAdId": "707e76b8-7931-4b3a-b5d8-aa79c8aea450",
+    "defaultJobAd": true,
+    "refNumber": "REF241R",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-27T13:08:38.352Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "art_creative",
+      "label": "Art/Creative"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "director",
+      "label": "Director"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000145980201",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000144472624",
+    "name": "Copywriter",
+    "uuid": "c7f745b8-5717-48c9-bf47-75cb43edd64d",
+    "jobAdId": "e3792d1f-19c2-4399-99e3-cd6989039485",
+    "defaultJobAd": true,
+    "refNumber": "REF248Z",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-20T07:19:06.059Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "writing_editing",
+      "label": "Writing/Editing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000144472624",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000143241839",
+    "name": "Account Executive",
+    "uuid": "a4ac45a5-0c80-4032-92cd-16374c9975c4",
+    "jobAdId": "de028224-8105-4581-82f5-c95b11f95817",
+    "defaultJobAd": true,
+    "refNumber": "REF245K",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-13T07:09:29.405Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "marketing",
+      "label": "Marketing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000143241839",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000141698429",
+    "name": "Account Manager",
+    "uuid": "c21d68e5-d1fa-422f-bf3e-0b55667951ad",
+    "jobAdId": "67555305-fda7-4cb6-92f0-ad556da536f4",
+    "defaultJobAd": true,
+    "refNumber": "REF244W",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-05T11:33:20.225Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "marketing",
+      "label": "Marketing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000141698429",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000137421119",
+    "name": "Digital Business Development Manager",
+    "uuid": "c4046c3e-1017-4fd0-9bd6-c2d0f7182049",
+    "jobAdId": "148f9d9c-2fd6-4e7c-9683-113fbbf118d2",
+    "defaultJobAd": true,
+    "refNumber": "REF242K",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-07-13T10:28:04.290Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "marketing",
+      "label": "Marketing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000137421119",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  },
+  {
+    "id": "744000121129767",
+    "name": "Senior Arabic Copywriter ",
+    "uuid": "3059daf7-239b-49a1-84e0-d57f71a517b5",
+    "jobAdId": "ad593292-712a-40e6-ba6d-b9f7f217d2de",
+    "defaultJobAd": true,
+    "refNumber": "REF237C",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-04-16T08:03:02.366Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "writing_editing",
+      "label": "Writing/Editing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000121129767",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    }
+  }
+]
