@@ -1,0 +1,732 @@
+[
+  {
+    "id": "743999967263154",
+    "name": "Education Business Development Manager",
+    "uuid": "e3314ad6-4944-4ae5-bf7d-ac00814b6a8a",
+    "jobAdId": "dc30dec4-62ff-44df-8e75-e97e0739f2ea",
+    "defaultJobAd": true,
+    "refNumber": "REF52J",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2024-02-13T08:43:41.164Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "business_development",
+      "label": "Business Development"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999967263154",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>As the Education Business Development Manager, you will play a pivotal role in driving growth and strategic partnerships for our education-focused initiatives. You will be responsible for identifying, establishing, and nurturing partnerships with key stakeholders in the education sector, including schools, universities, educational technology companies, and government agencies. Additionally, you will lead efforts to develop new business opportunities and revenue streams within the education market.</p><p><strong>Responsibilities:</strong></p><ol><li>Identify and pursue new business opportunities within the education sector, including schools, universities, educational institutions, and corporate training programs.</li><li>Cultivate and maintain strong relationships with partners, ensuring alignment of goals and objectives to drive mutual success. Serve as the primary point of contact for partner communication and collaboration.</li><li>Lead efforts to identify, evaluate, and pursue new business. Develop and execute strategic business plans to achieve sales targets and revenue goals.</li><li>Collaborate cross-functionally with internal teams to develop&#xa0;products, services, and solutions tailored to the needs of the market in alignment with the overall company objectives.</li><li>Manage student recruitment initiatives and oversee the team's performance to ensure successful progress towards recruitment goals.</li><li>Represent the company at industry events, conferences, and trade shows to promote our brand and solutions.</li><li>Negotiate contracts, pricing, and terms with clients and partners.</li><li>Track, analyze, and report on key performance metrics related to partnership and business development activities. Use data-driven insights to optimize strategies and drive continuous improvement.</li><li>Conduct market research and analysis to identify trends, opportunities, and challenges within the education industry. Use insights to inform strategic decision-making and business development efforts.</li></ol>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ol><li>Bachelor's degree in Business Administration, Marketing, Education, or related field.&#xa0;</li><li>Proven track record of success in partnership development, business development, sales, or marketing, preferably within the education sector.</li><li>Strong understanding of the education industry, including knowledge of key stakeholders, market dynamics, and emerging trends.</li><li>Excellent communication, negotiation, and interpersonal skills, with the ability to build and maintain relationships at all levels.</li><li>Ability to build and maintain relationships with diverse stakeholders, including educators, administrators, and industry leaders.</li><li>Results-oriented with a track record of achieving sales targets and driving revenue growth.</li><li>Ability to work independently and collaboratively in a fast-paced, dynamic environment.</li><li>Strategic thinker with the ability to identify opportunities, solve complex problems, and drive results.</li><li>Highly organized and detail-oriented, with the ability to manage multiple projects and priorities simultaneously.</li><li>Passion for education and a commitment to making a positive impact in the field.</li><li>Proficiency in Microsoft Office suite and CRM software.</li><li>Willingness to travel as needed.</li></ol>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "743999954375263",
+    "name": "Student Recruitment Manager",
+    "uuid": "15e2a1d0-e693-4733-ba72-72c2397db54d",
+    "jobAdId": "365e611d-40e2-44e3-821e-cd5b1156c6e6",
+    "defaultJobAd": true,
+    "refNumber": "REF51V",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-12-24T10:07:51.915Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "sales",
+      "label": "Sales"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999954375263",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": ""
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>The Student Recruitment Manager and Educational Consultant plays a significant role in driving recruitment growth and achieving student recruitment targets the region, working closely with colleagues. This position will be responsible for on the ground recruitment activities including, but not limited to agent training, lead generation events, student conversion and solving specific student, parent or agent queries. This requires the ability to support a broad range of internal and external stakeholders across the region to drive long-term growth for specific product(s) in the market.</p><p>Responsibilities:&#xa0;</p><ul><li>Develop and implement strategies to ensure effective student recruitment from the School’s target&#xa0;</li><li>&#xa0;</li><li>Attend events on behalf of educational institutions&#xa0;</li><li>Participate in all recruitment activities including, but not limited to, training, events, student conversion, information sessions and managing enquiries/agent requests</li><li>Deliver market insight and accurate</li><li>Handle student enquiries and manage leads. recruitment forecasts through regular and detailed reports to management.</li><li>Ensure complete and accurate reporting of all activities on the CRM</li><li>Coordinate student contact to confirm outcome of applications &amp; visa interview.</li><li>Execute pre-departure process with channel partners and students</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>Essential:</p><ul><li>Proven track record of strong recruitment performance</li><li>High level interpersonal, communication and negotiation skills including Business level written and oral capability in English</li><li>Proven ability as a team player</li><li>Ability to demonstrate innovative thinking</li><li>An eye for developing new recruitment initiatives</li><li>Ability to take responsibility for decisions and outcomes</li><li>Flexible attitude to work including a willingness to work weekends and evenings in support of recruitment activities both locally and internationally</li><li>Ability to meet targets within defined timelines among changing priorities</li><li>Success in a sales role within the Higher Education sector</li><li>Proven ability to monitor and evaluate the success of activities and report appropriately</li><li>Familiarity with Salesforce or similar CRM systems</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "743999938549619",
+    "name": "Sales Executive (Education and Training Programs)",
+    "uuid": "9f2fd127-c98a-44b9-af91-10e1732b836e",
+    "jobAdId": "a4e37d93-74db-4152-9fe6-e66b01f5d7d9",
+    "defaultJobAd": true,
+    "refNumber": "REF22Y",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-10-20T15:47:27.599Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "education_management",
+      "label": "Education Management"
+    },
+    "department": {},
+    "function": {
+      "id": "sales",
+      "label": "Sales"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "not_applicable",
+      "label": "Not Applicable"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999938549619",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Swiss Hospitality Company is a consulting company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Candidate will be handling purchases, customer inquires and the promotion of the company services such as, training programs and professional certifications.</p><p>Responsibilities:</p><ul><li>Prepare action plans and timelines to identify specific targets and to project the number of sales to be made.</li><li>Prepare presentations, proposals and contracts.</li><li>Establishing and maintain current client and potential client relationships.</li><li>Participate in marketing events such as seminars, trade shows, and telemarketing events.</li><li>Following up on payment collection, new leads and referrals.&#xa0;</li><li>Coordinating&#xa0;shipping of training materials.</li><li>Handling orders by phone, email, or mail and checking the orders have the correct prices, discounts, and product numbers.</li><li>Inputting orders, ensuring they are processed according to customer requirements, and ensuring all orders are accurate and delivered on time.</li><li>Collaborating with other departments to ensure sales, marketing, queries, and deliveries are handled efficiently.</li><li>Developing and maintaining filing systems so as to maintain sales records, prepare reports, and provide financial information to the finance department.</li><li>Ensuring adherence to laws, regulations, and policies.</li><li>Keeping updated information on products</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Professional Experience minimum 2 years.</li><li>English and Arabic language proficiency&#xa0;</li><li>Bachelor in Business / Hospitality or any relevant field.&#xa0;</li><li>Good team development and leadership skills.</li><li>Computer literacy</li><li>Good administrative, organizational, and problem-solving skills.</li><li>Excellent communication, sales, and customer service skills.</li><li>The ability to multitask, work in a fast-paced environment, and meet deadlines.</li><li>Excellent written and spoken communications skills</li><li>Detail&#xa0;Oriented</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<p>&#xa0;</p><p>&#xa0;</p>"
+        }
+      }
+    }
+  },
+  {
+    "id": "743999894591108",
+    "name": "Project Manager",
+    "uuid": "88955d50-a47e-4598-858c-cdbd61bec2b2",
+    "jobAdId": "a7acc094-7cc1-499e-9fb9-553f9e8e55c7",
+    "defaultJobAd": true,
+    "refNumber": "REF38J",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-03-22T09:28:56.464Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "project_management",
+      "label": "Project Management"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999894591108",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<ul><li><strong>ABOUT US</strong>: Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.<br>\n&#xa0;</li><li><strong>OUR VISION</strong>: Becoming the leading force for change and development in the Hospitality industry from the private sector in Saudi Arabia.<br>\n&#xa0;</li><li><strong>OUR MISSION</strong>:&#xa0;Revolutionise the Hospitality industry in Saudi Arabia and enable Saudi calibers by adopting Swiss standards, international best-practices and integrating fine Saudi Hospitality values.</li></ul>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Job Overview:</strong></p><p>You will be responsible for initiating, designing, planning, executing, monitoring and completing Government projects. You will manage teams, facilitate commitment and motivate team members, manage the expectations of key stakeholders and communicate the status of project milestones. You will build a comprehensive work plan and manage the budget for projects.</p><p>If you have the passion, excellent leadership &amp;&#xa0;communication skills, and you can work methodically as part of a team, we’d like to meet you!</p><p><strong>Main Duties &amp; Responsibilities:</strong></p><ul><li>Take full responsibility for the project implementation,&#xa0;including design, tendering, application for government approvals, kick-off preparation/&#xa0;presentation, and completion.</li><li>Research, grant proposals,&#xa0;funding opportunities and approach potential clients.</li><li>Develop project strategies.</li><li>Create&#xa0;and review proposals and agreements.</li><li>Assist in choosing project teams &amp; creating job descriptions.</li><li>Develop full project operation plans including staffing, budgeting and scheduling.</li><li>Attend meetings to represent the company&#xa0;&amp; maintain good relations with clients.</li><li>Set and monitor project targets and operation milestones.</li><li>Design and develop operation processes &amp; project management systems.</li><li>Coordinate tasks and deadlines.</li><li>Develop and monitor project scopes of work, timelines, budgets, and quality control.</li><li>Conduct project reviews and prepare reports for management.</li><li>Participate in new business development bids, participating in strategic phone calls &amp; providing guidance on proposal budgets.</li><li>Develop relationships with various community, governmental and other non-profit organisations.</li><li>Browse and scan Etimad portal for potential government tenders.</li><li>Prepare technical and commercial proposal/ bid aligned with pricing&#xa0;strategy and benchmark.</li><li>Design detailed project execution plan with a rapid response to RFIs and RFPs</li><li>Communicate and engage with subject matter experts (SME), build an effective communication&#xa0;bridge with stakeholders during project.</li><li>Implement programs and projects to help organisations meet goals and objectives.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>- Must have:</p><ul><li>Bachelor degree holder</li><li><u><strong>MUST be a native Arabic speaker</strong></u></li><li>Previously worked with a PMO setting&#xa0;</li><li>Portfolio Management and/or Program Management&#xa0;</li><li>Minimum of 3 years of project management experience.</li><li>Advanced level of Microsoft office applications (Excel, Word, Powerpoint)</li><li>Working closely with a variety of internal teams such as Business Development, HR, Finance,&#xa0;and external parties such as&#xa0;National&#xa0;Legal buddies, Ministries, Organisations.&#xa0;</li><li>Previously worked within executive offices (CEO, COO...&#xa0;etc.)</li></ul><ul></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<p>Great to have the following skills:</p><p>1. Communication -&#xa0;must have strong communication skills to be able to convey messages to clients and team members.&#xa0;</p><p>2. Leadership - must have strong leadership skills.</p><p>3. Organisation -&#xa0;must have strong organisational skills,&#xa0;to ensure processes are running smoothly and in line with common goals.</p><p>4. Negotiation -&#xa0; must be effective at negotiating terms with suppliers, clients and other stakeholders.</p><p>5. Team management -&#xa0;must be able to bring the&#xa0;team together and move them in one direction, aligning their personal goals with those of the organisation.&#xa0;</p><p>6. Time management -&#xa0;must be able to create a project timeline and maintain those deadlines throughout the project life-cycle.</p><p>7. Risk management -&#xa0;&#xa0;must have the experience and ability to pinpoint what could go wrong and implement a risk mitigation strategy.&#xa0;</p><p>8. Problem-solving -&#xa0;must be able to gather information, weigh the associated pros and cons and then formulate the best solution.&#xa0;</p><p>9. Budget management -&#xa0;to create a viable budget and control it throughout the project life-cycle.&#xa0;</p><p>10. Motivation -&#xa0;&#xa0;must have motivational skills, tactics include using positive reinforcement, praise and team-building activities.</p><p>11. Adaptability -&#xa0;must be able to adapt to upcoming product trends, new technology, user demographics and more.&#xa0;</p><p>12. Technologically savvy -&#xa0;must be tech-savvy and having hands-on experience with the latest technology.</p><p>13. Reporting skills -&#xa0;must be able to gather information throughout the lifespan of a project and report them to the management for future evaluation.&#xa0;</p><p>14. Active listening -&#xa0;must have the ability to listen to the team members, clients, and stakeholders.</p><p>15. Research skills - must have strong research skills to be able to fill any gaps in knowledge that may allow&#xa0;to complete the project more efficiently or more successfully.</p><p>16. Interpersonal skills -&#xa0;must have self-confidence, relationship management and collaboration skills.&#xa0;</p><p>17. Project management methodologies -&#xa0;must have the ability to apply frameworks and methodologies.</p><p>18. Policy knowledge -&#xa0;must have an adequate grasp of policy knowledge, including health, safety, environmental and business best practices.</p><p>19. Conflict management -&#xa0;Strong conflict management skills are essential to keep the teams operating efficiently and working well together.&#xa0;</p><ul></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "743999893195978",
+    "name": "Account Manager",
+    "uuid": "6a5598ee-430e-4ea2-9b19-1f1568335da9",
+    "jobAdId": "62b265ee-dab7-4839-b370-3d1ae328fd70",
+    "defaultJobAd": true,
+    "refNumber": "REF37Q",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2023-03-14T13:03:23.437Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "business_development",
+      "label": "Business Development"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999893195978",
+    "creator": {
+      "name": "Karim Darwish"
+    },
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<ul><li><strong>ABOUT US</strong>: Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.<br>\n&#xa0;</li><li><strong>OUR VISION</strong>: Becoming the leading force for change and development in the Hospitality industry from the private sector in Saudi Arabia.<br>\n&#xa0;</li><li><strong>OUR MISSION</strong>:&#xa0;Revolutionise the Hospitality industry in Saudi Arabia and enable Saudi calibers by adopting Swiss standards, international best-practices and integrating fine Saudi Hospitality values.</li></ul>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Key responsibilities include:</strong></p><ul><li>Provide market intelligence on customers, competitors and significant factors affecting markets to influence short and long-term business objectives and to support decision making.</li><li>Acquire new and retain existing customers through improved customer satisfaction, staying close to the customer, anticipating and closing off potential problems and being a trusted point of contact</li><li>Design and execution of a sales and marketing strategy for the portfolio</li><li>Drive growth in a focused and targeted manner to achieve the business goals, including Revenue and Gross Margin</li><li>Establish differentiation from competitors to grow market share</li><li>Proving strategic Supply Chain solutions</li><li>Account management and revenue growth</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p><strong>To be successful in this role, you will need:</strong></p><ul><li>Strong understanding of business development, including management of major bids and contracts.</li><li>Human Capital Development exposure and experience.</li><li>Hospitality exposure and experience.</li><li>Good working knowledge of sales force operations and sales processes for contracting business.</li><li>Understanding of key business drivers, industry / market conditions and commercial modelling.</li><li>Good understanding of continuous improvement and customer value propositions.</li><li>Strong relationship management, negotiation and problem-solving skills.</li><li>Excellent verbal/written communication skills across a wide variety of audiences; ability to craft and deliver nuanced messages.</li></ul><p>This is a key customer facing role, travel to client sites will be required based on business needs.</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "743999803850011",
+    "name": "Executive Assistant To CEO",
+    "uuid": "be348e8d-7fea-4689-b7ed-fa8ac087e7fa",
+    "jobAdId": "64ba0aae-add6-4573-8b52-ac740eca1e23",
+    "defaultJobAd": true,
+    "refNumber": "REF32D",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2022-02-07T11:07:40.000Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Riyadh, Riyadh, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "consulting",
+      "label": "Consulting"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999803850011",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.</p><ul><li><strong>OUR MISSION</strong></li></ul><p>To revolutionize the Hospitality industry in Saudi Arabia and enable Saudi calibers by adopting Swiss standards, international best-practices and integrating fine Saudi Hospitality values.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>POSITION OVERVIEW:</strong></p><p>We&apos;re looking for a professional, energetic and detail-oriented candidate to make sure that the CEO office is organized, productive, operates efficiently and smoothly. Greeting visitors, managing office supplies, overseeing other administrative staff, owning budgets, and supporting staff with administrative tasks like scheduling meetings.</p><p><strong>MAIN TASKS AND DUTIES:</strong></p><ol><li>Oversee and support all administrative duties assigned by the CEO.</li><li>Provide administrative support as necessary, including scheduling meetings, maintaining calendars, doing research, and creating reports as assigned by the CEO.</li><li>Manage CEO schedule and troubleshoot scheduling conflicts as they arise.</li><li>Format information for internal and external communication - memos, emails, presentations, reports for the CEO.</li><li>Manage office supplies inventory and place orders as necessary and informs the CEO.</li><li>Receive and sort incoming emails and deliveries, and manage outgoing email of the CEO.</li><li>Attending meetings and preparing minutes of meeting.</li><li>Assist with office layout planning and office moves.</li><li>Identify opportunities for process and office management improvements.</li><li>Develop organizational procedures and systems for office personnel, including filing, billing, accounts payable, payroll and scheduling as assigned.</li><li>Ensure CEO personnel files are up to date and secure.</li><li>Assign and monitor clerical and secretarial function.</li><li>Making travel arrangements and detailed travel itineraries.</li><li>Uphold a strict level of confidentiality in a professional manner.</li><li>Perform other related duties as required.</li></ol>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>Must be flunt in Arabic and English</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "743999798894535",
+    "name": "Graphic Designer",
+    "uuid": "fba65a25-f430-466a-80b6-fdc3a39230bb",
+    "jobAdId": "def111a8-fe7d-4285-8734-09294d196b94",
+    "defaultJobAd": true,
+    "refNumber": "REF7N",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2022-01-17T19:20:54.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.485811",
+      "longitude": "39.19250479999999",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "design",
+      "label": "Design"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "not_applicable",
+      "label": "Not Applicable"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999798894535",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p> </p><ul><li><strong>ABOUT US</strong></li></ul><p>Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.</p><ul><li><strong>OUR VISION</strong></li></ul><p>Becoming the leading force for change and development in the Hospitality industry from the private sector in Saudi Arabia.</p><ul><li><strong>OUR MISSION</strong></li></ul><p>To revolutionize the Hospitality industry in Saudi Arabia and enable Saudi calibers by adopting Swiss standards, international best-practices and integrating fine Saudi Hospitality values.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Job Overview:</strong></p><p>You’ll be the one to shape the visual aspects of websites, books, magazines, product packaging, exhibitions,  including but not limited to; brand identities, brand theme, brand language, brand culture and story. you should have experience with using graphic design platforms and tools such as illustrator and all adobe design programs to help complete tasks in the best standards. </p><p>If you have the passion, can communicate well, and work methodically as part of a team, we’d like to meet you!</p><p><strong>Main Tasks &amp; Duties:</strong></p><ul><li>Ensure final graphics and layouts are visually appealing and on-brand.</li><li>Develop concepts, graphics and layouts for product illustrations, company logos and websites.</li><li>Study design briefs and determine requirements.</li><li>Create and design various materials for print and digital collateral, such as designs for social media, stationary, media, other purposes. </li><li>Create and manage social media content.</li><li>Create creative and engaging social media campaigns.</li><li>Present ideas and rough drafts for feedback.</li><li>Liaising and building multiple relationships with external vendors for printing and publishing.</li><li>Establish creative direction for the company as well as brand guidelines.</li><li>Be responsible for the correct sourcing of all imagery, and be aware of copyright laws and legislation/ the use of particular images and secondary sources in the kingdom of Saudi Arabia.</li><li>Ensure projects are completed with high quality and on schedule.</li><li>Prioritize and manage multiple projects within design specifications, budget restrictions.</li><li>Perform retouching and manipulation of images.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>Must have:</p><p>- A Bachelor Degree in one of the following fields:</p><ul><li>Graphic Design.</li><li>Fine/ Digital Arts.</li><li>Digital/ Multimedia and information Resources Design.</li><li>Animation, Interactive Technology, and Special Effects .</li></ul><p>- Proven graphic designing experience, a minimum of 4 - 6+ years of experience.</p><p>- A strong portfolio of illustrations or other graphics (to be attached with the job application).</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<p>Must have the following skills:</p><ul><li>Should have a creative flair and a strong ability to translate requirements into design.</li><li>Communications and Media - Knowledge of media production, communication, and dissemination techniques and methods. This includes alternative ways to inform and entertain via written, oral, and visual media.</li><li>Design - Knowledge &amp; understanding of the latest trends, design techniques, tools, and principles involved in production drawings, and models. </li><li>Attention to Detail - Job requires accuracy, an excellent eye to details, and thorough in completing work tasks.</li><li>Adaptability/Flexibility - Job requires being open to change (positive or negative) and to considerable variety in the workplace.</li><li>Systems Analysis - Determining how a system should work and how changes in conditions, operations, and the environment will affect outcomes.</li><li>Cooperation - Job requires being pleasant with others on the job and displaying a good-natured, cooperative attitude.</li><li>Dependability - Job requires being reliable, responsible, and dependable, and fulfilling obligations.</li><li>Stress Tolerance - Job requires accepting criticism and dealing calmly and effectively with high stress situations.</li><li>Innovation - Job requires creativity and alternative thinking to develop new ideas for and answers to work-related problems.</li><li>Leadership - Job requires a willingness to lead, take charge, and offer opinions and direction.</li><li>Professional approach to time, costs and deadlines.</li><li>Excellent IT skills, especially with design and photo-editing software.</li></ul><p> </p>"
+        }
+      }
+    }
+  },
+  {
+    "id": "743999789679980",
+    "name": "Key Account Specialist - Training and Recruitment",
+    "uuid": "fff8bc03-65ae-4d31-8a14-e5387d0ba55a",
+    "jobAdId": "09708338-0a28-474a-9289-e179f55db901",
+    "defaultJobAd": true,
+    "refNumber": "REF23F",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2021-11-28T13:18:18.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.485811",
+      "longitude": "39.19250479999999",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "human_resources",
+      "label": "Human Resources"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999789679980",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p> </p><ul><li><strong>ABOUT US</strong></li></ul><p>Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.</p><ul><li><strong>OUR VISION</strong></li></ul><p>Becoming the leading force for change and development in the Hospitality industry from the private sector in Saudi Arabia.</p><ul><li><strong>OUR MISSION</strong></li></ul><p>To revolutionize the Hospitality industry in Saudi Arabia and enable Saudi calibers by adopting Swiss standards, international best-practices and integrating fine Saudi Hospitality values.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p> </p><p><strong>Job Overview:</strong></p><p>You will be responsible for handling the candidates those have applied for our training programs as well as coordinating those programs until fully fulfilled. </p><p> </p><p><strong>Main Tasks &amp; Duties:</strong></p><ul><li>Screening resumes &amp; Performing interviews with candidates.</li><li>Maintain candidates&apos; information on the database.</li><li>Following up on the interview process status.</li><li>Compiling reports on recruitment.</li><li>Follow up with employers on contracts, interviews and project needs.</li><li>Communicate with companies on collecting their recruitment needs on Monday.</li><li>Maintain a database of potential candidates / employers .</li><li>Maintain leads with employers .</li><li>Draft MOU for key partners.</li><li>Headhunting and talent search.</li><li>Create and maintain comprehensive project documentation, plans and reports.</li><li>Directs, monitors projects, including planning, scheduling, budgeting, analyzing, reporting, controlling, and evaluating functions associated with projects.</li><li>Communicate with candidates on job openings and create ads .</li><li>Track the candidate’s registration on Monday for interview with employers.</li><li>Reviewing proposals and plans to determine time frames, funding limitations, procedures for project completion and allotment of available resources to various phases.</li><li>Communicating with employers to identify future job openings and the technical requirements for those jobs.</li><li>Liaising with company executives and CEO office team to identify and define project requirements, scope, and objectives.</li></ul><p> </p><ul></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>Qualifications</p><p>- Must have:</p><ul><li>Bachelor in Business Administration or any major relevant field.</li><li>Minimum of 2 years of recruiting experience. </li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<p>Must have the following skills:</p><ul><li>Fluent in English &amp; Arabic</li><li>Microsoft Office</li><li>Willing to learn and develop</li></ul><p> </p>"
+        }
+      }
+    }
+  },
+  {
+    "id": "743999763258376",
+    "name": "Project Manager - (Training & Recruitment)",
+    "uuid": "1b76c75c-8442-4cbe-9fed-1311a0f49bd2",
+    "jobAdId": "8b9176c0-be4f-4f80-ac2a-0bed294519d2",
+    "defaultJobAd": true,
+    "refNumber": "REF8S",
+    "company": {
+      "identifier": "SwissHospitality",
+      "name": "Swiss Hospitality"
+    },
+    "releasedDate": "2021-07-26T14:42:47.000Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "project_management",
+      "label": "Project Management"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5db9bb47c85a9b435515ed25",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Swiss Hospitality"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/SwissHospitality/postings/743999763258376",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p> </p><ul><li><strong>ABOUT US</strong></li></ul><p>Swiss Hospitality Company is a professional consulting and development company on a mission, to upgrade the service quality within the hospitality and tourism industry in Saudi Arabia through its offerings.</p><ul><li><strong>OUR VISION</strong></li></ul><p>Becoming the leading force for change and development in the Hospitality industry from the private sector in Saudi Arabia.</p><ul><li><strong>OUR MISSION</strong></li></ul><p>To revolutionize the Hospitality industry in Saudi Arabia and enable Saudi calibers by adopting Swiss standards, international best-practices and integrating fine Saudi Hospitality values.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Job Overview:</strong></p><p>You will be responsible for initiating, designing, planning, executing, monitoring and completing projects. You will manage teams, facilitate commitment and motivate team members, manage the expectations of key stakeholders and communicate the status of project milestones. You will build a comprehensive work plan and manage the budget for projects.</p><p>If you have the passion, excellent leadership &amp; communication skills, and you can work methodically as part of a team, we’d like to meet you!</p><p><strong>Main Tasks &amp; Duties:</strong></p><ul><li>Take full responsibility for the project implementation, including design, tendering, application for government approvals, kick-off preparation/ presentation, and completion.</li><li>Research, grant proposals, funding opportunities and approach potential clients.</li><li>Develop project strategies.</li><li>Create and review proposals and agreements.</li><li>Assist in choosing project teams &amp; creating job descriptions.</li><li>Develop full project operation plans including staffing, budgeting and scheduling.</li><li>Attend meetings to represent the company &amp; maintain good relations with clients.</li><li>Set and monitor project targets and operation milestones.</li><li>Design and develop operation processes &amp; project management systems.</li><li>Coordinate tasks and deadlines.</li><li>Develop and monitor project scopes of work, timelines, budgets, and quality control.</li><li>Conduct project reviews and prepare reports for management.</li><li>Participate in new business development bids, participating in strategic phone calls &amp; providing guidance on proposal budgets.</li><li>Develop relationships with various community, governmental and other non-profit organizations.</li><li>Implement programs and projects to help organizations meet goals and objectives.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>- Must have:</p><ul><li>Bachelor/ Masters Degree in Business Administration or any major relevant field.</li><li>Project Management Professional (PMP®) or similar certification is a must***</li><li>Minimum of 5 years of project management experience. </li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<p>Must have the following skills:</p><p>1. Communication - must have strong communication skills to be able to convey messages to clients and team members. </p><p>2. Leadership - must have strong leadership skills.</p><p>3. Organization - must have strong organizational skills, to ensure processes are running smoothly and in line with common goals.</p><p>4. Negotiation -  must be effective at negotiating terms with suppliers, clients and other stakeholders.</p><p>5. Team management - must be able to bring the team together and move them in one direction, aligning their personal goals with those of the organization. </p><p>6. Time management - must be able to create a project timeline and maintain those deadlines throughout the project life-cycle.</p><p>7. Risk management -  must have the experience and ability to pinpoint what could go wrong and implement a risk mitigation strategy. </p><p>8. Problem-solving - must be able to gather information, weigh the associated pros and cons and then formulate the best solution. </p><p>9. Budget management - to create a viable budget and control it throughout the project life-cycle. </p><p>10. Motivation -  must have motivational skills, tactics include using positive reinforcement, praise and team-building activities.</p><p>11. Adaptability - must be able to adapt to upcoming product trends, new technology, user demographics and more. </p><p>12. Technologically savvy - must be tech-savvy and having hands-on experience with the latest technology.</p><p>13. Reporting skills - must be able to gather information throughout the lifespan of a project and report them to the management for future evaluation. </p><p>14. Active listening - must have the ability to listen to the team members, clients, and stakeholders.</p><p>15. Research skills - must have strong research skills to be able to fill any gaps in knowledge that may allow to complete the project more efficiently or more successfully.</p><p>16. Interpersonal skills - must have self-confidence, relationship management and collaboration skills. </p><p>17. Project management methodologies - must have the ability to apply frameworks and methodologies.</p><p>18. Policy knowledge - must have an adequate grasp of policy knowledge, including health, safety, environmental and business best practices.</p><p>19. Conflict management - Strong conflict management skills are essential to keep the teams operating efficiently and working well together. </p><p> </p>"
+        }
+      }
+    }
+  }
+]

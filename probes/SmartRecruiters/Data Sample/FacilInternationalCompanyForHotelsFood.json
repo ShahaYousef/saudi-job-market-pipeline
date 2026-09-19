@@ -1,0 +1,166 @@
+[
+  {
+    "id": "743999673318972",
+    "name": "Dish-Washer / Cleaner",
+    "uuid": "bb677969-4015-4d74-9357-0c91cec41a1f",
+    "jobAdId": "4f663189-449c-4236-9078-83208ae4469a",
+    "defaultJobAd": true,
+    "refNumber": "REF4W",
+    "company": {
+      "identifier": "FacilInternationalCompanyForHotelsFood",
+      "name": "Facil International Company for Hotels & Food"
+    },
+    "releasedDate": "2018-07-11T09:57:39.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "address": "Prince Sultan Road",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.6169835",
+      "longitude": "39.138778",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "other",
+      "label": "Other"
+    },
+    "typeOfEmployment": {
+      "id": "contract",
+      "label": "Contract"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5b45d1b86d8bc50530ca3dea",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Facil International Company for Hotels & Food"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/FacilInternationalCompanyForHotelsFood/postings/743999673318972",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": ""
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Job Title:                                    <strong>Dishwasher/Maintenance Attendant </strong></p><p>Immediate Supervisor:                  Manager on Duty</p><p>Purpose of job:                            To provide an environment and dining experience that promises and deliveries personal guest satisfaction by proving our guests with a clean and sanitary dining area, eating, drinking and serving utensils.</p><p><strong>Responsibilities/Duties      </strong></p><p><strong><em>To include but not limited to:</em></strong></p><p><strong><em> </em></strong></p><p>Quantity of Work:                        Works quickly, efficiently and productively thorough the shift.  Looks for work to do when time permits.</p><p>Job Knowledge:                           Adheres to all standards for cleaning, sanitizing and equipment use.</p><p>Teamwork, Attitude &amp;</p><p>Initiative:                                    Helps others get the job done.  Always a team player. Does all tasks assigned by management.</p><p> </p><p>Cost Management:                       Avoids breakage.  Operates, cleans and maintains equipment to reduce wear &amp; tear and breakdowns.</p><p>Sanitation:                                  Works in a neat, clean and orderly manner. Ensures sanitary condition in the operation of the facility.  Keeps all storage areas and work station organized, clean and sanitized.</p><p>Dependability, Punctuality</p><p>And Attendance:                          Attends work on time as scheduled. When absent informs management in a timely manner.  Attends scheduled meetings.</p><p> </p><p> </p><p>Personal Conduct &amp;</p><p>Appearance:                               Maintains appropriate uniform, grooming and hygiene standards.  Follows standards of conduct and all company polices and procedures, systems &amp; rules expressed by management.</p><p>Safety:                                      Works carefully and safely.  Helps others work safely and takes action regarding safety hazards (such as spills).  Uses equipment safely for its intended purpose only.</p><p> </p><p> </p><p> </p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": ""
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "743999673318752",
+    "name": "Waiter",
+    "uuid": "e9b30268-a928-4df3-a34c-18bdaf8ef1a1",
+    "jobAdId": "47e63953-2b13-44aa-819c-073c649c863e",
+    "defaultJobAd": true,
+    "refNumber": "REF2Y",
+    "company": {
+      "identifier": "FacilInternationalCompanyForHotelsFood",
+      "name": "Facil International Company for Hotels & Food"
+    },
+    "releasedDate": "2018-07-11T09:51:39.000Z",
+    "location": {
+      "city": "Jeddah",
+      "region": "Makkah Province",
+      "country": "sa",
+      "address": "Prince Sultan Road",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "21.6169835",
+      "longitude": "39.138778",
+      "fullLocation": "Jeddah, Makkah Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "hospitality",
+      "label": "Hospitality"
+    },
+    "department": {},
+    "function": {
+      "id": "other",
+      "label": "Other"
+    },
+    "typeOfEmployment": {
+      "id": "contract",
+      "label": "Contract"
+    },
+    "experienceLevel": {
+      "id": "entry_level",
+      "label": "Entry Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5b45d1b86d8bc50530ca3dea",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Facil International Company for Hotels & Food"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/FacilInternationalCompanyForHotelsFood/postings/743999673318752",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": ""
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Job Title:                                    <strong>Server </strong></p><p>Immediate Supervisor:                  Manager on Duty</p><p>Purpose of job:                            To meet and greet all guests on arrival in a bright and friendly manner. Exhibit a balance of efficiency and personality when taking the order, delivering the food and presenting an accurate bill, ensuring exceptional courtesy and service.  Ensuring a memorable dining experience for all guests.  </p><p><strong>Responsibilities/Duties      </strong></p><p><strong><em>To include but not limited to:</em></strong></p><p>Guest Interaction:                        Demonstrate a positive, friendly rapport with all guests.  Commits to ensuring exceptional service and product delivery to all guests.</p><p>Service:                                     Provides outstanding service to all guests and assists co-workers in doing the same.  Communicates with guests, fellow employees especially kitchen staff) and managers effectively and courteously. </p><p>Sales:                                        Educates guests about full menu and specials and other restaurants.  Shows a genuine interest in improving the guests dining experience by suggesting specific menu items and increasing personal cover average.</p><p>Menu knowledge &amp; Food</p><p>Preparation:                                Demonstrates complete menu knowledge and the ability to identify and garnish all food and beverage items.</p><p> </p><p>Cash Handling:                            Consistently maintain cash and cash equivalents in a responsible manner.</p><p>Side work:                                  Performs opening, ongoing and closing duties as assigned by the Manager.</p><p>Dependability, Punctuality</p><p>And Attendance:                          Attends work on time as scheduled. When absent informs management in a timely manner.  Attends scheduled meetings.</p><p>Personal Conduct &amp;</p><p>Appearance:                               Maintains appropriate uniform, grooming and hygiene standards.  Follows standards of conduct and all company polices and procedures, systems &amp; rules expressed by management.</p><p>Safety:                                      Works carefully and safely.  Helps others work safely and takes action regarding safety hazards (such as spills).  Uses equipment safely for its intended purpose only.</p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>2 to 3 Year&apos;s experince in Resturant or any Hospitality </p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  }
+]
