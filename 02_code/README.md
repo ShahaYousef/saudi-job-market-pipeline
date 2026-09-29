@@ -1,7 +1,7 @@
 <!-- 02_code/README.md -->
 # Saudi Job Market Data Pipeline: code, data and setup
 
-Team A, SDA Data Engineering Bootcamp capstone (Project 2, Job Market Data Pipeline).
+Group A, SDA Data Engineering Bootcamp capstone (Project 2, Job Market Data Pipeline).
 
 ## 1. What the project does
 
@@ -30,7 +30,6 @@ quality report and limitations: [`02_src/dbt/data_modeling/data_model.md`](02_sr
 
 ![Star schema](03_assets/schema_diagram.png)
 
-![dbt lineage](03_assets/dbt_lineage.png)
 
 **Results of the final build** (data collected 9 to 28 September 2026): 20,490 listings merged into
 19,148 unique jobs (1,203 by exact matching, 20 by fuzzy matching); 1,008 jobs (5.3%) found on more
@@ -47,10 +46,11 @@ job-skill links. dbt build: 10 seeds, 25 models, 288 data tests, 323 passed, 0 w
 ├── 02_src/
 │   ├── pipeline/           extraction scripts (one per source), landing to ADLS, run_pipeline.py
 │   ├── dbt/                dbt project: staging, intermediate, marts, seeds, tests, analyses, data model
+│   ├── powerbi/            Power BI report on MARTS, its theme and the measure validation query
 │   ├── snowflake/          warehouse, database, RAW tables, stages, roles and grants
 │   ├── probes/             scripts that tested each aggregator's real behaviour before collection
 │   └── source_investigation/
-├── 03_assets/              star schema diagram, dbt lineage, screenshots
+├── 03_assets/              star schema diagram, dbt lineage, test_results and dashboard screenshots
 ├── requirements.txt
 ├── .env.example
 └── README.md               this file
@@ -68,7 +68,7 @@ Every folder under `02_src/` has its own README with the details: `pipeline/READ
 | dbt package | `dbt_utils` 1.4.1 (`02_src/dbt/packages.yml`) | Surrogate keys and generic tests |
 | Snowflake account | any edition | RAW, STAGING, INTERMEDIATE, MARTS and SEEDS schemas |
 | Azure Storage account | ADLS Gen2, containers `raw` and `curated` | Raw landing zone and curated export |
-| Power BI Desktop | optional | Dashboard on MARTS, read-only role |
+| Power BI Desktop | current release, Windows | The dashboard in `02_src/powerbi/` |
 
 ## 3. Install
 
@@ -116,6 +116,13 @@ The aggregator campaigns (Jooble, JSearch) run separately through
 Snowflake worksheet; the quality report comes from `pipeline_audit.sql`, `intermediate_checks.sql`
 and `model_checks.sql` in the same folder.
 
+**Dashboard.** Open `02_src/powerbi/Job_Market_Data_Pipeline_GroupA_Dashboard_v1.pbix` in Power BI
+Desktop. It imports the ten MARTS tables; to refresh it, sign in to Snowflake with the read-only
+`JOB_PIPELINE_REPORTER` role. The eight pages (cover, overview, where, who hires, roles and skills,
+job terms, market dynamics, data coverage) are shown in `03_assets/dashboard_*.png`, and
+`02_src/powerbi/measures_and_validation.dax` checks every measure against the marts
+(`02_src/powerbi/README.md`).
+
 **Without Snowflake**, the final dataset is in `01_data/final_datasets/` as CSV, with its columns
 described in the README there.
 
@@ -139,16 +146,14 @@ your Snowflake user (`02_src/snowflake/roles_and_grants.sql`).
 
 Each limitation is measured in `data_model.md`, section 12. The main ones:
 
-- **Lifecycle only for employer-board jobs.** 16,387 of 19,148 jobs come from aggregators only;
-  a search result is not a full list, so their status is `unknown`.
+- **Lifecycle only for employer-board jobs.** Job-search APIs (Jooble, JSearch) return a ranked
+  sample of results and publish no closing status, so a job missing from a later search cannot be
+  read as closed. The 16,387 of 19,148 jobs found only through these APIs are therefore `unknown`
+  by design; open/closed status comes from employer boards, which list every open job.
 - **One week with every source fully pulled** (27 and 28 September), so weekly trends before it
   can reflect collection rather than the market.
 - **Raw ATS files hold only Saudi postings**: the scripts filtered them before saving. ATS folder
   dates are the UTC date of the run, so a pull after midnight Riyadh time carries the day before.
-- **Matching is heuristic.** In the final build 1 of 20 fuzzy merges joins two different jobs and
-  1 is uncertain; some jobs worded differently on two sources stay two jobs.
-- **Sparse attributes.** Experience level is known for 39.1% of jobs, employment type for 35.2%;
-  13.6% of jobs have no disclosed employer.
 - **Aggregator quotas.** Jooble allows 500 requests per key for its lifetime, so a new aggregator
   campaign needs new keys; the default runner extracts the four employer boards only.
 - **No schedule.** `run_pipeline.py` runs every step on demand; a scheduled Azure Data Factory

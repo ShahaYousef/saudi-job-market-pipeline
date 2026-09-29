@@ -1,0 +1,301 @@
+// Job Market Data Pipeline, Team A: report measures and their validation.
+// Paste into DAX query view, press Run, check that every row of the first result says OK,
+// then click "Update model: Add new measures" above DEFINE.
+// Requires a table named _Measures (Home > Enter data, name it _Measures, Load).
+
+DEFINE
+    // ---------- Core ----------
+    MEASURE _Measures[Jobs] = SUM ( FCT_JOBS[JOB_COUNT] )
+    MEASURE _Measures[Postings] = DISTINCTCOUNT ( FCT_JOBS[POSTING_SK] )
+    MEASURE _Measures[Listings] = SUM ( FCT_JOBS[LISTING_COUNT] )
+    MEASURE _Measures[Jobs %] =
+        DIVIDE ( [Jobs], CALCULATE ( [Jobs], ALLSELECTED () ) )
+    MEASURE _Measures[Multi-source Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( FCT_JOBS[SOURCE_COUNT] > 1 ) )
+    MEASURE _Measures[Multi-source Jobs %] = DIVIDE ( [Multi-source Jobs], [Jobs] )
+
+    // ---------- Lifecycle (employer boards only) ----------
+    MEASURE _Measures[Employer Board Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( FCT_JOBS[STATUS_BASIS] = "employer board" ) )
+    MEASURE _Measures[Open Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( FCT_JOBS[LIFECYCLE_STATUS] = "open" ) )
+    MEASURE _Measures[Disappeared Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( FCT_JOBS[LIFECYCLE_STATUS] = "disappeared" ) )
+    MEASURE _Measures[New Openings] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( FCT_JOBS[OPENING_DATE_SK] <> -1 ) )
+    MEASURE _Measures[New Openings by Week] =
+        CALCULATE ( [New Openings], USERELATIONSHIP ( FCT_JOBS[OPENING_DATE_SK], DIM_DATE[DATE_SK] ) )
+    MEASURE _Measures[Disappeared by Week] =
+        CALCULATE ( [Disappeared Jobs], USERELATIONSHIP ( FCT_JOBS[DISAPPEARED_DATE_SK], DIM_DATE[DATE_SK] ) )
+    MEASURE _Measures[Median Days Listed] =
+        CALCULATE (
+            MEDIAN ( FCT_JOBS[DAYS_LISTED] ),
+            KEEPFILTERS ( FCT_JOBS[LIFECYCLE_STATUS] = "disappeared" ),
+            USERELATIONSHIP ( FCT_JOBS[DISAPPEARED_DATE_SK], DIM_DATE[DATE_SK] )
+        )
+
+    // ---------- Where ----------
+    MEASURE _Measures[Jobs Known Region] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( DIM_LOCATION[LOCATION_LEVEL] IN { "city", "region" } ) )
+    MEASURE _Measures[Region Share %] =
+        DIVIDE ( [Jobs Known Region], CALCULATE ( [Jobs Known Region], ALLSELECTED ( DIM_LOCATION ) ) )
+    MEASURE _Measures[No Region Given Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( DIM_LOCATION[LOCATION_LEVEL] = "country" ) )
+
+    // ---------- Who hires ----------
+    MEASURE _Measures[Direct Employer Jobs] =
+        CALCULATE (
+            [Jobs],
+            KEEPFILTERS ( DIM_COMPANY[COMPANY_SK] <> "-1" ),
+            KEEPFILTERS ( DIM_COMPANY[IS_RECRUITMENT_AGENCY] = FALSE () )
+        )
+    MEASURE _Measures[Top 10 Employers Share %] =
+        VAR direct =
+            CALCULATETABLE (
+                VALUES ( DIM_COMPANY[COMPANY_SK] ),
+                DIM_COMPANY[COMPANY_SK] <> "-1",
+                DIM_COMPANY[IS_RECRUITMENT_AGENCY] = FALSE ()
+            )
+        VAR top10 = TOPN ( 10, direct, [Direct Employer Jobs], DESC )
+        RETURN DIVIDE ( CALCULATE ( [Direct Employer Jobs], top10 ), [Direct Employer Jobs] )
+    MEASURE _Measures[Top 50 Employers Share %] =
+        VAR direct =
+            CALCULATETABLE (
+                VALUES ( DIM_COMPANY[COMPANY_SK] ),
+                DIM_COMPANY[COMPANY_SK] <> "-1",
+                DIM_COMPANY[IS_RECRUITMENT_AGENCY] = FALSE ()
+            )
+        VAR top50 = TOPN ( 50, direct, [Direct Employer Jobs], DESC )
+        RETURN DIVIDE ( CALCULATE ( [Direct Employer Jobs], top50 ), [Direct Employer Jobs] )
+    MEASURE _Measures[Undisclosed Employer %] =
+        DIVIDE ( CALCULATE ( [Jobs], KEEPFILTERS ( DIM_COMPANY[COMPANY_SK] = "-1" ) ), [Jobs] )
+    MEASURE _Measures[Agency Jobs %] =
+        DIVIDE ( CALCULATE ( [Jobs], KEEPFILTERS ( DIM_COMPANY[IS_RECRUITMENT_AGENCY] = TRUE () ) ), [Jobs] )
+
+    // ---------- Job terms ----------
+    MEASURE _Measures[Known Employment Type Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( DIM_JOB_ATTRIBUTES[EMPLOYMENT_TYPE] <> "Unknown" ) )
+    MEASURE _Measures[Employment Type % of Known] =
+        IF (
+            SELECTEDVALUE ( DIM_JOB_ATTRIBUTES[EMPLOYMENT_TYPE] ) = "Unknown",
+            BLANK (),
+            DIVIDE (
+                [Known Employment Type Jobs],
+                CALCULATE ( [Known Employment Type Jobs], REMOVEFILTERS ( DIM_JOB_ATTRIBUTES[EMPLOYMENT_TYPE] ) )
+            )
+        )
+    MEASURE _Measures[Employment Type Known %] = DIVIDE ( [Known Employment Type Jobs], [Jobs] )
+    MEASURE _Measures[Known Workplace Type Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( DIM_JOB_ATTRIBUTES[WORKPLACE_TYPE] <> "Unknown" ) )
+    MEASURE _Measures[Workplace Type % of Known] =
+        IF (
+            SELECTEDVALUE ( DIM_JOB_ATTRIBUTES[WORKPLACE_TYPE] ) = "Unknown",
+            BLANK (),
+            DIVIDE (
+                [Known Workplace Type Jobs],
+                CALCULATE ( [Known Workplace Type Jobs], REMOVEFILTERS ( DIM_JOB_ATTRIBUTES[WORKPLACE_TYPE] ) )
+            )
+        )
+    MEASURE _Measures[Workplace Type Known %] = DIVIDE ( [Known Workplace Type Jobs], [Jobs] )
+    MEASURE _Measures[Experience Level Known %] =
+        DIVIDE ( CALCULATE ( [Jobs], KEEPFILTERS ( DIM_JOB_ATTRIBUTES[EXPERIENCE_LEVEL] <> "Unknown" ) ), [Jobs] )
+    MEASURE _Measures[Stated Experience Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( DIM_JOB_ATTRIBUTES[EXPERIENCE_LEVEL_BASIS] = "source" ) )
+    MEASURE _Measures[Experience % of Stated] =
+        VAR base = CALCULATE ( [Stated Experience Jobs], REMOVEFILTERS ( DIM_JOB_ATTRIBUTES[EXPERIENCE_LEVEL] ) )
+        RETURN IF ( base < 20, BLANK (), DIVIDE ( [Stated Experience Jobs], base ) )
+
+    // ---------- Skills (base: jobs with a full description) ----------
+    MEASURE _Measures[Full Description Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( DIM_JOB_POSTING[DESCRIPTION_BASIS] = "full" ) )
+    MEASURE _Measures[Jobs Mentioning Skill] =
+        CALCULATE (
+            DISTINCTCOUNT ( BRIDGE_JOB_SKILL[JOB_SK] ),
+            KEEPFILTERS ( DIM_JOB_POSTING[DESCRIPTION_BASIS] = "full" )
+        )
+    MEASURE _Measures[Skill Share %] = DIVIDE ( [Jobs Mentioning Skill], [Full Description Jobs] )
+
+    // ---------- Salary (disclosed for under 2% of jobs) ----------
+    MEASURE _Measures[Salary Disclosed Jobs] =
+        CALCULATE ( [Jobs], KEEPFILTERS ( NOT ISBLANK ( FCT_JOBS[SALARY_MIN_SAR_MONTH] ) ) )
+    MEASURE _Measures[Salary Disclosed %] = DIVIDE ( [Salary Disclosed Jobs], [Jobs] )
+    MEASURE _Measures[Median Min Salary SAR per Month] = MEDIAN ( FCT_JOBS[SALARY_MIN_SAR_MONTH] )
+
+    // ---------- Data coverage ----------
+    MEASURE _Measures[Company Known %] =
+        DIVIDE ( CALCULATE ( [Jobs], KEEPFILTERS ( DIM_COMPANY[COMPANY_SK] <> "-1" ) ), [Jobs] )
+    MEASURE _Measures[Region Known %] = DIVIDE ( [Jobs Known Region], [Jobs] )
+    MEASURE _Measures[Posting Date Known %] =
+        DIVIDE ( CALCULATE ( [Jobs], KEEPFILTERS ( FCT_JOBS[POSTING_DATE_SK] <> -1 ) ), [Jobs] )
+    MEASURE _Measures[Listings by Source] =
+        VAR s = SELECTEDVALUE ( DIM_SOURCE[SOURCE_NAME] )
+        RETURN
+            CALCULATE (
+                SWITCH (
+                    s,
+                    "workable", SUM ( FCT_JOBS[LISTING_COUNT_WORKABLE] ),
+                    "smartrecruiters", SUM ( FCT_JOBS[LISTING_COUNT_SMARTRECRUITERS] ),
+                    "ashby", SUM ( FCT_JOBS[LISTING_COUNT_ASHBY] ),
+                    "greenhouse", SUM ( FCT_JOBS[LISTING_COUNT_GREENHOUSE] ),
+                    "jsearch", SUM ( FCT_JOBS[LISTING_COUNT_JSEARCH] ),
+                    "jooble", SUM ( FCT_JOBS[LISTING_COUNT_JOOBLE] )
+                ),
+                REMOVEFILTERS ( DIM_SOURCE )
+            )
+    MEASURE _Measures[Jobs Found on Source] =
+        VAR s = SELECTEDVALUE ( DIM_SOURCE[SOURCE_NAME] )
+        RETURN
+            CALCULATE (
+                SWITCH (
+                    s,
+                    "workable", CALCULATE ( [Jobs], FCT_JOBS[LISTING_COUNT_WORKABLE] > 0 ),
+                    "smartrecruiters", CALCULATE ( [Jobs], FCT_JOBS[LISTING_COUNT_SMARTRECRUITERS] > 0 ),
+                    "ashby", CALCULATE ( [Jobs], FCT_JOBS[LISTING_COUNT_ASHBY] > 0 ),
+                    "greenhouse", CALCULATE ( [Jobs], FCT_JOBS[LISTING_COUNT_GREENHOUSE] > 0 ),
+                    "jsearch", CALCULATE ( [Jobs], FCT_JOBS[LISTING_COUNT_JSEARCH] > 0 ),
+                    "jooble", CALCULATE ( [Jobs], FCT_JOBS[LISTING_COUNT_JOOBLE] > 0 )
+                ),
+                REMOVEFILTERS ( DIM_SOURCE )
+            )
+    MEASURE _Measures[Jobs Only on Source] =
+        CALCULATE ( [Jobs Found on Source], KEEPFILTERS ( FCT_JOBS[SOURCE_COUNT] = 1 ) )
+
+    // ---------- Dynamic titles and findings ----------
+    MEASURE _Measures[Title Region] =
+        VAR base = CALCULATE ( [Jobs Known Region], ALLSELECTED ( DIM_LOCATION ) )
+        VAR regions =
+            ADDCOLUMNS (
+                CALCULATETABLE (
+                    VALUES ( DIM_LOCATION[REGION] ),
+                    DIM_LOCATION[LOCATION_LEVEL] IN { "city", "region" },
+                    ALLSELECTED ( DIM_LOCATION )
+                ),
+                "@jobs", [Jobs Known Region]
+            )
+        VAR top1 = TOPN ( 1, regions, [@jobs], DESC )
+        RETURN
+            MAXX ( top1, DIM_LOCATION[REGION] ) & " region holds "
+                & FORMAT ( DIVIDE ( MAXX ( top1, [@jobs] ), base ), "0.0%" )
+                & " of jobs with a known region"
+    MEASURE _Measures[Subtitle Region] =
+        "Based on " & FORMAT ( CALCULATE ( [Jobs Known Region], ALLSELECTED ( DIM_LOCATION ) ), "#,0" )
+            & " jobs; " & FORMAT ( [No Region Given Jobs], "#,0" )
+            & " jobs name only Saudi Arabia and are shown separately"
+    MEASURE _Measures[Title Employers] =
+        "The top 10 direct employers hold " & FORMAT ( [Top 10 Employers Share %], "0.0%" )
+            & " of jobs with a named, non-agency employer"
+    MEASURE _Measures[Subtitle Employers] =
+        "Excludes recruitment agencies (" & FORMAT ( [Agency Jobs %], "0.0%" )
+            & " of jobs) and undisclosed employers (" & FORMAT ( [Undisclosed Employer %], "0.0%" ) & ")"
+    MEASURE _Measures[Title Skills] =
+        VAR skills =
+            ADDCOLUMNS (
+                FILTER ( ALLSELECTED ( DIM_SKILL[SKILL_NAME] ), DIM_SKILL[SKILL_NAME] <> "Unknown" ),
+                "@share", [Skill Share %]
+            )
+        VAR top1 = TOPN ( 1, skills, [@share], DESC )
+        RETURN
+            MAXX ( top1, DIM_SKILL[SKILL_NAME] ) & " is mentioned in "
+                & FORMAT ( MAXX ( top1, [@share] ), "0.0%" )
+                & " of jobs with a full description"
+    MEASURE _Measures[Subtitle Skills] =
+        "Based on " & FORMAT ( [Full Description Jobs], "#,0" )
+            & " jobs with a full description; Jooble snippets are excluded"
+    MEASURE _Measures[Title Employment] =
+        "Full-time is "
+            & FORMAT ( CALCULATE ( [Employment Type % of Known], DIM_JOB_ATTRIBUTES[EMPLOYMENT_TYPE] = "Full-time" ), "0.0%" )
+            & " of jobs with a stated employment type"
+    MEASURE _Measures[Subtitle Employment] =
+        "Based on " & FORMAT ( [Known Employment Type Jobs], "#,0" ) & " jobs with a stated type ("
+            & FORMAT ( [Employment Type Known %], "0.0%" ) & " of all jobs)"
+    MEASURE _Measures[Finding Merge] =
+        FORMAT ( [Multi-source Jobs], "#,0" ) & " jobs (" & FORMAT ( [Multi-source Jobs %], "0.0%" )
+            & ") were published on more than one source and merged into one"
+    MEASURE _Measures[Finding Employers] =
+        FORMAT ( [Agency Jobs %], "0.0%" ) & " of jobs come from recruitment agencies and "
+            & FORMAT ( [Undisclosed Employer %], "0.0%" ) & " do not name the employer"
+    MEASURE _Measures[Finding Lifecycle] =
+        "On employer boards, " & FORMAT ( [Open Jobs], "#,0" ) & " jobs are open, "
+            & FORMAT ( [Disappeared Jobs], "#,0" ) & " disappeared after a median of "
+            & FORMAT ( [Median Days Listed], "0" ) & " days, and "
+            & FORMAT ( [New Openings], "#,0" ) & " new openings appeared"
+
+// ---------- 1. Validation: every row must say OK ----------
+EVALUATE
+VAR checks =
+    UNION (
+        ROW ( "Measure", "Jobs", "Value", ROUND ( [Jobs], 3 ), "Expected", 19148 ),
+        ROW ( "Measure", "Postings", "Value", ROUND ( [Postings], 3 ), "Expected", 18693 ),
+        ROW ( "Measure", "Listings", "Value", ROUND ( [Listings], 3 ), "Expected", 20490 ),
+        ROW ( "Measure", "Bridge rows", "Value", COUNTROWS ( BRIDGE_JOB_SKILL ), "Expected", 22822 ),
+        ROW ( "Measure", "Multi-source Jobs", "Value", ROUND ( [Multi-source Jobs], 3 ), "Expected", 1008 ),
+        ROW ( "Measure", "Multi-source Jobs %", "Value", ROUND ( [Multi-source Jobs %], 3 ), "Expected", 0.053 ),
+        ROW ( "Measure", "Employer Board Jobs", "Value", ROUND ( [Employer Board Jobs], 3 ), "Expected", 2761 ),
+        ROW ( "Measure", "Open Jobs", "Value", ROUND ( [Open Jobs], 3 ), "Expected", 2584 ),
+        ROW ( "Measure", "Disappeared Jobs", "Value", ROUND ( [Disappeared Jobs], 3 ), "Expected", 177 ),
+        ROW ( "Measure", "New Openings", "Value", ROUND ( [New Openings], 3 ), "Expected", 174 ),
+        ROW ( "Measure", "Median Days Listed", "Value", ROUND ( [Median Days Listed], 3 ), "Expected", 42 ),
+        ROW ( "Measure", "New Openings, week of 20 Sep", "Value",
+              ROUND ( CALCULATE ( [New Openings by Week], DIM_DATE[WEEK_START_DATE] = DATE ( 2026, 9, 20 ) ), 3 ), "Expected", 150 ),
+        ROW ( "Measure", "Disappeared, week of 20 Sep", "Value",
+              ROUND ( CALCULATE ( [Disappeared by Week], DIM_DATE[WEEK_START_DATE] = DATE ( 2026, 9, 20 ) ), 3 ), "Expected", 141 ),
+        ROW ( "Measure", "Median Days Listed, week of 20 Sep", "Value",
+              ROUND ( CALCULATE ( [Median Days Listed], DIM_DATE[WEEK_START_DATE] = DATE ( 2026, 9, 20 ) ), 3 ), "Expected", 46 ),
+        ROW ( "Measure", "Median Days Listed, week of 27 Sep", "Value",
+              ROUND ( CALCULATE ( [Median Days Listed], DIM_DATE[WEEK_START_DATE] = DATE ( 2026, 9, 27 ) ), 3 ), "Expected", 30.5 ),
+        ROW ( "Measure", "Jobs Known Region", "Value", ROUND ( [Jobs Known Region], 3 ), "Expected", 18724 ),
+        ROW ( "Measure", "No Region Given Jobs", "Value", ROUND ( [No Region Given Jobs], 3 ), "Expected", 424 ),
+        ROW ( "Measure", "Riyadh Region Share %", "Value",
+              ROUND ( CALCULATE ( [Jobs Known Region], DIM_LOCATION[REGION] = "Riyadh" ) / [Jobs Known Region], 3 ), "Expected", 0.515 ),
+        ROW ( "Measure", "Direct Employer Jobs", "Value", ROUND ( [Direct Employer Jobs], 3 ), "Expected", 12678 ),
+        ROW ( "Measure", "Top 10 Employers Share %", "Value", ROUND ( [Top 10 Employers Share %], 3 ), "Expected", 0.184 ),
+        ROW ( "Measure", "Top 50 Employers Share % (tie at 50 kept)", "Value", ROUND ( [Top 50 Employers Share %], 3 ), "Expected", 0.375 ),
+        ROW ( "Measure", "Undisclosed Employer %", "Value", ROUND ( [Undisclosed Employer %], 3 ), "Expected", 0.136 ),
+        ROW ( "Measure", "Agency Jobs %", "Value", ROUND ( [Agency Jobs %], 3 ), "Expected", 0.202 ),
+        ROW ( "Measure", "Known Employment Type Jobs", "Value", ROUND ( [Known Employment Type Jobs], 3 ), "Expected", 6743 ),
+        ROW ( "Measure", "Employment Type Known %", "Value", ROUND ( [Employment Type Known %], 3 ), "Expected", 0.352 ),
+        ROW ( "Measure", "Full-time % of Known", "Value",
+              ROUND ( CALCULATE ( [Employment Type % of Known], DIM_JOB_ATTRIBUTES[EMPLOYMENT_TYPE] = "Full-time" ), 3 ), "Expected", 0.931 ),
+        ROW ( "Measure", "Workplace Type Known %", "Value", ROUND ( [Workplace Type Known %], 3 ), "Expected", 0.054 ),
+        ROW ( "Measure", "Experience Level Known %", "Value", ROUND ( [Experience Level Known %], 3 ), "Expected", 0.391 ),
+        ROW ( "Measure", "Stated Experience Jobs", "Value", ROUND ( [Stated Experience Jobs], 3 ), "Expected", 1804 ),
+        ROW ( "Measure", "Riyadh Mid-Senior % of Stated", "Value",
+              ROUND ( CALCULATE ( [Experience % of Stated], DIM_LOCATION[REGION] = "Riyadh", DIM_JOB_ATTRIBUTES[EXPERIENCE_LEVEL] = "Mid-Senior" ), 3 ), "Expected", 0.554 ),
+        ROW ( "Measure", "Full Description Jobs", "Value", ROUND ( [Full Description Jobs], 3 ), "Expected", 7430 ),
+        ROW ( "Measure", "English Skill Share %", "Value",
+              ROUND ( CALCULATE ( [Skill Share %], DIM_SKILL[SKILL_NAME] = "English" ), 3 ), "Expected", 0.259 ),
+        ROW ( "Measure", "Salary Disclosed Jobs", "Value", ROUND ( [Salary Disclosed Jobs], 3 ), "Expected", 305 ),
+        ROW ( "Measure", "Salary Disclosed %", "Value", ROUND ( [Salary Disclosed %], 3 ), "Expected", 0.016 ),
+        ROW ( "Measure", "Median Min Salary SAR per Month", "Value", ROUND ( [Median Min Salary SAR per Month], 3 ), "Expected", 6000 ),
+        ROW ( "Measure", "Company Known %", "Value", ROUND ( [Company Known %], 3 ), "Expected", 0.864 ),
+        ROW ( "Measure", "Region Known %", "Value", ROUND ( [Region Known %], 3 ), "Expected", 0.978 ),
+        ROW ( "Measure", "Posting Date Known %", "Value", ROUND ( [Posting Date Known %], 3 ), "Expected", 0.346 ),
+        ROW ( "Measure", "Listings on jooble", "Value",
+              ROUND ( CALCULATE ( [Listings by Source], DIM_SOURCE[SOURCE_NAME] = "jooble" ), 3 ), "Expected", 12828 ),
+        ROW ( "Measure", "Jobs found on jooble", "Value",
+              ROUND ( CALCULATE ( [Jobs Found on Source], DIM_SOURCE[SOURCE_NAME] = "jooble" ), 3 ), "Expected", 12604 ),
+        ROW ( "Measure", "Jobs only on jooble", "Value",
+              ROUND ( CALCULATE ( [Jobs Only on Source], DIM_SOURCE[SOURCE_NAME] = "jooble" ), 3 ), "Expected", 11711 ),
+        ROW ( "Measure", "Listings on workable", "Value",
+              ROUND ( CALCULATE ( [Listings by Source], DIM_SOURCE[SOURCE_NAME] = "workable" ), 3 ), "Expected", 1549 ),
+        ROW ( "Measure", "Jobs only on workable", "Value",
+              ROUND ( CALCULATE ( [Jobs Only on Source], DIM_SOURCE[SOURCE_NAME] = "workable" ), 3 ), "Expected", 1268 )
+    )
+RETURN
+    ADDCOLUMNS ( checks, "Status", IF ( ABS ( [Value] - [Expected] ) < 0.0005, "OK", "CHECK" ) )
+
+// ---------- 2. Titles and findings: read them as sentences ----------
+EVALUATE
+UNION (
+    ROW ( "Text", [Title Region] ),
+    ROW ( "Text", [Subtitle Region] ),
+    ROW ( "Text", [Title Employers] ),
+    ROW ( "Text", [Subtitle Employers] ),
+    ROW ( "Text", [Title Skills] ),
+    ROW ( "Text", [Subtitle Skills] ),
+    ROW ( "Text", [Title Employment] ),
+    ROW ( "Text", [Subtitle Employment] ),
+    ROW ( "Text", [Finding Merge] ),
+    ROW ( "Text", [Finding Employers] ),
+    ROW ( "Text", [Finding Lifecycle] )
+)
