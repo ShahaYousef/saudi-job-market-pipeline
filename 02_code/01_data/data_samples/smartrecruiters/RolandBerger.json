@@ -1,0 +1,947 @@
+[
+  {
+    "id": "744000150346823",
+    "name": "Hema Internship - Riyadh",
+    "uuid": "5d72286e-04d8-4efe-9554-8fea07551032",
+    "jobAdId": "1ad2b4f3-52b1-47bb-8118-9ad0645b54a7",
+    "defaultJobAd": true,
+    "refNumber": "REF4421O",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-09-18T11:34:28.773Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "other",
+      "label": "Other"
+    },
+    "typeOfEmployment": {
+      "id": "intern",
+      "label": "Intern"
+    },
+    "experienceLevel": {
+      "id": "internship",
+      "label": "Internship"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "dfa63d6e-4b99-4ee0-ac77-aad5f8cad105",
+        "valueLabel": "Consultants"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "144e8ca1-8b6b-4d8c-8fa4-9a899940483d",
+        "valueLabel": "General / 9000"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "b5abc648-5c2c-445b-8e7e-c08e987e164e",
+        "valueLabel": "Consulting - Internship"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "cf3bd15c-c5b4-46b7-96ca-2f965eee34b2",
+        "valueLabel": "ME - Consultants KSA EN"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "3f16787d-7459-48ac-a502-a58b8eecdc25",
+        "valueLabel": "Other"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000150346823",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Are you a motivated and analytical student looking to gain hands-on experience in strategy consulting? Join our team in <strong>Riyadh&#xa0;</strong>as a Consulting Intern and build a strong foundation in problem-solving, business analysis, and client engagement.</p><ul><li>Collaborate with project teams on assignments for top companies in various industries</li><li>Conduct research and gather data to support project objectives</li><li>Assist in analyzing complex business problems and developing innovative solutions</li><li>Prepare presentations and reports to communicate findings and recommendations</li><li>Participate in client meetings and interviews to gather information and present results</li><li>Support the development of project deliverables, including strategic plans and organizational redesigns</li><li>Contribute to internal knowledge-building initiatives and team discussions</li><li>Assist in market analysis, production strategies, and sourcing optimization projects.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Bachelors Degree in Business Administration, STEM, Data Analytics</li><li>Excellent academic record</li><li><strong>Applicant preferably based in Riyadh</strong></li><li>Bachelor’s Degree in Business Administration, STEM, or Data Analytics</li><li>Excellent academic record</li><li>Applicant preferably based in Riyadh</li><li>Demonstrated analytical and problem-solving skills</li><li>Excellent English and Arabic communication skills</li><li>Proficiency in Microsoft Excel and PowerPoint</li><li>Ability to work collaboratively in a fast-paced, team-oriented environment</li><li>Proactive, hard-working, and enthusiastic attitude with a willingness to learn</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li>Duration: 6 to 9 months</li><li>Start Date: <strong>September - December</strong></li></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "744000149246540",
+    "name": "Talent Acquisition Specialist - Saudi Nationals",
+    "uuid": "24d0bf74-0f50-4c3c-9e31-df217da07bab",
+    "jobAdId": "27aad654-e94a-4590-b687-cd15eafa034f",
+    "defaultJobAd": true,
+    "refNumber": "REF4538C",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-09-14T06:47:42.532Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "human_resources",
+      "label": "Human Resources"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "b57f5d9a-1128-4557-996a-944a95944921",
+        "valueLabel": "Services (incl. salary expectation) EN"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "ca9e66c9-6e69-4447-acfe-12fde2ced01e",
+        "valueLabel": "Services"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "e6c15abf-cd1f-41c0-ab81-c86d13f0ad13",
+        "valueLabel": "Services / 7000"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "d156ff2d-a303-409d-a151-bae4df05e560",
+        "valueLabel": "Corporate Functions - Experienced hire"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "f92f94e3-2074-430b-b618-da525bd6e818",
+        "valueLabel": "HR (Corporate Functions)"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000149246540",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Roland Berger Middle East is seeking a proactive and driven&#xa0;<strong>Talent Acquisition Specialist</strong>&#xa0;to join our Riyadh office. This role will support the firm's growth by managing the full recruitment lifecycle across consulting and management functions, while playing a key role in talent sourcing, market mapping, and candidate engagement.</p><p>The successful candidate will partner closely with hiring managers and leadership teams to identify, attract, assess, and hire top talent across Saudi Arabia and the wider Middle East region. The role combines strategic sourcing with end-to-end recruitment ownership, from talent identification and screening through offer management and onboarding coordination.</p><p>A strong interest in recruitment technology, talent analytics, employer branding, and AI-enabled recruitment tools will be highly valued.</p><p><strong>Key Responsibilities</strong></p><ul><li>Manage the full recruitment lifecycle from sourcing and screening through interviews, offer rollout, and onboarding coordination.</li><li>Partner with business leaders and hiring managers to understand current and future hiring requirements across consulting and management functions.</li><li>Develop and execute sourcing strategies to identify high-caliber talent through LinkedIn, professional networks, referrals, direct outreach, and other talent channels.</li><li>Conduct market mapping and talent research to identify target talent pools and maintain a strong pipeline of qualified candidates.</li><li>Screen and assess candidate qualifications, experience, and cultural fit through interviews and evaluation processes.</li><li>Coordinate interview processes and work closely with interviewers to ensure an efficient and positive candidate experience.</li><li>Support offer preparation, compensation discussions, approval processes, and offer rollouts.</li><li>Build and maintain relationships with passive candidates for future hiring opportunities.</li><li>Drive Saudization hiring initiatives and support the attraction of high-potential Saudi talent.</li><li>Partner with universities, student organizations, and professional associations to support campus recruitment and employer branding initiatives.</li><li>Manage recruitment activities through the Applicant Tracking System (ATS) and ensure data accuracy.</li><li>Prepare recruitment reports, hiring analytics, pipeline insights, and market intelligence for leadership.</li><li>Leverage AI-powered recruitment tools and data-driven insights to improve sourcing effectiveness, candidate engagement, and overall recruitment efficiency.</li><li>Support employer branding initiatives, recruitment events, networking activities, and talent attraction campaigns.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p><strong>Experience Required</strong></p><ul><li>Saudi National.</li><li>Bachelor's degree in Human Resources, Business Administration, Psychology, or a related field.</li><li>3+ years of experience in Talent Acquisition, Recruitment, Executive Search, or a related field.</li><li>Demonstrated experience managing end-to-end recruitment processes across multiple functions and seniority levels.</li><li>Experience sourcing candidates through LinkedIn Recruiter, talent databases, professional networks, and direct search methodologies.</li><li>Experience within consulting, professional services, executive search, or other fast-paced environments is preferred.</li><li>Previous exposure to campus recruitment and graduate hiring programs is advantageous.</li><li>Strong understanding of recruitment best practices, assessment methodologies, and candidate management.</li></ul><p><strong>Skills and Attributes</strong></p><ul><li>Strong stakeholder management and relationship-building skills.</li><li>Excellent communication, interviewing, and influencing capabilities.</li><li>Proactive and self-driven with strong organizational skills.</li><li>Strong attention to detail and ability to manage multiple hiring processes simultaneously.</li><li>Analytical mindset with the ability to translate recruitment data into meaningful insights.</li><li>Ability to maintain confidentiality and exercise sound judgment.</li><li>Collaborative team player with a strong sense of ownership and accountability.</li><li>Passion for identifying and attracting top talent.</li></ul><p><strong>Technical Skills</strong></p><ul><li>Experience using Applicant Tracking Systems (ATS); SmartRecruiters experience is preferred.</li><li>Advanced LinkedIn Recruiter and candidate sourcing capabilities.</li><li>Strong Microsoft Office skills, particularly Excel, PowerPoint, and Word.</li><li>Experience creating recruitment dashboards, reports, and talent pipeline trackers.</li><li>Familiarity with AI-enabled recruitment tools, talent intelligence platforms, and recruitment automation solutions is a strong advantage.</li><li>Knowledge of recruitment analytics, sourcing metrics, and workforce planning principles is a plus.</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li>Start Date: Immediately</li></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "744000147858659",
+    "name": "HR Generalist Senior Specialist -Saudi Nationals",
+    "uuid": "acdf5666-2919-4fb5-858f-c91e8c4240a2",
+    "jobAdId": "bd45ae9f-5054-4092-84ce-3208040f1502",
+    "defaultJobAd": true,
+    "refNumber": "REF4465V",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-09-07T07:46:26.600Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": true,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "human_resources",
+      "label": "Human Resources"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "b57f5d9a-1128-4557-996a-944a95944921",
+        "valueLabel": "Services (incl. salary expectation) EN"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "ca9e66c9-6e69-4447-acfe-12fde2ced01e",
+        "valueLabel": "Services"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "27d49751-7ff4-4eb4-b2e4-fe381976997b",
+        "valueLabel": "Group Function HR / 9710"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "d156ff2d-a303-409d-a151-bae4df05e560",
+        "valueLabel": "Corporate Functions - Experienced hire"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "f92f94e3-2074-430b-b618-da525bd6e818",
+        "valueLabel": "HR (Corporate Functions)"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000147858659",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>We are seeking an experienced<strong>&#xa0;HR Operations Senior Specialist</strong>&#xa0;to manage and support HR operations across the employee lifecycle in Saudi Arabia. The role will have a strong focus on employee administration, Saudi government platforms and compliance, onboarding/offboarding, HR systems and reporting, and employee support, with additional responsibility for recruitment coordination.</p><p>The successful candidate will have strong hands-on experience with&#xa0;<strong>Qiwa, Muqeem, GOSI, Mudad/WPS, HRSD, Absher Business, Ajeer</strong>, and other relevant Saudi government platforms, together with a strong understanding of&#xa0;<strong>Saudi Labor Law and Saudization/Nitaqat requirements</strong>.</p><p>Key Responsibilities</p><ul><li>Manage day-to-day HR operations across the employee lifecycle, including&#xa0;<strong>employee records, contracts, employment letters, probation, leave, transfers, promotions, employee movements, onboarding, and exits</strong>.</li><li>Maintain accurate employee data, personnel files, HR systems, and documentation, ensuring compliance with company policies, Saudi Labor Law, and applicable regulatory requirements.</li><li>Manage and maintain employee and company information across relevant&#xa0;<strong>Saudi government platforms</strong>, including&#xa0;<strong>Qiwa, Muqeem, GOSI, Mudad/WPS, HRSD, Absher Business, Ajeer</strong>, and other applicable portals.</li><li>Manage expatriate employee administration, including&#xa0;<strong>Iqama, work permits, visas, exit/re-entry requirements, renewals, transfers</strong>, and coordination with PRO/immigration teams and relevant authorities.</li><li>Support&#xa0;<strong>GOSI, Mudad/WPS, Saudization/Nitaqat</strong>, and other statutory HR requirements, ensuring HR, payroll, and government records are accurate and aligned.</li><li>Monitor changes to&#xa0;<strong>Saudi Labor Law, HRSD regulations, government requirements, and localization rules</strong>, ensuring HR processes and employee records remain compliant.</li><li>Act as a key point of contact for employees on HR matters, including&#xa0;<strong>policies, benefits, leave, contracts, documentation, payroll-related queries, and general HR processes</strong>.</li><li>Coordinate with&#xa0;<strong>Finance/Payroll, IT, Staffing, Talent Management, and Leadership</strong>&#xa0;to ensure effective delivery of employee lifecycle activities.</li><li>Coordinate end-to-end&#xa0;<strong>onboarding and offboarding</strong>, including documentation, HR system updates, government requirements, access coordination, clearance, final settlement, and employee records.</li><li>Support recruitment for consulting and internal support roles, including&#xa0;<strong>candidate coordination, interview scheduling, offer preparation, recruitment tracking, and onboarding transition</strong>, while partnering with hiring managers on recruitment requirements.</li><li>Maintain HR trackers and reporting covering&#xa0;<strong>headcount, recruitment, onboarding, employee movements, turnover, compliance, and outstanding actions</strong>.</li><li>Support HR audits, compliance reviews, policy and process initiatives, and continuous improvement of HR operations and employee experience.</li><li>Maintain strict&#xa0;<strong>confidentiality and data integrity</strong>&#xa0;when handling employee information and sensitive HR matters</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Bachelor’s degree in&#xa0;<strong>Human Resources, Business Administration</strong>,<strong>&#xa0;Information Technology</strong>, or a related field.</li><li>Minimum&#xa0;<strong>5 years of experience</strong>&#xa0;in HR, recruitment, and HR operations.</li><li>Experience in a&#xa0;<strong>consulting, professional services, or fast-paced corporate environment</strong>&#xa0;is preferred.</li><li><strong>Knowledge of SAP </strong>or other HR information systems is an advantage.</li><li>Professional HR qualification, such as <strong>CIPD</strong>, is preferred.</li><li>Good understanding of recruitment processes, onboarding, employee documentation, and HR operations.</li><li>Strong coordination and follow-up skills with the ability to manage multiple priorities and deadlines.</li><li>Excellent communication and stakeholder management skills.</li><li>High attention to detail and ability to handle confidential employee information.</li><li>Proficiency in&#xa0;<strong>Microsoft Office</strong>, especially Excel and PowerPoint.</li><li>Experience using HR systems, applicant tracking systems, or employee management platforms is preferred.</li><li>Fluency in&#xa0;<strong>English</strong>&#xa0;is required.</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li><strong>Start Date: Immediately</strong></li></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "744000144694909",
+    "name": "Asas -Summer 2027",
+    "uuid": "e33ec923-a295-4366-965c-a89f8ee963a9",
+    "jobAdId": "801123da-218b-4d9e-a79e-01db8adadd70",
+    "defaultJobAd": true,
+    "refNumber": "REF4507L",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-08-21T06:56:56.557Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "consulting",
+      "label": "Consulting"
+    },
+    "typeOfEmployment": {
+      "id": "intern",
+      "label": "Intern"
+    },
+    "experienceLevel": {
+      "id": "internship",
+      "label": "Internship"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "cf3bd15c-c5b4-46b7-96ca-2f965eee34b2",
+        "valueLabel": "ME - Consultants KSA EN"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "dfa63d6e-4b99-4ee0-ac77-aad5f8cad105",
+        "valueLabel": "Consultants"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "144e8ca1-8b6b-4d8c-8fa4-9a899940483d",
+        "valueLabel": "General / 9000"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "b5abc648-5c2c-445b-8e7e-c08e987e164e",
+        "valueLabel": "Consulting - Internship"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "3f16787d-7459-48ac-a502-a58b8eecdc25",
+        "valueLabel": "Other"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000144694909",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Are you a motivated and analytical student looking to gain hands-on experience in strategy consulting? Join our team in <strong>Riyadh</strong> as a Consulting Intern and build a strong foundation in problem-solving, business analysis, and client engagement.</p><ul><li>Collaborate with project teams on assignments for top companies in various industries</li><li>Conduct research and gather data to support project objectives</li><li>Assist in analyzing complex business problems and developing innovative solutions</li><li>Prepare presentations and reports to communicate findings and recommendations</li><li>Participate in client meetings and interviews to gather information and present results</li><li>Support the development of project deliverables, including strategic plans and organizational redesigns</li><li>Contribute to internal knowledge-building initiatives and team discussions</li><li>Assist in market analysis, production strategies, and sourcing optimization projects.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Current undergraduate student (3rd year preferred) in Business, Economics, Engineering, IT, or a related field</li><li><strong>Saudi Nationals ONLY</strong></li><li>Strong academic performance</li><li>Demonstrated analytical and problem-solving skills</li><li>Excellent English and Arabic&#xa0;communication skills</li><li>Proficiency in Microsoft Excel and PowerPoint</li><li>Ability to work collaboratively in a fast-paced, team-oriented environment</li><li>Proactive, hard-working, and enthusiastic attitude with a willingness to learn</li><li>Confident and personable demeanor with a sense of humor</li><li>Adaptability and openness to feedback and continuous improvement</li><li>Strong time management and organizational skills</li><li>Ability to think critically and make data-driven decisions</li><li>Previous internship or relevant experience is a plus.</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li>Duration: 2 months</li><li>Start Date: June 6, 2027</li><li>This is an unpaid internship focused on learning and professional development.</li></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "744000137366179",
+    "name": "Talent Development Senior Specialist- Saudi Nationals",
+    "uuid": "7fea5d61-139b-4a50-a0b0-9691ae63abb3",
+    "jobAdId": "1b900c18-c016-4963-906d-0dced75f39ef",
+    "defaultJobAd": true,
+    "refNumber": "REF4464G",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-07-13T05:27:38.479Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "human_resources",
+      "label": "Human Resources"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "b57f5d9a-1128-4557-996a-944a95944921",
+        "valueLabel": "Services (incl. salary expectation) EN"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "ca9e66c9-6e69-4447-acfe-12fde2ced01e",
+        "valueLabel": "Services"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "144e8ca1-8b6b-4d8c-8fa4-9a899940483d",
+        "valueLabel": "General / 9000"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "d156ff2d-a303-409d-a151-bae4df05e560",
+        "valueLabel": "Corporate Functions - Experienced hire"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "f92f94e3-2074-430b-b618-da525bd6e818",
+        "valueLabel": "HR (Corporate Functions)"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000137366179",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>We are seeking a proactive and experienced&#xa0;<strong>Talent Development / Learning &amp; Development Senior Specialist</strong>&#xa0;to join our People team. In this role, you will be responsible for designing, coordinating, and driving learning and talent development initiatives that support employee growth, leadership development, and organizational capability building.</p><p>The ideal candidate has a passion for developing people, strong project management skills, and experience managing learning programs in a fast-paced, professional services or consulting environment.</p><p><strong>Key Responsibilities</strong></p><ul><li>Design, coordinate, and manage learning and development programs aligned with business and organizational objectives.</li><li>Conduct training needs analyses in collaboration with business leaders and department managers.</li><li>Coordinate internal and external training programs, workshops, certifications, and development initiatives.</li><li>Manage the Learning Management System (LMS), training calendars, course enrollments, attendance records, and learning documentation.</li><li>Evaluate the effectiveness of learning initiatives through feedback, assessments, and performance metrics, and recommend continuous improvements.</li><li>Support performance management processes, including goal setting, performance review cycles, development planning, and probation follow-ups.</li><li>Develop and implement talent development initiatives such as leadership development, high-potential programs, mentoring, coaching, and career development frameworks.</li><li>Support onboarding and employee development programs to ensure a positive employee experience.</li><li>Prepare reports and dashboards on training participation, learning effectiveness, talent metrics, and development KPIs.</li><li>Partner with business leaders and HR teams to identify capability gaps and recommend appropriate development solutions.</li><li>Manage relationships with external training providers, consultants, and educational institutions.</li><li>Ensure compliance with company policies and applicable regulatory requirements related to learning and development.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Bachelor's degree in Human Resources, Business Administration, Organizational Development, Psychology, Education, or a related field.</li><li>Minimum&#xa0;<strong>4 years of experience</strong>&#xa0;in Talent Development, Learning &amp; Development, Talent Management, Organizational Development, or a similar role.</li><li><strong>Saudi Nationals ONLY.</strong></li><li>Experience designing, coordinating, and delivering learning and development programs.</li><li>Strong understanding of adult learning principles, instructional design, and learning methodologies.</li><li>Experience supporting performance management processes, including performance reviews, development planning, and competency frameworks.</li><li>Experience managing Learning Management Systems (LMS) and maintaining accurate learning records and reports.</li><li>Strong project management, coordination, and stakeholder management skills.</li><li>Excellent communication, presentation, and facilitation skills.</li><li>Strong analytical skills with the ability to interpret learning and talent data to drive decision-making.</li><li>Advanced proficiency in Microsoft Office, particularly Excel and PowerPoint.</li><li>Experience with HRIS, LMS platforms, or talent management systems is preferred.</li><li>Fluent in English and Arabic</li><li>Previous experience in a consulting or professional services environment is highly desirable.</li></ul><p><strong>What We're Looking For</strong></p><ul><li>Strong interpersonal and relationship-building skills.</li><li>Ability to manage multiple priorities in a dynamic, fast-paced environment.</li><li>A collaborative mindset with a passion for employee growth and continuous learning.</li><li>Strong attention to detail and commitment to delivering high-quality learning experiences.</li><li>Self-motivated, organized, and capable of working independently while collaborating effectively with cross-functional teams.</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li><strong>Start Date: Immediately</strong></li></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "744000133362330",
+    "name": "Consultant - Saudi Nationals",
+    "uuid": "564a3d62-e452-4fd8-a7e3-d90f892c7346",
+    "jobAdId": "14d91061-8127-4d96-b9a5-3d2c0a7d3fd3",
+    "defaultJobAd": true,
+    "refNumber": "REF4435Q",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-06-22T13:07:40.026Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "consulting",
+      "label": "Consulting"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "2e3acec1-2477-4542-a164-75fa3b6a0fe8",
+        "valueLabel": "ME - Consultants KSA incl. seniority level EN"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "dfa63d6e-4b99-4ee0-ac77-aad5f8cad105",
+        "valueLabel": "Consultants"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "144e8ca1-8b6b-4d8c-8fa4-9a899940483d",
+        "valueLabel": "General / 9000"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "559af58f-d54b-4d67-96cc-018d1dcc813f",
+        "valueLabel": "Consulting - Experienced hire"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "d7dff06b-fbd9-418b-9588-84fa5d532149",
+        "valueLabel": "Financial Services"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000133362330",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<ul><li>Developing and implementing tailored strategies and business models in a dynamic international project environment and supporting our clients to master their challenges</li><li>Working closely with the project manager for one or more project modules&#xa0;</li><li>Directly interact with clients and guide module teams showing innovation at all levels</li><li>Finalize and present deliverables to the client</li><li>Develop market strategies, accompany clients in post-merger situations and optimize organizational structures and support performance improvement programs</li><li>Retain excellent working relationships with our current clients to ensure that project scope is met bringing steady and constant quality in all outputs</li><li>Being a key pillar in our organization and important interface to our clients</li><li>Working with public and private sector clients across the region</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Bachelor or Master graduate, preferably with an Engineering, Science, Business, Finance degree from a global top university or business school.</li><li>3+ years of experience in consulting with ideally top tier strategy firms</li><li>Outstanding analytical and creative problem-solving skills, with proven experience in quantitative analysis</li><li>Strong interpersonal and communication skills</li><li>Fluent in English</li><li>Presenting results to clients</li><li>Middle East experience preferred but not necessary</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li>Start Date: Immediately</li></ul>"
+        }
+      }
+    }
+  },
+  {
+    "id": "744000133293548",
+    "name": "Senior Consultant- Saudi Nationals ",
+    "uuid": "06bf5ec6-99de-4f55-9bef-bf7ee132a559",
+    "jobAdId": "2f6372e0-705f-4053-95b1-b4aee2945506",
+    "defaultJobAd": true,
+    "refNumber": "REF4431C",
+    "company": {
+      "identifier": "RolandBerger",
+      "name": "Roland Berger"
+    },
+    "releasedDate": "2026-06-22T08:57:36.342Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7135517",
+      "longitude": "46.6752957",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "management_consulting",
+      "label": "Management Consulting"
+    },
+    "department": {},
+    "function": {
+      "id": "consulting",
+      "label": "Consulting"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "5d9336bc46c05d6ef6110326",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Roland Berger"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf5849ff37623bf5e5868",
+        "fieldLabel": "Application form (Screening questions sets)",
+        "valueId": "2e3acec1-2477-4542-a164-75fa3b6a0fe8",
+        "valueLabel": "ME - Consultants KSA incl. seniority level EN"
+      },
+      {
+        "fieldId": "5e4b978a620ec92aa06415a6",
+        "fieldLabel": "Type",
+        "valueId": "3e60dc39-7c66-4fac-9d6b-f811cdeb97d3",
+        "valueLabel": "Job"
+      },
+      {
+        "fieldId": "5ede3391318d407ba2543b07",
+        "fieldLabel": "Job location",
+        "valueId": "c1b6ba73-93a1-4514-9ced-2f64a18a6cdb",
+        "valueLabel": "Riyadh"
+      },
+      {
+        "fieldId": "5e4b97c684a7453214b15f73",
+        "fieldLabel": "HR country (access rights)",
+        "valueId": "1824d92a-9cac-4ca4-8156-843e42bb9caa",
+        "valueLabel": "RB Kingdom of Saudi Arabia"
+      },
+      {
+        "fieldId": "5e4cf51d620ec92aa06415cf",
+        "fieldLabel": "Job category (access rights)",
+        "valueId": "dfa63d6e-4b99-4ee0-ac77-aad5f8cad105",
+        "valueLabel": "Consultants"
+      },
+      {
+        "fieldId": "5ed8e97bf2759978170e5c6d",
+        "fieldLabel": "Job / Event country",
+        "valueId": "d4914cd8-5d68-4582-a353-5e31d72a93f2",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "60e5998f018449163fda7256",
+        "fieldLabel": "Platform",
+        "valueId": "144e8ca1-8b6b-4d8c-8fa4-9a899940483d",
+        "valueLabel": "General / 9000"
+      },
+      {
+        "fieldId": "5ede3184318d407ba2543aa6",
+        "fieldLabel": "Audience",
+        "valueId": "559af58f-d54b-4d67-96cc-018d1dcc813f",
+        "valueLabel": "Consulting - Experienced hire"
+      },
+      {
+        "fieldId": "63692ee4d82be41f8a33eb85",
+        "fieldLabel": "Expertise",
+        "valueId": "d7dff06b-fbd9-418b-9588-84fa5d532149",
+        "valueLabel": "Financial Services"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/RolandBerger/postings/744000133293548",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Roland Berger, founded in 1967, is the only leading consultancy with German heritage and European origin. By joining Roland Berger, you choose an employer who has supported diversity of cultures, mentalities, and perspectives since its founding. We believe that great ideas and new perspectives are inspired by diverse teams from a variety of backgrounds. That's why we want you to be authentic, be yourself. Be the Original You.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<ul><li>Developing and implementing tailored strategies and business models in a dynamic international project environment and supporting our clients to master their challenges</li><li>Working closely with the project manager for one or more project modules&#xa0;</li><li>Directly interact with clients and guide module teams showing innovation at all levels</li><li>Finalize and present deliverables to the client</li><li>Develop market strategies, accompany clients in post-merger situations and optimize organizational structures and support performance improvement programs</li><li>Retain excellent working relationships with our current clients to ensure that project scope is met bringing steady and constant quality in all outputs</li><li>Being a key pillar in our organization and important interface to our clients</li><li>Working with public and private sector clients across the region</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Bachelor or Master graduate, preferably with an Engineering, Science, Business, Finance degree from a global top university or business school.</li><li>5+ years of experience in consulting with ideally top tier strategy firm.</li><li>Prior consulting experience serving clients in the <strong>Financial Services, Banking, and Sovereign Wealth Funds sectors</strong>.</li><li>Outstanding analytical and creative problem-solving skills, with proven experience in quantitative analysis</li><li>Strong interpersonal and communication skills</li><li>Fluent in English</li><li>Presenting results to clients</li><li>Middle East experience preferred but not necessary</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": "<ul><li>Start Date: Immediately</li></ul>"
+        }
+      }
+    }
+  }
+]

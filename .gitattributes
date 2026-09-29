@@ -1,0 +1,7 @@
+# Keep documents and images byte-exact in diffs and patches
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.docx binary
+*.pptx binary
+*.mp4  binary

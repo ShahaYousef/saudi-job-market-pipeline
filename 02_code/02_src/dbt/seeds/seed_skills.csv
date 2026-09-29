@@ -1,0 +1,134 @@
+keyword,skill_name,skill_group,postings_measured
+english,English,Languages,955
+arabic,Arabic,Languages,674
+french,French,Languages,14
+hindi,Hindi,Languages,10
+project management,Project management,Business and operations,518
+procurement,Procurement,Business and operations,448
+negotiation,Negotiation,Business and operations,350
+stakeholder management,Stakeholder management,Business and operations,338
+customer service,Customer service,Business and operations,308
+logistics,Logistics,Business and operations,280
+supply chain,Supply chain management,Business and operations,216
+risk management,Risk management,Business and operations,201
+business development,Business development,Business and operations,195
+quality assurance,Quality assurance,Business and operations,178
+quality control,Quality control,Business and operations,147
+change management,Change management,Business and operations,108
+inventory management,Inventory management,Business and operations,81
+contract management,Contract management,Business and operations,65
+business analysis,Business analysis,Business and operations,33
+agile,Agile,Business and operations,93
+scrum,Scrum,Business and operations,23
+food safety,Food safety,Business and operations,112
+haccp,HACCP,Business and operations,57
+social media,Social media marketing,Marketing,102
+market research,Market research,Marketing,96
+digital marketing,Digital marketing,Marketing,62
+content creation,Content creation,Marketing,19
+seo,SEO,Marketing,15
+forecasting,Financial forecasting,Finance and accounting,189
+budgeting,Budgeting,Finance and accounting,166
+reconciliation,Account reconciliation,Finance and accounting,71
+payroll,Payroll,Finance and accounting,56
+financial analysis,Financial analysis,Finance and accounting,47
+accounts payable,Accounts payable,Finance and accounting,45
+auditing,Auditing,Finance and accounting,41
+accounts receivable,Accounts receivable,Finance and accounting,33
+ifrs,IFRS,Finance and accounting,29
+vat,VAT,Finance and accounting,24
+financial modeling,Financial modeling,Finance and accounting,23
+zakat,Zakat,Finance and accounting,11
+microsoft office,Microsoft Office,Enterprise software,299
+ms office,Microsoft Office,Enterprise software,98
+excel,Microsoft Excel,Enterprise software,395
+crm,CRM,Enterprise software,222
+erp,ERP,Enterprise software,165
+sap,SAP,Enterprise software,160
+oracle,Oracle,Enterprise software,82
+oracle erp,Oracle,Enterprise software,10
+salesforce,Salesforce,Enterprise software,31
+jira,Jira,Enterprise software,25
+hris,HRIS,Enterprise software,16
+sharepoint,SharePoint,Enterprise software,16
+servicenow,ServiceNow,Enterprise software,13
+microsoft dynamics,Microsoft Dynamics,Enterprise software,12
+data analysis,Data analysis,Data and AI,118
+data analytics,Data analysis,Data and AI,66
+sql,SQL,Data and AI,113
+power bi,Power BI,Data and AI,86
+python,Python,Data and AI,78
+statistics,Statistics,Data and AI,40
+machine learning,Machine learning,Data and AI,40
+data science,Data science,Data and AI,34
+tableau,Tableau,Data and AI,30
+etl,ETL,Data and AI,23
+generative ai,Generative AI,Data and AI,17
+llm,LLMs,Data and AI,16
+spark,Apache Spark,Data and AI,16
+kafka,Apache Kafka,Data and AI,13
+data warehouse,Data warehousing,Data and AI,12
+sql server,SQL Server,Data and AI,18
+postgresql,PostgreSQL,Data and AI,12
+java,Java,Software development,42
+javascript,JavaScript,Software development,18
+typescript,TypeScript,Software development,12
+microservices,Microservices,Software development,22
+git,Git,Software development,24
+aws,AWS,Cloud and DevOps,51
+azure,Microsoft Azure,Cloud and DevOps,45
+google cloud,Google Cloud,Cloud and DevOps,15
+gcp,Google Cloud,Cloud and DevOps,27
+ci cd,CI/CD,Cloud and DevOps,51
+linux,Linux,Cloud and DevOps,46
+devops,DevOps,Cloud and DevOps,43
+kubernetes,Kubernetes,Cloud and DevOps,38
+docker,Docker,Cloud and DevOps,24
+terraform,Terraform,Cloud and DevOps,10
+cybersecurity,Cybersecurity,Security,116
+cyber security,Cybersecurity,Security,14
+information security,Information security,Security,38
+siem,SIEM,Security,17
+autocad,AutoCAD,Engineering tools,102
+primavera,Primavera P6,Engineering tools,83
+primavera p6,Primavera P6,Engineering tools,57
+bim,BIM,Engineering tools,68
+hvac,HVAC,Engineering tools,67
+revit,Revit,Engineering tools,44
+ms project,Microsoft Project,Engineering tools,33
+microsoft project,Microsoft Project,Engineering tools,19
+gis,GIS,Engineering tools,29
+plc,PLC,Engineering tools,28
+scada,SCADA,Engineering tools,24
+civil 3d,Civil 3D,Engineering tools,24
+navisworks,Navisworks,Engineering tools,13
+solidworks,SolidWorks,Engineering tools,11
+catia,CATIA,Engineering tools,10
+adobe creative,Adobe Creative Suite,Design,29
+illustrator,Adobe Illustrator,Design,18
+photoshop,Adobe Photoshop,Design,18
+figma,Figma,Design,15
+indesign,Adobe InDesign,Design,13
+ui ux,UI/UX design,Design,11
+pmp,PMP,Certifications,149
+nebosh,NEBOSH,Certifications,59
+cpa,CPA,Certifications,52
+itil,ITIL,Certifications,48
+osha,OSHA,Certifications,40
+cma,CMA,Certifications,37
+iosh,IOSH,Certifications,36
+prince2,PRINCE2,Certifications,36
+iso 9001,ISO 9001,Certifications,35
+acca,ACCA,Certifications,33
+first aid,First aid,Certifications,22
+six sigma,Six Sigma,Certifications,21
+iso 45001,ISO 45001,Certifications,20
+saudi council,SCFHS registration,Certifications,20
+scfhs,SCFHS registration,Certifications,14
+cfa,CFA,Certifications,19
+leed,LEED,Certifications,19
+cipd,CIPD,Certifications,19
+iso 14001,ISO 14001,Certifications,18
+shrm,SHRM,Certifications,17
+cissp,CISSP,Certifications,15
+socpa,SOCPA,Certifications,12

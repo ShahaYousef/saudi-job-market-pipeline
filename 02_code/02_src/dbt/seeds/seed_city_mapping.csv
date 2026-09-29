@@ -1,0 +1,224 @@
+alias,city_std,region_std
+riyadh,Riyadh,Riyadh
+ar riyadh,Riyadh,Riyadh
+riy,Riyadh,Riyadh
+ryd,Riyadh,Riyadh
+الرياض,Riyadh,Riyadh
+riyad,Riyadh,Riyadh
+diriyah,Diriyah,Riyadh
+ad diriyah,Diriyah,Riyadh
+الدرعية,Diriyah,Riyadh
+al kharj,Al Kharj,Riyadh
+kharj,Al Kharj,Riyadh
+الخرج,Al Kharj,Riyadh
+jeddah,Jeddah,Makkah
+jiddah,Jeddah,Makkah
+jedda,Jeddah,Makkah
+jed,Jeddah,Makkah
+جدة,Jeddah,Makkah
+جده,Jeddah,Makkah
+makkah,Makkah,Makkah
+mecca,Makkah,Makkah
+makkah al mukarramah,Makkah,Makkah
+mekkah,Makkah,Makkah
+مكة,Makkah,Makkah
+مكة المكرمة,Makkah,Makkah
+taif,Taif,Makkah
+at taif,Taif,Makkah
+al taif,Taif,Makkah
+الطائف,Taif,Makkah
+rabigh,Rabigh,Makkah
+رابغ,Rabigh,Makkah
+king abdullah economic city,King Abdullah Economic City,Makkah
+kaec,King Abdullah Economic City,Makkah
+madinah,Madinah,Madinah
+medina,Madinah,Madinah
+al madinah,Madinah,Madinah
+al madinah al munawwarah,Madinah,Madinah
+المدينة,Madinah,Madinah
+المدينة المنورة,Madinah,Madinah
+yanbu,Yanbu,Madinah
+yanbu al bahr,Yanbu,Madinah
+ينبع,Yanbu,Madinah
+al ula,AlUla,Madinah
+alula,AlUla,Madinah
+العلا,AlUla,Madinah
+dammam,Dammam,Eastern Province
+ad dammam,Dammam,Eastern Province
+ad dammām,Dammam,Eastern Province
+al dammam,Dammam,Eastern Province
+dmm,Dammam,Eastern Province
+الدمام,Dammam,Eastern Province
+al khobar,Al Khobar,Eastern Province
+khobar,Al Khobar,Eastern Province
+al khubar,Al Khobar,Eastern Province
+alkhobar,Al Khobar,Eastern Province
+الخبر,Al Khobar,Eastern Province
+dhahran,Dhahran,Eastern Province
+al dhahran,Dhahran,Eastern Province
+az zahran,Dhahran,Eastern Province
+الظهران,Dhahran,Eastern Province
+jubail,Jubail,Eastern Province
+al jubail,Jubail,Eastern Province
+al jubayl,Jubail,Eastern Province
+الجبيل,Jubail,Eastern Province
+al ahsa,Al Ahsa,Eastern Province
+al hasa,Al Ahsa,Eastern Province
+al hofuf,Al Ahsa,Eastern Province
+hofuf,Al Ahsa,Eastern Province
+al hufuf,Al Ahsa,Eastern Province
+al hufūf,Al Ahsa,Eastern Province
+الأحساء,Al Ahsa,Eastern Province
+الاحساء,Al Ahsa,Eastern Province
+الهفوف,Al Ahsa,Eastern Province
+qatif,Qatif,Eastern Province
+al qatif,Qatif,Eastern Province
+القطيف,Qatif,Eastern Province
+ras tanura,Ras Tanura,Eastern Province
+ras tanurah,Ras Tanura,Eastern Province
+رأس تنورة,Ras Tanura,Eastern Province
+khafji,Al Khafji,Eastern Province
+al khafji,Al Khafji,Eastern Province
+الخفجي,Al Khafji,Eastern Province
+hafar al batin,Hafar Al Batin,Eastern Province
+hafr al batin,Hafar Al Batin,Eastern Province
+حفر الباطن,Hafar Al Batin,Eastern Province
+tabuk,Tabuk,Tabuk
+تبوك,Tabuk,Tabuk
+neom,NEOM,Tabuk
+نيوم,NEOM,Tabuk
+umluj,Umluj,Tabuk
+umm lajj,Umluj,Tabuk
+أملج,Umluj,Tabuk
+املج,Umluj,Tabuk
+red sea,Red Sea Project,Tabuk
+abha,Abha,Asir
+أبها,Abha,Asir
+ابها,Abha,Asir
+khamis mushait,Khamis Mushait,Asir
+khamis mushayt,Khamis Mushait,Asir
+خميس مشيط,Khamis Mushait,Asir
+buraidah,Buraidah,Qassim
+buraydah,Buraidah,Qassim
+burayda,Buraidah,Qassim
+buraida,Buraidah,Qassim
+بريدة,Buraidah,Qassim
+unaizah,Unaizah,Qassim
+unayzah,Unaizah,Qassim
+عنيزة,Unaizah,Qassim
+hail,Hail,Hail
+ha il,Hail,Hail
+حائل,Hail,Hail
+jazan,Jazan,Jazan
+jizan,Jazan,Jazan
+gizan,Jazan,Jazan
+جازان,Jazan,Jazan
+جيزان,Jazan,Jazan
+najran,Najran,Najran
+نجران,Najran,Najran
+al bahah,Al Bahah,Al Bahah
+al baha,Al Bahah,Al Bahah
+baha,Al Bahah,Al Bahah
+الباحة,Al Bahah,Al Bahah
+sakaka,Sakaka,Al Jawf
+sakakah,Sakaka,Al Jawf
+سكاكا,Sakaka,Al Jawf
+arar,Arar,Northern Borders
+عرعر,Arar,Northern Borders
+turaif,Turaif,Northern Borders
+طريف,Turaif,Northern Borders
+haradh,Haradh,Eastern Province
+ras al khair,Ras Al Khair,Eastern Province
+abqaiq,Abqaiq,Eastern Province
+buqayq,Abqaiq,Eastern Province
+saihat,Saihat,Eastern Province
+al aqrabiyyah,Al Khobar,Eastern Province
+thuwal,Thuwal,Makkah
+riaydh,Riyadh,Riyadh
+ta if,Taif,Makkah
+majmaah,Al Majmaah,Riyadh
+al majmaah,Al Majmaah,Riyadh
+المجمعة,Al Majmaah,Riyadh
+مدينة الملك عبد الله الإقتصاديّة,King Abdullah Economic City,Makkah
+مدينة الملك عبدالله الاقتصادية,King Abdullah Economic City,Makkah
+duba,Duba,Tabuk
+ضباء,Duba,Tabuk
+amaala,AMAALA,Tabuk
+al wajh,Al Wajh,Tabuk
+wajh,Al Wajh,Tabuk
+الوجه,Al Wajh,Tabuk
+al rass,Ar Rass,Qassim
+ar rass,Ar Rass,Qassim
+الرس,Ar Rass,Qassim
+al bukayriyah,Al Bukayriyah,Qassim
+bukayriyah,Al Bukayriyah,Qassim
+al bukayriah,Al Bukayriyah,Qassim
+البكيرية,Al Bukayriyah,Qassim
+dhurma,Dhurma,Riyadh
+duruma,Dhurma,Riyadh
+ضرما,Dhurma,Riyadh
+al majma ah,Al Majmaah,Riyadh
+majma ah,Al Majmaah,Riyadh
+sharurah,Sharurah,Najran
+sharourah,Sharurah,Najran
+شرورة,Sharurah,Najran
+al qassim region,,Qassim
+qassim region,,Qassim
+al qassim,,Qassim
+qassim,,Qassim
+القصيم,,Qassim
+eastern province,,Eastern Province
+eastern region,,Eastern Province
+ash sharqiyah,,Eastern Province
+المنطقة الشرقية,,Eastern Province
+riyadh region,,Riyadh
+riyadh province,,Riyadh
+منطقة الرياض,,Riyadh
+makkah region,,Makkah
+makkah province,,Makkah
+mecca region,,Makkah
+mecca province,,Makkah
+منطقة مكة المكرمة,,Makkah
+madinah region,,Madinah
+madinah province,,Madinah
+al madinah province,,Madinah
+medina province,,Madinah
+منطقة المدينة المنورة,,Madinah
+tabuk region,,Tabuk
+tabuk province,,Tabuk
+asir region,,Asir
+asir province,,Asir
+asir,,Asir
+aseer,,Asir
+عسير,,Asir
+jazan region,,Jazan
+jazan province,,Jazan
+jizan region,,Jazan
+najran region,,Najran
+najran province,,Najran
+al bahah region,,Al Bahah
+al baha region,,Al Bahah
+al bahah province,,Al Bahah
+al jawf region,,Al Jawf
+al jouf region,,Al Jawf
+al jawf province,,Al Jawf
+al jawf,,Al Jawf
+al jouf,,Al Jawf
+الجوف,,Al Jawf
+northern borders,,Northern Borders
+northern borders region,,Northern Borders
+northern borders province,,Northern Borders
+الحدود الشمالية,,Northern Borders
+hail region,,Hail
+hail province,,Hail
+ha il region,,Hail
+ha il province,,Hail
+udhailiyah,Udhailiyah,Eastern Province
+hasa industrial city,Al Ahsa,Eastern Province
+al mubarraz,Al Mubarraz,Eastern Province
+mubarraz,Al Mubarraz,Eastern Province
+المبرز,Al Mubarraz,Eastern Province
+as sulayyil,As Sulayyil,Riyadh
+al sulayyil,As Sulayyil,Riyadh
+sulayyil,As Sulayyil,Riyadh
+السليل,As Sulayyil,Riyadh

@@ -1,0 +1,18 @@
+# dbt/profiles.example.yml
+# Template for the dbt connection. Copy it to dbt/profiles.yml (git-ignored), then run dbt from dbt/.
+# It holds no secret: account, user and password come from environment variables. pipeline/run_pipeline.py
+# loads them from .env; for a plain `py -m dbt.cli.main ...` command, set them in the shell first.
+# The profile name must match `profile:` in dbt_project.yml.
+job_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"    # <orgname>-<accountname>
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: JOB_PIPELINE_DEV                            # created by snowflake/roles_and_grants.sql
+      warehouse: JOB_PIPELINE_WH
+      database: JOB_PIPELINE_DB
+      schema: STAGING                                   # only for nodes without +schema (macros/generate_schema_name.sql)
+      threads: 4

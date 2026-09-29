@@ -1,0 +1,28 @@
+# .pre-commit-config.yaml
+# Checks that run on every `git commit`. One-time setup per clone:
+#   pip install pre-commit
+#   pre-commit install
+# Run on the whole repo once:  pre-commit run --all-files
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks                      # API keys, tokens, connection strings
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: detect-private-key
+      - id: check-added-large-files       # GitHub warns above 50 MB; final_datasets/ must stay small
+        args: ["--maxkb=50000"]
+      - id: no-commit-to-branch           # the team rule: never commit to main
+        args: ["--branch", "main"]
+
+  - repo: local
+    hooks:
+      - id: env-example-placeholders-only
+        name: .env.example holds placeholders only
+        language: pygrep
+        # SAS signature, JSearch ak_ keys, Jooble UUID keys
+        entry: '(sig=|ak_[a-z0-9]{20,}|[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})'
+        files: '(^|/)\.env\.example$'

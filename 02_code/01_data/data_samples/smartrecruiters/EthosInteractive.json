@@ -1,0 +1,658 @@
+[
+  {
+    "id": "744000148519179",
+    "name": "Multimedia Designer",
+    "uuid": "650fd391-5f17-474b-9534-8ccd0577afce",
+    "jobAdId": "63a7ac12-fc81-4757-8b6b-dbcd1a040efa",
+    "defaultJobAd": true,
+    "refNumber": "REF250M",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-09-09T14:10:19.033Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "design",
+      "label": "Design"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000148519179",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>We’re looking for a Multimedia Designer who can think visually, move fast, and bring ideas to life across formats. Static, motion, digital, social — if it has pixels, you’re comfortable with it. You don’t just decorate ideas; you help shape them.</p><p>This role sits at the intersection of design, motion, and storytelling. Craft matters. Speed matters. Taste matters most.</p><p>What You’ll Do:</p><ul><li><p>Design high-quality visual assets across digital, social, web, and presentations</p></li><li><p>Create motion graphics and light animations (reels, stories, explainers, UI motion)</p></li><li><p>Support campaigns with KV adaptations, layouts, and visual systems</p></li><li><p>Collaborate closely with art directors, copywriters, and strategists</p></li><li><p>Translate briefs into strong visual executions — and push them further</p></li><li><p>Adapt designs across formats while keeping the idea sharp and consistent</p></li><li><p>Manage multiple tasks without dropping quality (or your soul)</p></li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>What You Bring:</p><ul><li><p>2–4 years of experience in a creative agency, studio, or in-house team</p></li><li><p>Strong skills in Adobe Creative Suite (Photoshop, Illustrator, After Effects)</p></li><li><p>Solid understanding of layout, typography, color, and motion basics</p></li><li><p>Experience designing for social media and digital platforms</p></li><li><p>A portfolio that shows range, taste, and attention to detail</p></li><li><p>Ability to take feedback without ego — and defend good ideas when needed</p></li><li><p>Must be an English speaker or proficient in reading and writing in English</p></li></ul><p>&#xa0;</p><p>Nice to Have:</p><ul><li><p>Basic video editing (Premiere Pro or similar)</p></li><li><p>Familiarity with Figma or UI-related work</p></li><li><p>Interest in AI tools, motion trends, and new formats</p></li><li><p>Understanding of branding and visual identity systems</p></li></ul><p>You Are:</p><ul><li>Visually sharp, curious, and slightly obsessed with good design</li><li>Organized enough to handle pressure, flexible enough to pivot fast</li><li>Not waiting to be told what to do — you see gaps and fill them</li><li>Calm under deadlines, allergic to mediocrity<br>\n&#xa0;</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000147169459",
+    "name": "Social Media Manager",
+    "uuid": "8de67311-4d6e-40db-8341-e97dd4635be6",
+    "jobAdId": "df0d9a99-09b6-48eb-ad11-9304a11dd1c7",
+    "defaultJobAd": true,
+    "refNumber": "REF249D",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-09-03T07:34:12.095Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "advertising",
+      "label": "Advertising"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000147169459",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Company Description</p><p>At&#xa0;<em>Ethos</em>, we’re looking for someone like you to join our family. We are searching for a passionate and innovative&#xa0;<strong>Social Media Manager</strong>&#xa0;to join our team. Your main role will be to plan, execute, and manage the social media strategy for our amazing clients. You’ll work with a creative team that supports your vision to craft outstanding content that boosts brand awareness.</p><p><strong>تحس أنك مبدع، وتمتلك عقليه استراتيجيه تحب التخطيط والابتكار؟</strong></p><p><strong>أجل مكانك عندنا لأننا في إِثوس ندور عليك ونبيك تكون جزء من عائلتنا لأننا نبحث عن مدير وسائل التواصل الاجتماعي يمتلك الشغف والابتكار للانضمام إلى فريقنا. ومهمتك الرئيسة بتكون التخطيط والتنفيذ وإدارة استراتيجية وسائل التواصل الاجتماعي لعملائنا الرهيبين، وراح تشتغل مع فريق مبدع بيساعدك في تنفيذ رؤيتك وإنشاء محتوى رهيب يزيد من الوعي بالعلامة التجارية.</strong><br>\n&#xa0;</p><ul><li><p>Develop, implement, and manage social media strategies for our clients.</p></li><li><p>Define and achieve key performance indicators (KPIs) for social media.</p></li><li><p>Prepare, manage, and monitor social content plans and calendars.</p></li><li><p>Plan and execute creative photoshoot and short video ideas in collaboration with editors.</p></li><li><p>Participate in campaign ideation, execution, and performance analysis across social platforms.</p></li><li><p>Stay up to date with the latest best practices and trends in social media.</p></li><li><p>Utilize social media tools like Amplify, Talkwalker, and others.</p></li><li><p>Collaborate with the customer service team, social media team, and creative team to ensure innovative and engaging content plans.</p></li><li><p>Monitor user engagement and suggest content improvements.</p></li><li><p>Hire and/or train new members of the social media team.</p></li><li><p>Provide constructive feedback on social media plans and campaigns.</p></li></ul><p>&#xa0;</p><p><strong>المهام المطلوبة منك:</strong></p><p><strong>●&#xa0; تطوير وتنفيذ وإدارة استراتيجية وسائل التواصل الاجتماعي لعملائنا.</strong></p><p><strong>●&#xa0; تحديد وتحقيق أهم مؤشرات الأداء الرئيسة لوسائل التواصل الاجتماعي.</strong></p><p><strong>●&#xa0; إعداد وإدارة ومراقبة خطط وتقاويم المحتوى الاجتماعي.</strong></p><p><strong>●&#xa0; إعداد وتنفيذ أفكار لجلسات تصوير إبداعية وفيديوهات قصيرة والعمل مع المحررين.</strong></p><p><strong>●&#xa0; المشاركة في أفكار الحملات من حيث التنفيذ، وقياس نجاح كل حملة في وسائل التواصل الاجتماعي.</strong></p><p><strong>●&#xa0; البقاء على اطلاع بأحدث الممارسات وأفضل التقنيات في مجال وسائل التواصل الاجتماعي.</strong></p><p><strong>●&#xa0; استخدام أدوات لوسائل التواصل الاجتماعي مثل Amplify و Talkwalker وغيرها.</strong></p><p><strong>●&#xa0; العمل مع فريق خدمة العملاء، فريق وسائل التواصل الاجتماعي، والفريق الإبداعي لضمان أن خطط المحتوى مبتكرة وجذابة.</strong></p><p><strong>●&#xa0; مراقبة تفاعل المستخدمين واقتراح تحسين المحتوى.</strong></p><p><strong>●&#xa0; توظيف / تدريب الآخرين في فريق وسائل التواصل الاجتماعي.</strong></p><p><strong>●&#xa0; تقديم ملاحظات بناءة حول خطط / حملات وسائل التواصل الاجتماعي.</strong></p><p><strong>&#xa0;</strong></p><p><strong>&#xa0;</strong></p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li><p>Bachelor’s degree in Marketing, Communications, or a related field.</p></li><li><p>Minimum of 2 years of experience in social media.</p></li><li><p>Comprehensive knowledge of various social media platforms.</p></li><li><p>Strong written and verbal communication skills in both Arabic and English.</p></li><li><p>Exceptional ability to create engaging and unique content.</p></li><li><p>Excellent organizational and time management skills.</p></li><li><p>Strong analytical skills to measure and enhance performance.</p></li></ul><p>&#xa0;</p><p><strong>●&#xa0; درجة بكالوريوس في التسويق، الاتصالات، أو مجال ذي صلة.</strong></p><p><strong>●&#xa0; خبرة لا تقل عن سنتين في مجال التواصل الاجتماعي.</strong></p><p><strong>●&#xa0; معرفة شاملة بمنصات التواصل الاجتماعي المختلفة.</strong></p><p><strong>●&#xa0; مهارات قوية في الاتصال الكتابي والشفهي باللغتين العربية والإنجليزية.</strong></p><p><strong>●&#xa0; قدرة مذهلة على إبداع محتوى جذاب وفريد.</strong></p><p><strong>●&#xa0; مهارات تنظيمية وقدرة على إدارة الوقت بكفاءة.</strong></p><p><strong>●&#xa0; قدرة تحليلية قوية لقياس الأداء وتحسي.</strong></p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000145980201",
+    "name": "Creative Content Lead",
+    "uuid": "ada426b7-9930-46be-bb69-c15d421cd04b",
+    "jobAdId": "707e76b8-7931-4b3a-b5d8-aa79c8aea450",
+    "defaultJobAd": true,
+    "refNumber": "REF241R",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-27T13:08:38.352Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "art_creative",
+      "label": "Art/Creative"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "director",
+      "label": "Director"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000145980201",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>We're looking for a Creative Content Lead — someone who can shape ideas, direct how they come to life, and stand in front of clients to sell the work.</p><p>You'll be the creative engine across a portfolio of clients. You'll come up with content programs, shape how they look and sound on screen, present them in the room, and own the relationships that turn briefs into bigger conversations.</p><p>What stays non-negotiable: deep cultural fluency in this market, instinct for what works on the platforms people actually use here, and strong writing in both Arabic and English.</p><p>&#xa0;</p><p><strong>What You'll Do</strong></p><p>Be the creative force Come up with original content ideas — not just execute briefs. Develop content series, hero campaigns, and platform-native programs that brands and audiences actually want to engage with. Bring fresh thinking every week.</p><p>Direct how content comes to life Shape video content from concept through to screen. Write treatments, guide directors and editors, give clear creative direction on shoots, and review cuts with a critical eye. You don't need to operate the camera — you need to know what good looks like and how to get there.</p><p>Live on the platforms Be genuinely native to social — TikTok, Instagram, Snap, X, YouTube. Know the trends, formats, sounds, and creators by instinct, not research. What you build should feel made for the platform, not adapted to it.</p><p>Read the room Stay close to local culture in real time — trends, dialect, humour, what's moving in feeds and conversations. Translate that into content that feels native, not translated.</p><p>Build and present the work Craft presentations that sell ideas — clean, sharp, visually strong, and built to convince. Present confidently to senior client stakeholders, including C-level audiences. Defend creative thinking with clarity, and adjust on the fly when the room pushes back.</p><p>Own the day-to-day Run content calendars across multiple clients. Make sure every post, script, and caption is on-brand, on-time, and on-platform. Write and edit copy yourself when it matters.<br>\n&#xa0;</p><p>Lead a small team Manage content executives and associates. Review their work, develop their skills, and give them clear direction.</p><p>Sharpen the work with insight Use social listening tools and platform analytics to inform content decisions. Build simple monthly performance frameworks. Show clients why the work is working.</p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li><p>5–8 years in content, social, or creative — agency or in-house brand experience</p></li><li><p>Strong cultural fluency in this market — you understand audiences, dialects, humour, and platforms from lived experience</p></li><li><p>Fluent in Arabic and English with strong writing in both</p></li><li><p>A portfolio that shows original creative content programs, not just executed briefs</p></li><li><p>Strong video direction instinct — treatments, shoot direction, edit feedback</p></li><li><p>Genuinely native to social platforms — your personal feed proves it</p></li><li><p>Confident presenter, with experience building decks that sell ideas and presenting to senior clients (C-level a plus)</p></li><li><p>Comfortable being a primary client-facing day-to-day contact</p></li><li><p>Experience managing at least 2–3 people, with appetite to lead more</p></li><li><p>Comfort with social listening tools (Brandwatch, Sprinklr, Talkwalker) and platform analytics</p></li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000144472624",
+    "name": "Copywriter",
+    "uuid": "c7f745b8-5717-48c9-bf47-75cb43edd64d",
+    "jobAdId": "e3792d1f-19c2-4399-99e3-cd6989039485",
+    "defaultJobAd": true,
+    "refNumber": "REF248Z",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-20T07:19:06.059Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "writing_editing",
+      "label": "Writing/Editing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000144472624",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Key Responsibilities:&#xa0;</p><ul><li>Develop clear, engaging, and original Arabic and English content for social media, digital campaigns, websites, presentations, scripts, and other marketing materials.</li><li>Translate client briefs and communication strategies into creative concepts and compelling copy aligned with each brand’s tone of voice.</li><li>Work closely with the Creative Content Lead, designers, account managers, and strategy teams to deliver high-quality work within agency deadlines.</li><li>Review, edit, and proofread content to ensure accuracy, consistency, and quality.</li><li>Respond effectively to feedback and manage revisions while handling multiple client accounts and priorities.</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>Required Qualifications/Experience:</p><ul><li>Bachelor’s degree in Marketing, Communications, English, Arabic, Media, or a related field.</li><li>Minimum 3–5 years of copywriting or creative content experience, preferably within a creative, advertising, or digital agency.</li><li>Strong professional writing and editing skills in both Arabic and English.</li><li>Proven experience developing content for major brands and working across different industries.</li><li>A strong portfolio demonstrating campaign concepts, social media content, and bilingual copywriting is required.</li></ul><p>&#xa0;</p><p>Preferred Skills:&#xa0;</p><ul><li>Strong creative thinking, conceptual writing, storytelling, and campaign ideation skills.</li><li>Excellent understanding of Saudi audiences, local culture, and digital communication trends.</li><li>Ability to interpret briefs accurately, follow brand guidelines and tone of voice, manage several tasks simultaneously, and deliver high-quality work under tight deadlines.</li><li>Experience in scriptwriting, content strategy, presentations, and the use of AI tools within creative workflows is preferred.</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000143241839",
+    "name": "Account Executive",
+    "uuid": "a4ac45a5-0c80-4032-92cd-16374c9975c4",
+    "jobAdId": "de028224-8105-4581-82f5-c95b11f95817",
+    "defaultJobAd": true,
+    "refNumber": "REF245K",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-13T07:09:29.405Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "marketing",
+      "label": "Marketing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "associate",
+      "label": "Associate"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000143241839",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>ROLE PURPOSE</p><p>The Account Executive is the engine room of the account team. You keep work moving accurately and on time — briefs written, approvals chased, timelines held, documentation clean. You are the team's most reliable pair of hands, and you learn the client's business by living in the day-to-day detail of it.</p><p>Scope boundary: You support and execute. You do not own client strategy, budgets, or commercial negotiation — those sit with the Account Manager and above. You escalate early rather than absorb risk.</p><p>&#xa0;</p><p>1. RESPONSIBILITIES</p><p>1.1 BUSINESS MANAGEMENT</p><ul><li><p>Maintains accurate, up-to-date account documentation: status reports, contact reports, WIP trackers, approval logs.</p></li><li><p>Builds working knowledge of the client's brand, products, category, and campaign calendar.</p></li><li><p>Keeps internal teams informed of changes to briefs, timings, and deliverables.</p></li><li><p>Flags risks to timeline, budget, or quality to the Account Manager as soon as they appear.</p></li><li><p>Learns and applies agency process consistently; suggests small improvements where steps are repetitive or error-prone.</p></li></ul><p>1.2 CLIENT RELATIONSHIP SUPPORT</p><p>&#xa0;</p><ul><li><p>Acts as a day-to-day contact for routine client requests, responding promptly and professionally.</p></li><li><p>&#xa0;</p></li><li><p>Attends client meetings, takes clear notes, and circulates accurate contact reports within agreed turnaround.</p></li><li><p>Communicates in a way that reflects well on the agency: clear, courteous, and never defensive.</p></li><li><p>1.3 STRATEGIC SUPPORT</p></li><li><p>Gathers inputs that feed strategic work: competitor activity, category trends, platform updates, cultural moments.</p></li><li><p>Assembles background research, reference decks, and case studies for briefs and pitches.</p></li><li><p>Contributes ideas in brainstorms and internal reviews; is expected to have a point of view, not just take notes.</p></li><li><p>Builds familiarity with the client's audience, brand guidelines, and tone of voice.</p></li><li>&#xa0;</li><li><p>Builds rapport with junior and mid-level client contacts.</p></li><li><p>Escalates anything commercial, contentious, or strategic to the Account Manager rather than answering it alone.</p></li><li><p>&#xa0;</p><p>1.4 SOLUTION DEVELOPMENT &amp; EXECUTION</p></li><li><p>Drafts and circulates clear internal briefs; confirms all inputs are present before work starts.</p></li><li><p>Traffics work through creative, content, production, and media teams; chases feedback and approvals.</p></li><li><p>1.5 FINANCIAL ADMINISTRATION</p></li><li><p>Prepares draft estimates and cost sheets for Account Manager approval.</p></li><li><p>Raises and tracks purchase orders; chases supplier invoices and documentation.</p></li><li><p>Keeps job numbers, budgets trackers, and billing records accurate and current.</p></li><li><p>Completes timesheets accurately and on time.</p></li><li><p>Never commits the agency to costs or scope without Account Manager sign-off.</p></li><li>&#xa0;</li><li><p>Manages day-to-day production support: call sheets, scheduling, asset collection, versioning, file naming, delivery.</p></li><li><p>Ensures final assets meet platform specs, brand guidelines, and regulatory or legal requirements before delivery.</p></li><li><p>Maintains version control and a clean asset archive.</p></li><li><p>Pulls performance data from Emplifi, Talkwalker, Social Insider, and native platform analytics into agreed reporting templates.</p></li><li><p>Prepares first-draft performance reports for Account Manager review; over time, begins drafting observations, not just numbers.</p></li><li><p>Monitors live campaigns and flags anomalies (delivery issues, comment surges, errors) immediately.</p></li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>2. SUCCESS CRITERIA</p><p>ACCURACY: Your work is right the first time. Reports, briefs, specs, and figures can be trusted without re-checking.</p><p>RELIABILITY: Deadlines are met. Nothing is dropped. When something is at risk, the team hears it from you early.</p><p>PROACTIVITY: You anticipate the next step rather than waiting to be asked. You come with a suggested solution, not only a problem.</p><p>CURIOSITY: You ask questions, learn the client's business, and stay current on platforms, formats, and trends.</p><p>COLLABORATION: Creative, production, and media colleagues find you organised, clear, and easy to work with.</p><p>COMPOSURE: You stay calm and professional under deadline pressure and handle feedback without becoming defensive.</p><p>&#xa0;</p><p>3. EXPERIENCE &amp; REQUIREMENTS</p><ul><li><p>Bachelor's degree in marketing, communications, business, or a related field.</p></li><li><p>0–3 years' experience in an agency, marketing, or communications environment; internships count.</p></li><li><p>Strong written and verbal English; Arabic strongly preferred.</p></li><li><p>Confident with PowerPoint/Keynote and Excel/Sheets; comfortable learning reporting and project-management tools.</p></li><li><p>Working knowledge of social platforms as a marketer, not only as a user.</p></li><li><p>Highly organised, detail-oriented, and comfortable managing multiple deadlines.</p></li></ul><p>&#xa0;</p><p>4. PROGRESSION</p><p>Readiness for Account Manager is demonstrated by:</p><ul><li><p>Running day-to-day on a workstream with minimal supervision.</p></li><li><p>Interpreting performance data rather than only reporting it.</p></li><li><p>Client contacts approaching you directly and trusting your answers.</p></li><li><p>Drafting estimates and timelines that need little correction.</p></li><li><p>Briefing creative teams well enough that work comes back on strategy.</p></li></ul><p>&#xa0;</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000141698429",
+    "name": "Account Manager",
+    "uuid": "c21d68e5-d1fa-422f-bf3e-0b55667951ad",
+    "jobAdId": "67555305-fda7-4cb6-92f0-ad556da536f4",
+    "defaultJobAd": true,
+    "refNumber": "REF244W",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-08-05T11:33:20.225Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "marketing",
+      "label": "Marketing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000141698429",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>1 &#xa0; RESPONSIBILITIES</p><p>1.1&#xa0; BUSINESS MANAGEMENT</p><ul><li><p>Passionately defends, grows and manages client(s).</p></li><li><p>Responsible for business leadership and marketing plan content development and for leading the agency through understanding of client marketing and business context.</p></li><li><p>Develops important new methodologies and work practices that improve the agency’s – and clients’ -- performance and profitability.</p></li><li><p>Recruits talent that raises the bar on creativity and quality.</p></li><li><p>Provides inspiring team training and thoughtful input on career roadmaps.</p></li><li><p>Allocates resources creatively, balancing client needs with profitability.</p></li></ul><p>&#xa0;</p><p>1.2&#xa0; CLIENT RELATIONSHIP LEADERSHIP</p><p>&#xa0;</p><ul><li><p>Ensures the agency operates on a solid foundation by building strong, impenetrable executive client relationships through business and marketing acumen.</p></li><li><p>Possesses a superior understanding of clients’ business issues, marketing, industry, competitors, and brands.</p></li><li><p>Uses these insights to help clients to articulate their needs, and the agency to propose groundbreaking solutions.</p></li><li><p>Communicates powerfully, is credible and engenders trust with executive clients.</p></li><li><p>Easily builds rapport with others.</p></li><li><p>Is constantly attuned to the evolving needs of the client.</p></li><li><p>Is trusted to lead on behalf of clients and is viewed as an exceptional leader by agency colleagues.</p></li><li><p>Resolves conflict easily and quickly, reducing organization and interpersonal issues.</p></li><li><p>Is deeply engaged in development of the account team and other department teams.<br>\n<br>\n&#xa0;</p><p>1.3&#xa0; STRATEGIC DEVELOPMENT</p></li><li><p>Lead all marketing aspects of plan development and partner with strategic leadership to create innovative ways to impact client business results in all disciplines.</p></li><li><p>Act as your client’s investment manager and treat their budgets as if they are your own, looking for marketing effectiveness and efficiencies at every turn.</p></li><li><p>1.4&#xa0; SOLUTION DEVELOPMENT &amp; EXECUTION</p></li><li><p>Oversees and manages campaign development stages to ensure the work meets client expectations and further development opportunities are realized through the process.</p></li><li><p>Ads critical insights during major creative concept reviews and provides direction on how to ‘expand’ the brief and solution for further development.</p></li><li><p>Attends creative presentations on major campaigns, and plays a major role in selling the work.</p></li><li><p>Showcases the performance of the work through the client organization to provide future development opportunities.</p></li><li><p>Demonstrates a deep understanding of social media platforms, trends, and content formats.</p></li><li><p>Oversees the end-to-end planning and execution of video production/content projects, including brief development, production timelines, and creative approvals.</p></li><li><p>Collaborates with creative, media, and production teams to ensure on-brand, engaging, and timely social content delivery.</p></li><li><p>Utilizes social listening tools (Talk Walker, Emplifi, Social Insider) and platform analytics to gather insights, monitor performance, and optimize content strategies.</p></li><li><p>&#xa0;</p><p>1.5&#xa0; FINANCIAL MANAGEMENT</p></li><li><p>Consistently delivers on revenue and margin targets.</p></li><li><p>Identifies organic growth opportunities and leads development plans.</p></li><li><p>Closely monitors and improves the financial health of account(s).</p></li><li><p>Considers all financial implications of business decisions, and chooses solutions that grow the agency’s bottom line. Leads with Admin contractual relationships and fee negotiations, and monitors contract compliance.</p></li><li>&#xa0;</li><li><p>Prepares and presents actionable performance reports and campaign learnings to clients and internal stakeholders.</p></li><li>&#xa0;</li><li><p>Persuasively drives new client recommendations.</p></li><li><p>Sells important work to key accounts and executives.</p></li><li><p>Understands the role of new media, digital and technology platforms within the clients marketing mix. Inspires clients and agency to new platform solutions.</p></li><li><p>Continually inspires teams to generate new ideas and evolve existing programs.</p></li><li><p>Constantly consulted by other team members for problem solving and your personal point of view.&#xa0;</p></li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>2 &#xa0; SUCCESS CRITERIA:</p><ul><li><p>CLIENT PARTNERSHIP: You engage in strategic conversations at the highest level of Client organisations and are recognised as a ‘trusted advisor’ You have a point-of-view and your clients rely on you to make decisions. It is imperative that a relationship be built with the client’s senior team.</p></li><li><p>INNOVATIVE: you understand and get to the heart of a problem. By challenging assumptions and digging deep you come up with innovative options, and encourage and stimulate innovative thinking.</p></li><li><p>RESULTS-FOCUSED: You are analytical and have strong financial and commercial acumen together with an ability to negotiate optimal “win-win” terms of business. You work with your strategy and analytics partners to continually drive insights about your clients’ business.</p></li></ul><p>&#xa0;</p><ul><li><p>LEADERSHIP: You are the quarterback. You solicit the involvement of key people in advance to build ownership. You’re able to lead department heads and win the confidence and respect of senior agency leadership. You employ multiple approaches to enlist key stakeholders to build broad support for an idea.</p></li><li><p>SOLUTION-FINDER: You’re an entrepreneur who takes calculated risks to anticipate and act on opportunities that lead to significant gains for Ethos and the client. You surface and solve problems quickly.</p></li><li><p>CONSULTATIVE: You understand the value approach of building a successful client partnership. You listen and question effectively to identify real client needs. You build solutions around the client; your operating style is ‘help’ not ‘sell’.</p></li></ul><p>&#xa0;</p><p>&#xa0;</p><p>3 &#xa0; Performance Appraisal</p><p>Your performance in this role will be assessed by management, your client(s) and your team(s) in the following areas:</p><ul><li><p>CLIENT VALUE: Your clients view you a trusted, strategic partner that consistently delivers business results.</p></li><li><p>BUSINESS GROWTH: Captures larger share of client marketing budgets (revenue).</p></li><li><p>EFFICIENCY: Always finding ways to simplify the complex (process &amp; profitability).</p></li><li><p>INNOVATION: Bringing new and different solutions to the table.</p></li><li><p>COLLABORATION: You and your teams work effectively together and with clients.</p></li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000137421119",
+    "name": "Digital Business Development Manager",
+    "uuid": "c4046c3e-1017-4fd0-9bd6-c2d0f7182049",
+    "jobAdId": "148f9d9c-2fd6-4e7c-9683-113fbbf118d2",
+    "defaultJobAd": true,
+    "refNumber": "REF242K",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-07-13T10:28:04.290Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "marketing",
+      "label": "Marketing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000137421119",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Location: Riyadh, on-site with travel across KSA and occasional travel to Dubai.</strong><br>\n<strong>The Role</strong></p><p>This is a hunting role. You will own net-new client acquisition for Ethos's digital services in Saudi Arabia — identifying, pursuing, and closing new enterprise logos. You are not inheriting a book of accounts to manage; you are building a pipeline from the market and from our technology partner ecosystem.</p><p>&#xa0;</p><p>Primary focus is digital: digital transformation consulting, CX strategy and implementation, marketing technology (martech) deployments, performance and lifecycle marketing. Social media management is a secondary line you can sell where it opens or rounds out an engagement — it is not the lead offer.</p><p><strong>What You Will Do</strong></p><p>New logo acquisition (core mandate)</p><p>&#xa0;</p><ul><li><p>Build and own a qualified pipeline of net-new enterprise and large mid-market prospects in KSA</p></li><li><p>Lead the full cycle: outreach, discovery, solution shaping with our strategy and delivery leads, proposal, commercial negotiation, close</p></li><li><p>Land engagements anchored in digital/CX services, with social as a complementary line where relevant</p></li><li><p>Represent Ethos at industry events, client forums, and partner activations in Riyadh and across the Kingdom</p></li></ul><p>Partner-channel development</p><p>&#xa0;</p><ul><li><p>Build working relationships with partner and alliance managers at Adobe, Salesforce, IBM, and Acquia in KSA/UAE</p></li><li><p>Drive deal registration, co-sell motions, and referral flow from the partner ecosystem into Ethos pipeline</p></li><li><p>Position Ethos as the go-to regional implementation and strategy partner for these platforms</p></li></ul><p><br>\n&#xa0;</p><p>Pipeline discipline</p><p>&#xa0;</p><ul><li><p>Maintain accurate CRM records: pipeline stages, value, probability, next actions</p></li><li><p>Report weekly on pipeline movement and monthly on progress against target</p></li><li><p>Work with the Beirut production team for prospect research, proposals, and pitch materials — your job is to be in front of clients, not behind a deck</p></li></ul><p>&#xa0;</p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p><strong>What You Bring</strong></p><ul><li><p>6–10 years in business development or client acquisition for a digital agency, consultancy, or martech/SaaS vendor — with a demonstrable record of closing net-new enterprise logos in Saudi Arabia</p></li><li><p>An active network among marketing, digital, and CX decision-makers in KSA enterprises and/or the government-linked sector</p></li><li><p>Working knowledge of the enterprise martech landscape (Adobe Experience Cloud, Salesforce Marketing Cloud, or comparable platforms) — enough to sell credibly alongside technical colleagues</p></li><li><p>Comfort selling consultative, multi-stakeholder engagements with 3–9 month cycles, not transactional media buys</p></li><li><p>Fluent Arabic and English; polished in formal Saudi business settings</p></li><li><p>Based in Riyadh or willing to relocate; valid ability to work in KSA (transferable Iqama or eligibility for sponsorship)</p></li></ul><p>&#xa0;</p><p><strong>Nice to have</strong></p><p>&#xa0;</p><ul><li><p>Existing relationships with platform partner/alliance managers in the region</p></li><li><p>Experience selling CX or digital transformation programs to automotive, energy, BFSI, or F&amp;B/QSR sectors</p></li><li><p>Prior agency-side experience (understands how delivery economics shape deal structuring)</p></li></ul><p><strong>Success Looks Like</strong></p><ul><li><p>A qualified pipeline built within the first 90 days</p></li><li><p>First net-new logo closed within 6 months</p></li><li><p>An agreed annual new-business revenue target (set at offer stage), weighted toward digital/CX retainer and program work over one-off projects</p></li><li><p>Active co-sell motion running with at least two enterprise technology partners by month 6</p></li></ul><p><strong>Compensation</strong></p><p>Competitive base salary plus uncapped new-business commission, weighted toward recurring/retainer engagements. Package details discussed at the offer stage.</p><p>&#xa0;</p><p>Reports to: Managing Director.</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000121129767",
+    "name": "Senior Arabic Copywriter ",
+    "uuid": "3059daf7-239b-49a1-84e0-d57f71a517b5",
+    "jobAdId": "ad593292-712a-40e6-ba6d-b9f7f217d2de",
+    "defaultJobAd": true,
+    "refNumber": "REF237C",
+    "company": {
+      "identifier": "EthosInteractive",
+      "name": "Ethos Interactive"
+    },
+    "releasedDate": "2026-04-16T08:03:02.366Z",
+    "location": {
+      "city": "Riyadh",
+      "region": "Riyadh Province",
+      "country": "sa",
+      "address": "Olaya Street",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.7487261",
+      "longitude": "46.6574478",
+      "fullLocation": "Riyadh, Riyadh Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "marketing_and_advertising",
+      "label": "Marketing And Advertising"
+    },
+    "department": {},
+    "function": {
+      "id": "writing_editing",
+      "label": "Writing/Editing"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e4f0e4b0885c92cd99ae",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Ethos Interactive"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EthosInteractive/postings/744000121129767",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>We are <strong>Ethos, </strong>the fastest growing digital communication group in MENA. We think big and&#xa0;we make big ideas come to life. We are crazy about the digital world and we aim high. We are looking for talented and valued people with interesting and provocative ideas, along with bold and diverse perspectives. Our culture is all about the thriving young team of us in 4 offices around MENA, while we boldly help impact the success of&#xa0; leading brands like McDonald's, General Motors, and American Express.</p><p>&#xa0;</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>We are looking for a Senior Arabic Copywriter with strong agency experience and a sharp creative mind to join our team in Saudi Arabia. This role requires someone who understands brands, culture, and how to turn strategy into impactful Arabic communication across campaigns, content, and integrated platforms.</p><p>What You’ll Do:</p><ul><li><p>Lead Arabic copy development across campaigns, social, digital, film, radio, and integrated brand work</p></li><li><p>Turn briefs into strong concepts, big ideas, scripts, taglines, and impactful communication platforms</p></li><li><p>Collaborate with Creative Directors, Art Directors, Strategists, and Account teams from brief to delivery</p></li><li><p>Guide and mentor junior writers while raising overall creative standards</p></li><li><p>Present ideas confidently internally and to clients when needed</p></li><li><p>Oversee copy during production stages, including shoots, voiceovers, edits, and final assets</p></li><li><p>Ensure consistency in tone of voice across multiple brands and categories</p></li><li><p>Contribute strategic thinking during brainstorms, pitches, and new business opportunities</p></li></ul><p>&#xa0;</p><p>نبحث عن كاتب محتوى عربي أول يتمتع بخبرة قوية في العمل ضمن الوكالات وعقل إبداعي حاد، للانضمام إلى فريقنا في المملكة العربية السعودية. يتطلب هذا الدور شخصًا يفهم العلامات التجارية والثقافة، ويستطيع تحويل الاستراتيجيات إلى تواصل عربي مؤثر عبر الحملات والمحتوى والمنصات المتكاملة.</p><p><strong>المهام والمسؤوليات:</strong></p><ul><li>قيادة تطوير المحتوى العربي عبر الحملات، ووسائل التواصل الاجتماعي، والمنصات الرقمية، والأفلام، والإذاعة، والأعمال الإعلانية المتكاملة</li><li>تحويل موجزات العمل (Briefs) إلى أفكار قوية، ومفاهيم إبداعية، ونصوص، وشعارات، ومنصات تواصل مؤثرة</li><li>التعاون مع المديرين الإبداعيين، ومديري الفن، والاستراتيجيين، وفرق إدارة الحسابات من مرحلة الفكرة حتى التنفيذ</li><li>توجيه وتدريب الكتّاب المبتدئين والمساهمة في رفع مستوى الإبداع العام</li><li>عرض الأفكار بثقة داخليًا وأمام العملاء عند الحاجة</li><li>الإشراف على المحتوى خلال مراحل الإنتاج، بما في ذلك التصوير، والتعليق الصوتي، والمونتاج، والمخرجات النهائية</li><li>ضمان الاتساق في نبرة العلامة التجارية عبر عدة مشاريع وقطاعات</li><li>المساهمة في التفكير الاستراتيجي خلال جلسات العصف الذهني، والعروض التقديمية، وفرص تطوير الأعمال الجديدة</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p>What You Bring:</p><ul><li><p>4+ years of experience as a copywriter, with solid experience in creative or advertising agencies</p></li><li><p>Based in Saudi Arabia or able to work within the Saudi market</p></li><li><p>Native-level Arabic writing skills with excellent command of Saudi dialects and modern standard Arabic</p></li><li><p>Strong portfolio showcasing campaign thinking, social content, scripts, and big ideas</p></li><li><p>Ability to write for multiple tones: premium, retail, government, youth, corporate, etc.</p></li><li><p>Strong conceptual thinking, not just caption writing</p></li><li><p>Good English understanding for briefs and collaboration</p></li></ul><p>Preferred:</p><ul><li><p>Experience with major Saudi brands or regional clients</p></li><li><p>Experience in integrated campaigns and production shoots</p></li><li><p>Understanding of digital-first content and platform behavior</p></li><li><p>Ability to mentor junior talent</p></li></ul><p>&#xa0;</p><p><strong>المؤهلات المطلوبة:</strong></p><ul><li>خبرة لا تقل عن 4 سنوات ككاتب محتوى، مع خبرة قوية في وكالات إبداعية أو إعلانية</li><li>الإقامة في المملكة العربية السعودية أو القدرة على العمل ضمن السوق السعودي</li><li>إتقان الكتابة باللغة العربية بمستوى احترافي، مع فهم ممتاز للهجات السعودية والعربية الفصحى</li><li>ملف أعمال قوي يعكس التفكير الإبداعي في الحملات، والمحتوى الرقمي، والنصوص، والأفكار الكبيرة</li><li>القدرة على الكتابة بنبرات متعددة: فاخرة، تجارية، حكومية، شبابية، مؤسسية، وغيرها</li><li>مهارات عالية في التفكير المفاهيمي، وليس فقط كتابة النصوص القصيرة (Captions)</li><li>فهم جيد للغة الإنجليزية للتعامل مع موجزات العمل والتعاون مع الفرق</li></ul><p><strong>يفضّل:</strong></p><ul><li>خبرة في العمل مع علامات تجارية سعودية كبرى أو عملاء إقليميين</li><li>خبرة في الحملات المتكاملة وعمليات الإنتاج والتصوير</li><li>فهم قوي لطبيعة المحتوى الرقمي وسلوك المنصات</li><li>القدرة على توجيه وتدريب الكفاءات المبتدئة</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  }
+]

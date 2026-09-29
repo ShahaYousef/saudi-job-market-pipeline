@@ -1,0 +1,172 @@
+keyword,job_category,priority
+data analyst,Data & Analytics,9
+data scientist,Data & Analytics,9
+data engineer,Data & Analytics,9
+business intelligence,Data & Analytics,9
+bi developer,Data & Analytics,9
+bi analyst,Data & Analytics,9
+data analytics,Data & Analytics,9
+machine learning,Data & Analytics,9
+analytics,Data & Analytics,10
+software engineer,IT & Software,19
+software developer,IT & Software,19
+developer,IT & Software,20
+programmer,IT & Software,20
+devops,IT & Software,20
+cloud engineer,IT & Software,19
+cybersecurity,IT & Software,20
+cyber security,IT & Software,19
+information security,IT & Software,19
+network engineer,IT & Software,19
+it support,IT & Software,19
+it specialist,IT & Software,19
+system administrator,IT & Software,19
+systems engineer,IT & Software,19
+full stack,IT & Software,19
+frontend,IT & Software,20
+backend,IT & Software,20
+qa engineer,IT & Software,19
+solution architect,IT & Software,19
+erp,IT & Software,20
+sap,IT & Software,20
+nurse,Healthcare,30
+nursing,Healthcare,30
+physician,Healthcare,30
+doctor,Healthcare,30
+pharmacist,Healthcare,30
+dentist,Healthcare,30
+medical,Healthcare,30
+clinical,Healthcare,30
+physiotherapist,Healthcare,30
+radiographer,Healthcare,30
+laboratory,Healthcare,30
+healthcare,Healthcare,30
+chef,Hospitality & Food,30
+cook,Hospitality & Food,30
+waiter,Hospitality & Food,30
+waitress,Hospitality & Food,30
+barista,Hospitality & Food,30
+housekeeping,Hospitality & Food,30
+front office,Hospitality & Food,29
+guest,Hospitality & Food,30
+hotel,Hospitality & Food,30
+restaurant,Hospitality & Food,30
+f b,Hospitality & Food,29
+food and beverage,Hospitality & Food,29
+bartender,Hospitality & Food,30
+steward,Hospitality & Food,30
+teacher,Education & Training,30
+lecturer,Education & Training,30
+instructor,Education & Training,30
+tutor,Education & Training,30
+trainer,Education & Training,30
+professor,Education & Training,30
+education,Education & Training,30
+recruiter,HR & Recruitment,30
+talent acquisition,HR & Recruitment,29
+human resources,HR & Recruitment,29
+hr,HR & Recruitment,30
+payroll,HR & Recruitment,30
+recruitment,HR & Recruitment,30
+accountant,Finance & Accounting,30
+accounting,Finance & Accounting,30
+finance,Finance & Accounting,30
+financial,Finance & Accounting,30
+auditor,Finance & Accounting,30
+audit,Finance & Accounting,30
+treasury,Finance & Accounting,30
+tax,Finance & Accounting,30
+controller,Finance & Accounting,30
+cashier,Finance & Accounting,30
+credit,Finance & Accounting,30
+marketing,Marketing,30
+brand,Marketing,30
+social media,Marketing,29
+content,Marketing,30
+seo,Marketing,30
+digital marketing,Marketing,29
+communications,Marketing,30
+public relations,Marketing,29
+sales,Sales & Business Development,40
+business development,Sales & Business Development,39
+account manager,Sales & Business Development,39
+account executive,Sales & Business Development,39
+key account,Sales & Business Development,39
+merchandiser,Sales & Business Development,40
+retail,Sales & Business Development,40
+customer service,Customer Service,39
+customer support,Customer Service,39
+call center,Customer Service,39
+customer experience,Customer Service,39
+receptionist,Customer Service,40
+designer,Design & Creative,40
+graphic,Design & Creative,40
+ui ux,Design & Creative,39
+ux,Design & Creative,40
+architect,Design & Creative,40
+interior,Design & Creative,40
+legal,Legal,40
+lawyer,Legal,40
+counsel,Legal,40
+compliance,Legal,40
+paralegal,Legal,40
+electrician,Construction & Trades,50
+technician,Construction & Trades,50
+welder,Construction & Trades,50
+foreman,Construction & Trades,50
+plumber,Construction & Trades,50
+mechanic,Construction & Trades,50
+hvac,Construction & Trades,50
+site supervisor,Construction & Trades,49
+surveyor,Construction & Trades,50
+scaffolder,Construction & Trades,50
+carpenter,Construction & Trades,50
+operator,Construction & Trades,50
+driver,Construction & Trades,50
+inspector,Construction & Trades,50
+qa qc,Construction & Trades,49
+qc,Construction & Trades,50
+safety officer,Construction & Trades,49
+hse,Construction & Trades,50
+engineer,Engineering,60
+engineering,Engineering,60
+operations,Operations & Supply Chain,60
+logistics,Operations & Supply Chain,60
+supply chain,Operations & Supply Chain,59
+procurement,Operations & Supply Chain,60
+warehouse,Operations & Supply Chain,60
+purchasing,Operations & Supply Chain,60
+fleet,Operations & Supply Chain,60
+planner,Operations & Supply Chain,60
+inventory,Operations & Supply Chain,60
+administrative,Administration,70
+admin,Administration,70
+secretary,Administration,70
+office manager,Administration,69
+coordinator,Administration,70
+assistant,Administration,70
+clerk,Administration,70
+data entry,Administration,69
+manager,Management,80
+director,Management,80
+head of,Management,79
+general manager,Management,79
+ceo,Management,80
+chief,Management,80
+business analyst,Consulting & Strategy,29
+consultant,Consulting & Strategy,45
+advisor,Consulting & Strategy,45
+strategy,Consulting & Strategy,45
+governance,Consulting & Strategy,45
+analyst,Data & Analytics,55
+it,IT & Software,25
+spa,Hospitality & Food,30
+attendant,Hospitality & Food,30
+therapist,Healthcare,30
+maintenance,Construction & Trades,50
+health and safety,Construction & Trades,49
+safety,Construction & Trades,50
+environmental,Construction & Trades,50
+quality,Operations & Supply Chain,60
+planning,Operations & Supply Chain,60
+training,Education & Training,31

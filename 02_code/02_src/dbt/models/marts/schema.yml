@@ -1,0 +1,453 @@
+# dbt/models/marts/schema.yml
+# Star schema (data_model.md): fct_jobs, 8 dimensions, and bridge_job_skill.
+version: 2
+
+models:
+  - name: fct_jobs
+    description: >
+      The fact table. Grain: one job = one job advertisement in one Saudi location, after the
+      listings of the same job on several sources have been merged. Accumulating snapshot with six
+      date roles (posted, first seen, last seen, opening, open until, disappeared).
+      Jobs = SUM(job_count); postings = COUNT(DISTINCT posting_sk); listings = SUM(listing_count).
+      data_model.md, sections 4 and 7.1.
+    data_tests:
+      # the grain: one row per posting and location
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: ['posting_sk', 'location_sk']
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_date_sk <= last_seen_date_sk"
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "open_until_date_sk >= first_seen_date_sk"
+      # a disappeared date exactly for disappeared jobs; an opening date only on the first seen date
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "iff(lifecycle_status = 'disappeared', disappeared_date_sk <> -1, disappeared_date_sk = -1)"
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "opening_date_sk = -1 or opening_date_sk = first_seen_date_sk"
+      # lifecycle is claimed only where an employer board gives evidence for it
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "iff(status_basis = 'employer board', lifecycle_status <> 'unknown', lifecycle_status = 'unknown')"
+    columns:
+      - name: job_sk
+        description: "Key of the job: source_record_sk of its earliest-seen listing."
+        data_tests:
+          - unique
+          - not_null
+      - name: posting_sk
+        description: "Posting of the representative listing. Count postings with COUNT(DISTINCT posting_sk)."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_job_posting')
+                field: posting_sk
+      - name: company_sk
+        description: "Company; '-1' when the name is missing or a placeholder such as Private Company."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_company')
+                field: company_sk
+      - name: location_sk
+        description: "Location at the most precise level the source gave (city, region or country)."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_location')
+                field: location_sk
+      - name: role_sk
+        description: "Job category and role family; '-1' when the title has no matching key."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_role')
+                field: role_sk
+      - name: job_attributes_sk
+        description: "Employment type, workplace type, remote status, experience level and its basis; '-1' when all four are Unknown."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_job_attributes')
+                field: job_attributes_sk
+      - name: primary_source_sk
+        description: "Source of the representative listing (highest source_priority)."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_source')
+                field: source_sk
+      - name: posting_date_sk
+        description: "Role: posted. Earliest employer-board posting date, else the earliest of any listing; -1 when none has one."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_sk
+      - name: first_seen_date_sk
+        description: "Role: first seen. First seen date (Asia/Riyadh) across the job's listings."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_sk
+      - name: last_seen_date_sk
+        description: "Role: last seen. Last seen date (Asia/Riyadh) across the job's listings."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_sk
+      - name: opening_date_sk
+        description: "Role: opening. First seen date of a new opening (an employer-board job not seen in any baseline pull); -1 otherwise. Q7."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_sk
+      - name: open_until_date_sk
+        description: "Role: open until. Last day the job counts as open: the day before it disappeared, else its latest evidence plus the recent window, never after the latest successful pull."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_sk
+      - name: disappeared_date_sk
+        description: "Role: disappeared. Date of the first successful pull of its board that no longer listed it; -1 unless lifecycle_status is disappeared. Q8."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_date')
+                field: date_sk
+      - name: lifecycle_status
+        description: "open (an employer-board listing is still on its board), disappeared (every employer-board listing disappeared), or unknown (aggregator-only job)."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['open', 'disappeared', 'unknown']
+      - name: status_basis
+        description: "'employer board' when the job has an ATS listing, else 'aggregator query'."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['employer board', 'aggregator query']
+      - name: is_baseline
+        description: "True when any listing of the job was seen in the baseline pull of its board or source."
+        data_tests:
+          - not_null
+      - name: is_censored
+        description: "True when the job has not disappeared, so its duration is not complete."
+        data_tests:
+          - not_null
+      - name: match_tier
+        description: "single, exact or fuzzy: how the job's listings were merged."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['single', 'exact', 'fuzzy']
+      - name: job_count
+        description: "1 per row: one job. Additive."
+      - name: listing_count
+        description: "Listings merged into the job; 1 when nothing was merged. Additive."
+      - name: listing_count_workable
+        description: "Listings from workable. The six per-source counts add up to listing_count."
+      - name: listing_count_smartrecruiters
+        description: "Listings from smartrecruiters. The six per-source counts add up to listing_count."
+      - name: listing_count_ashby
+        description: "Listings from ashby. The six per-source counts add up to listing_count."
+      - name: listing_count_greenhouse
+        description: "Listings from greenhouse. The six per-source counts add up to listing_count."
+      - name: listing_count_jsearch
+        description: "Listings from jsearch. The six per-source counts add up to listing_count."
+      - name: listing_count_jooble
+        description: "Listings from jooble. The six per-source counts add up to listing_count."
+      - name: copies_landed
+        description: "Copies of the job's listings landed in RAW before within-source deduplication. Additive."
+      - name: source_count
+        description: "Distinct sources among the listings, 1 to 6. Non-additive."
+      - name: days_listed
+        description: "Disappeared jobs only: days from the posting date (else first seen) to the disappeared date. Summarise with a median, never sum."
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+      - name: days_listed_basis
+        description: "posted or first_seen: which date days_listed starts from."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['posted', 'first_seen']
+      - name: salary_text
+        description: "Salary as published, from the first listing (by source priority) that has one; the parsed fields below come from the same listing."
+      - name: salary_currency
+        description: "SAR or USD, when the salary text was parsed."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['SAR', 'USD']
+      - name: salary_period
+        description: "hour, day, week, month or year, when the salary text was parsed."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['hour', 'day', 'week', 'month', 'year']
+      - name: salary_min_amount
+        description: "Lower amount as published. Non-additive."
+      - name: salary_max_amount
+        description: "Upper amount as published (equal to the lower one for a single amount). Non-additive."
+      - name: salary_min_sar_month
+        description: "Lower amount in SAR per month; null for hour and day. Non-additive."
+      - name: salary_max_sar_month
+        description: "Upper amount in SAR per month; null for hour and day. Non-additive."
+
+  - name: bridge_job_skill
+    description: "One row per job per skill, from int_job_skills. Count jobs through it with COUNT(DISTINCT job_sk)."
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: ['job_sk', 'skill_sk']
+    columns:
+      - name: job_sk
+        description: "The job."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('fct_jobs')
+                field: job_sk
+      - name: skill_sk
+        description: "The skill."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_skill')
+                field: skill_sk
+      - name: matched_in
+        description: "'title' when a title of the job's listings names the skill, else 'description'."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['title', 'description']
+
+  - name: dim_job_posting
+    description: "One row per job posting, plus Unknown. One to many with fct_jobs: a Workable posting open in several cities has one job per city."
+    columns:
+      - name: posting_sk
+        description: "Hash of source_name and source_job_id of the representative listing."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member
+      - name: job_title
+        description: "Title as published by the representative listing."
+      - name: description_text
+        description: "Description of the posting itself (the job's representative listing): HTML entities decoded, tags removed."
+      - name: description_basis
+        description: "full; snippet when the posting is a Jooble snippet; none when the posting has no description. Q9 counts jobs whose posting is full."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['full', 'snippet', 'none']
+      - name: job_url
+        description: "Link to the posting."
+      - name: apply_url
+        description: "Link to apply, when the source gives one."
+
+  - name: dim_company
+    description: "One row per company (company_norm), plus Unknown for missing names and placeholders."
+    columns:
+      - name: company_sk
+        description: "Hash of company_norm; '-1' for Unknown (Employer not disclosed)."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member
+      - name: company_name
+        description: "Standard name from seed_company_aliases when listed there, otherwise the name of the company's highest-priority listing."
+      - name: company_norm
+        description: "Matching key: the standard name, lower-case, punctuation and legal suffixes removed."
+      - name: industry
+        description: "Most frequent industry across the company's listings (Workable and SmartRecruiters only); ties go to the higher-priority source."
+      - name: is_recruitment_agency
+        description: "From seed_company_aliases. Agencies advertise for clients, so Q3 excludes them."
+        data_tests:
+          - not_null
+
+  - name: dim_location
+    description: "One row per location used by a job. Hierarchy: country -> region -> city."
+    columns:
+      - name: location_sk
+        description: "Hash of city, region and location_level; '-1' for Unknown."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member
+      - name: city
+        description: "Standard city from seed_city_mapping; 'Unknown' on region- and country-level rows (use location_label in reports)."
+      - name: region
+        description: "One of the 13 Saudi regions; 'Unknown' on country-level rows."
+      - name: country
+        description: "'SA'."
+      - name: location_level
+        description: "Most precise level the source gave: city, region or country ('unknown' only on the -1 member)."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['city', 'region', 'country', 'unknown']
+      - name: location_label
+        description: "Display name: the city, '<region> (no city given)', or 'Saudi Arabia (no city given)'."
+        data_tests:
+          - not_null
+
+  - name: dim_role
+    description: "Two-level role hierarchy from titles: role_family -> job_category. One row per category of seed_role_families, plus Unknown."
+    columns:
+      - name: role_sk
+        description: "Hash of job_category; '-1' when the title has no matching key."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member
+      - name: job_category
+        description: "From title keywords (seed_job_categories); Other when no keyword matches."
+        data_tests:
+          - unique
+          - not_null
+      - name: role_family
+        description: "From seed_role_families; every category belongs to exactly one family."
+        data_tests:
+          - not_null
+
+  - name: dim_job_attributes
+    description: "Junk dimension: one row per observed combination of five attributes. The all-Unknown combination is the Unknown member ('-1')."
+    columns:
+      - name: job_attributes_sk
+        description: "Hash of the five attributes; '-1' when employment type, workplace type, remote status and experience level are all Unknown."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member
+      - name: employment_type
+        description: "Normalized employment type; Unknown when the source gives none."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other', 'Unknown']
+      - name: workplace_type
+        description: "Remote, Hybrid or OnSite when the source distinguishes them."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite', 'Unknown']
+      - name: remote_status
+        description: "From workplace_type first, then the source's remote flag. Hybrid is Not remote."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Not remote', 'Unknown']
+      - name: experience_level
+        description: "Closed list: the source field (seed_experience_levels), else a title rule (seed_seniority_keywords), else Unknown."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Internship', 'Entry', 'Associate', 'Mid-Senior', 'Director', 'Executive', 'Unknown']
+      - name: experience_level_basis
+        description: "source, title or unknown: where experience_level comes from."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['source', 'title', 'unknown']
+
+  - name: dim_skill
+    description: "One row per canonical skill of seed_skills, plus Unknown. Reached from fct_jobs through bridge_job_skill."
+    columns:
+      - name: skill_sk
+        description: "Hash of skill_name; '-1' for Unknown."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member
+      - name: skill_name
+        description: "Canonical skill; several keywords can name one skill."
+        data_tests:
+          - unique
+          - not_null
+      - name: skill_group
+        description: "One of 12 groups, for example Data and AI, Cloud and DevOps, Certifications."
+        data_tests:
+          - not_null
+
+  - name: dim_source
+    description: "The six sources from seed_sources. No Unknown member: every job has a known source."
+    columns:
+      - name: source_sk
+        description: "Hash of source_name."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_name
+        description: "workable, smartrecruiters, ashby, greenhouse, jsearch or jooble."
+      - name: source_type
+        description: "ATS (employer job boards) or Aggregator (query results)."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['ATS', 'Aggregator']
+      - name: collection_method
+        description: "Company board API or Query matrix API."
+      - name: source_priority
+        description: "1 to 6: the order used to choose a job's representative listing."
+
+  - name: dim_date
+    description: "Role-playing date dimension, joined by fct_jobs in six roles. From the earliest date of any role to the latest successful pull, plus -1."
+    columns:
+      - name: date_sk
+        description: "YYYYMMDD; -1 for Unknown."
+        data_tests:
+          - unique
+          - not_null
+          - has_one_unknown_member:
+              arguments:
+                unknown_value: -1
+      - name: full_date
+        description: "The calendar date (Asia/Riyadh)."
+      - name: day_of_week
+        description: "Day name."
+      - name: week_start_date
+        description: "The Sunday that starts the week (Saudi working week). The key for weekly questions (Q7, Q8)."
+      - name: month
+        description: "Month number."
+      - name: quarter
+        description: "Quarter number."
+      - name: year
+        description: "Year."
+      - name: is_weekend
+        description: "Friday or Saturday."

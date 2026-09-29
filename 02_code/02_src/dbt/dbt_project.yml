@@ -1,0 +1,80 @@
+# dbt/dbt_project.yml
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'job_pipeline'
+version: '1.0.0'
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'job_pipeline'
+
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+
+# Configuring models
+# Each layer is built into its own Snowflake schema (STAGING, INTERMEDIATE, MARTS), so Power BI
+# can be given access to MARTS only. Schema names are used exactly as written here; see
+# macros/generate_schema_name.sql.
+#
+# Staging is views: cheap to rebuild, always reflects the latest raw data.
+# Intermediate and marts are tables: intermediate holds the regex normalization, seed lookups
+# and cross-source matching, which are too heavy to recompute on every downstream query; marts
+# feed the dashboard.
+models:
+  job_pipeline:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: table
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+# Parameters of the intermediate layer (data_model.md, section 13; intermediate_layer.md). Each value was set from a
+# measurement, never by default. Override one run with, for example,
+#   dbt build --vars '{fuzzy_match_threshold: null}'   (exact matching only)
+vars:
+  # Dates are taken in the Saudi business time zone, so a pull lands in the week it happened in.
+  business_timezone: 'Asia/Riyadh'
+  # Fuzzy tier of cross-source matching (int_jobs_matched), chosen from labelled candidate pairs
+  # (seeds/seed_match_review.csv, analyses/match_threshold_evaluation.sql; data_model.md, section
+  # 8.7). On the 84 labelled pairs that remain candidates, Jaccard at 80 merges with precision
+  # 0.917 and in-sample recall 0.579; at 75 precision falls to 0.65, at 85 recall falls to 0.16.
+  # Jaro-Winkler stays at or under 0.80 precision at every threshold. The merges themselves are
+  # audited with analyses/fuzzy_merge_audit.sql. null turns the fuzzy tier off.
+  fuzzy_match_function: 'jaccard'   # 'jaccard' (shared title words) or 'jaro_winkler'
+  fuzzy_match_threshold: 80         # score from 0 to 100
+  # K: successful pulls of its board that must miss an ATS posting before it counts as
+  # disappeared. 1: none of the 2,769 ATS listings was missing from a successful pull of its
+  # board and then seen again, so a second confirming pull changes no status (data_model.md, 13).
+  disappearance_misses: 1
+  # Days a job stays counted as open after its last evidence (its board's latest successful pull,
+  # or its last sighting on an aggregator). 7, the weekly collection schedule (data_model.md, 13).
+  recent_window_days: 7
+  # Share of the baseline campaign's queries that an aggregator week must repeat to count as a full
+  # pull. 1.0 is the definition of a full campaign: every baseline query run again.
+  aggregator_campaign_coverage: 1.0
+  # Guard on each employer board (tests/assert_ats_latest_pull_not_collapsed.sql): the build fails
+  # when a board's latest successful pull holds less than this share of the postings of its pull
+  # before. Boards with fewer postings than the minimum in the pull before are not checked.
+  ats_collapse_ratio: 0.5
+  ats_collapse_min_postings: 10
+
+# Lookup tables kept in Git (cities, job categories, companies, experience levels, sources).
+seeds:
+  job_pipeline:
+    +schema: seeds

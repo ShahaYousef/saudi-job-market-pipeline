@@ -1,0 +1,278 @@
+version: 2
+
+# Tests for the staging layer. Nulls pass accepted_values by design: a missing value is a
+# completeness question, handled by not_null only where a value is required.
+# Every model is deduplicated within its source, so the grain tests below must hold
+# no matter how many ingest_date snapshots have been loaded.
+
+models:
+  - name: stg_ashby_jobs
+    description: "Ashby postings in Saudi Arabia, one row per posting. Latest snapshot wins; first_seen_at / last_seen_at span every snapshot."
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_at <= last_seen_at"
+    columns:
+      - name: source_record_sk
+        description: "Surrogate key: hash of source_name + source_job_id (plus city_raw in Workable). Unique across all six sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_job_id
+        data_tests:
+          - unique
+          - not_null
+      - name: title_raw
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: ingested_at
+        data_tests:
+          - not_null
+      - name: workplace_type_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite']
+      - name: employment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other']
+      - name: ingest_date
+        description: "Collection date, read from the ADLS landing path (ingest_date=YYYY-MM-DD)."
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "True when the posting appears in the latest pull of the board it came from (for Greenhouse, of any board that listed it). A posting missing from its board's latest pull has been closed. A board that was not pulled again keeps its postings' last known state, so a partial pull never marks unchecked boards as closed."
+        data_tests:
+          - not_null
+      - name: country_raw
+        description: "Scope filter: Saudi Arabia only (null allowed when the structured field is missing and the location text matched)."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Saudi Arabia']
+
+  - name: stg_greenhouse_jobs
+    description: "Greenhouse postings, one row per posting, deduplicated across snapshots and across umbrella/brand boards."
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_at <= last_seen_at"
+    columns:
+      - name: source_record_sk
+        description: "Surrogate key: hash of source_name + source_job_id (plus city_raw in Workable). Unique across all six sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_job_id
+        data_tests:
+          - unique
+          - not_null
+      - name: title_raw
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: ingested_at
+        data_tests:
+          - not_null
+      - name: workplace_type_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite']
+      - name: employment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other']
+      - name: ingest_date
+        description: "Collection date, read from the ADLS landing path (ingest_date=YYYY-MM-DD)."
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "True when the posting appears in the latest pull of the board it came from (for Greenhouse, of any board that listed it). A posting missing from its board's latest pull has been closed. A board that was not pulled again keeps its postings' last known state, so a partial pull never marks unchecked boards as closed."
+        data_tests:
+          - not_null
+
+  - name: stg_smartrecruiters_jobs
+    description: "SmartRecruiters postings, one row per posting. Latest snapshot wins."
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_at <= last_seen_at"
+    columns:
+      - name: source_record_sk
+        description: "Surrogate key: hash of source_name + source_job_id (plus city_raw in Workable). Unique across all six sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_job_id
+        data_tests:
+          - unique
+          - not_null
+      - name: title_raw
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: ingested_at
+        data_tests:
+          - not_null
+      - name: workplace_type_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite']
+      - name: employment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other']
+      - name: ingest_date
+        description: "Collection date, read from the ADLS landing path (ingest_date=YYYY-MM-DD)."
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "True when the posting appears in the latest pull of the board it came from (for Greenhouse, of any board that listed it). A posting missing from its board's latest pull has been closed. A board that was not pulled again keeps its postings' last known state, so a partial pull never marks unchecked boards as closed."
+        data_tests:
+          - not_null
+      - name: country_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['SA']
+      - name: job_url
+        description: "Public posting page, built from company.identifier + id. The API endpoint is kept as api_ref_url."
+        data_tests:
+          - not_null
+
+  - name: stg_workable_jobs
+    description: "Workable postings, one row per posting per city. A role open in several cities arrives as one object per city under the same shortcode, so source_job_id repeats by design."
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_at <= last_seen_at"
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: ['source_job_id', 'city_raw']
+    columns:
+      - name: source_record_sk
+        description: "Surrogate key: hash of source_name + source_job_id (plus city_raw in Workable). Unique across all six sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_job_id
+        data_tests:
+          - not_null
+      - name: title_raw
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: ingested_at
+        data_tests:
+          - not_null
+      - name: workplace_type_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite']
+      - name: employment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other']
+      - name: ingest_date
+        description: "Collection date, read from the ADLS landing path (ingest_date=YYYY-MM-DD)."
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "True when the posting appears in the latest pull of the board it came from (for Greenhouse, of any board that listed it). A posting missing from its board's latest pull has been closed. A board that was not pulled again keeps its postings' last known state, so a partial pull never marks unchecked boards as closed."
+        data_tests:
+          - not_null
+      - name: country_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Saudi Arabia']
+
+  - name: stg_jooble_jobs
+    description: "Jooble postings, one row per posting. Copies landed by overlapping queries are removed here."
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_at <= last_seen_at"
+    columns:
+      - name: source_record_sk
+        description: "Surrogate key: hash of source_name + source_job_id (plus city_raw in Workable). Unique across all six sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_job_id
+        description: "Unique here because within-source duplicates are removed in this model."
+        data_tests:
+          - unique
+          - not_null
+      - name: title_raw
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: ingested_at
+        data_tests:
+          - not_null
+      - name: workplace_type_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite']
+      - name: employment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other']
+
+  - name: stg_jsearch_jobs
+    description: "JSearch postings, one row per posting, keyed on job_uid. Copies landed by overlapping queries are removed here."
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "first_seen_at <= last_seen_at"
+    columns:
+      - name: source_record_sk
+        description: "Surrogate key: hash of source_name + source_job_id (plus city_raw in Workable). Unique across all six sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: source_job_id
+        description: "job_uid. Unique here because within-source duplicates are removed in this model."
+        data_tests:
+          - unique
+          - not_null
+      - name: title_raw
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: ingested_at
+        data_tests:
+          - not_null
+      - name: workplace_type_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite']
+      - name: employment_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other']
+      - name: country_raw
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['SA']

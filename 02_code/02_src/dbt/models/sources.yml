@@ -1,0 +1,92 @@
+# dbt/models/sources.yml
+version: 2
+ 
+# RAW layer: one VARIANT row per landed file (ATS boards) or per API page envelope (Jooble, JSearch),
+# loaded untouched from ADLS by COPY INTO (snowflake/job_pipeline_snowflake.sql or the load_raw macro).
+#
+# Freshness is measured on the COLLECTION time, not on loaded_at:
+#   - ATS files carry no timestamp, so the ingest_date=YYYY-MM-DD folder in file_name is used
+#   - Jooble / JSearch envelopes carry ingested_at (UTC) written by the collector
+# loaded_at only says when COPY INTO ran, so it would report a re-load of old data as fresh.
+#
+# Policy (weekly schedule): the four employer boards warn after 8 days and error after 15 days.
+# The aggregators are collected in campaigns under a request quota, so they only warn.
+# Thresholds are set per table: a table-level freshness block merges with a source-level one.
+# Run with:  py -m dbt.cli.main source freshness
+ 
+sources:
+  - name: raw
+    database: job_pipeline_db
+    schema: raw
+    description: "Untouched landed data. Columns: raw_data (VARIANT), file_name (ADLS path), loaded_at (COPY INTO time)."
+ 
+    tables:
+      - name: raw_ashby
+        description: "One row per landed Ashby board file: {jobs: [...]} filtered to Saudi locations at extraction."
+        config:
+          loaded_at_field: "to_timestamp_ntz(to_date(regexp_substr(file_name, 'ingest_date=([0-9]{4}-[0-9]{2}-[0-9]{2})', 1, 1, 'e', 1)))"
+          freshness:
+            warn_after: {count: 8, period: day}
+            error_after: {count: 15, period: day}
+        columns:
+          - name: file_name
+            data_tests:
+              - not_null
+ 
+      - name: raw_workable
+        description: "One row per landed Workable account file: {name, description, jobs: [...]}."
+        config:
+          loaded_at_field: "to_timestamp_ntz(to_date(regexp_substr(file_name, 'ingest_date=([0-9]{4}-[0-9]{2}-[0-9]{2})', 1, 1, 'e', 1)))"
+          freshness:
+            warn_after: {count: 8, period: day}
+            error_after: {count: 15, period: day}
+        columns:
+          - name: file_name
+            data_tests:
+              - not_null
+ 
+      - name: raw_greenhouse
+        description: "One row per landed Greenhouse board file: {jobs: [...], meta}."
+        config:
+          loaded_at_field: "to_timestamp_ntz(to_date(regexp_substr(file_name, 'ingest_date=([0-9]{4}-[0-9]{2}-[0-9]{2})', 1, 1, 'e', 1)))"
+          freshness:
+            warn_after: {count: 8, period: day}
+            error_after: {count: 15, period: day}
+        columns:
+          - name: file_name
+            data_tests:
+              - not_null
+ 
+      - name: raw_smartrecruiters
+        description: "One row per landed SmartRecruiters company file: a JSON array of postings (country=sa), each with its jobAd."
+        config:
+          loaded_at_field: "to_timestamp_ntz(to_date(regexp_substr(file_name, 'ingest_date=([0-9]{4}-[0-9]{2}-[0-9]{2})', 1, 1, 'e', 1)))"
+          freshness:
+            warn_after: {count: 8, period: day}
+            error_after: {count: 15, period: day}
+        columns:
+          - name: file_name
+            data_tests:
+              - not_null
+ 
+      - name: raw_jooble
+        description: "One row per Jooble API page envelope: source_id, batch_id, ingested_at, request, http_status, response_raw."
+        config:
+          loaded_at_field: "convert_timezone('UTC', raw_data:ingested_at::timestamp_tz)::timestamp_ntz"
+          freshness:
+            warn_after: {count: 8, period: day}
+        columns:
+          - name: file_name
+            data_tests:
+              - not_null
+ 
+      - name: raw_jsearch
+        description: "One row per JSearch API page envelope: source_id, batch_id, ingested_at, request, http_status, response_raw."
+        config:
+          loaded_at_field: "convert_timezone('UTC', raw_data:ingested_at::timestamp_tz)::timestamp_ntz"
+          freshness:
+            warn_after: {count: 8, period: day}
+        columns:
+          - name: file_name
+            data_tests:
+              - not_null

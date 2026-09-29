@@ -1,0 +1,7 @@
+SOURCE_SK,SOURCE_NAME,SOURCE_TYPE,COLLECTION_METHOD,SOURCE_PRIORITY
+9de0eeb56940c48937aa833b742ec677,workable,ATS,Company board API,1
+f7012fb5b29be85f1d0b60fc4c7c80c3,smartrecruiters,ATS,Company board API,2
+ada696d7718fcdf26d8a1d5b5169d05b,ashby,ATS,Company board API,3
+7e7a1e8c288bc45f7f8b9aec3568f5a3,greenhouse,ATS,Company board API,4
+77cc4a764200825e6a8e4a39fef2dac0,jsearch,Aggregator,Query matrix API,5
+35e97980ca33d8d2b5c8a0f6936cfbb9,jooble,Aggregator,Query matrix API,6

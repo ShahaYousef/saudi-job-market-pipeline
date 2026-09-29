@@ -1,0 +1,221 @@
+version: 2
+
+seeds:
+  - name: seed_city_mapping
+    description: >
+      Every spelling of a Saudi city seen across the six sources (English, transliterated,
+      Arabic, airport codes) mapped to one standard city and region. Aliases are stored in
+      normalize_text() form: lower-case, punctuation replaced by spaces. Rows with an empty
+      city_std are region names ("al qassim region", "eastern province"): a listing that
+      matches only one of these is kept at region level.
+    config:
+      column_types:
+        alias: varchar
+        city_std: varchar
+        region_std: varchar
+    columns:
+      - name: alias
+        data_tests:
+          - unique
+          - not_null
+
+  - name: seed_job_categories
+    description: >
+      Title keywords mapped to a job category. The lowest priority wins when a title matches
+      several keywords, so specific phrases ("data analyst", "software engineer") are checked
+      before generic words ("analyst", "engineer").
+    config:
+      column_types:
+        keyword: varchar
+        job_category: varchar
+        priority: number
+    columns:
+      - name: keyword
+        data_tests:
+          - unique
+          - not_null
+
+  - name: seed_role_families
+    description: >
+      Every job category of seed_job_categories, plus Other, mapped to exactly one role family:
+      the second level of dim_role. Unknown (a title with no matching key) is dim_role's Unknown
+      member and is not listed here.
+    config:
+      column_types:
+        job_category: varchar
+        role_family: varchar
+    columns:
+      - name: job_category
+        data_tests:
+          - unique
+          - not_null
+      - name: role_family
+        data_tests:
+          - not_null
+
+  - name: seed_company_aliases
+    description: >
+      Company spellings mapped to one standard name, with recruitment agencies flagged.
+      `alias` is stored in normalize_company() form (lower-case, punctuation to spaces, legal
+      suffixes and the words company / group / jobs removed), so "Jobs for Humanity" is stored as
+      "for humanity". Placeholders (Private Company, Confidential) map to Unknown. Covers the
+      eleven Ashby board slugs, aliases found in the M3 top-60 list (58% of listings), and the
+      agencies confirmed in that list. Companies not listed keep their own name and
+      is_recruitment_agency = false.
+    config:
+      column_types:
+        alias: varchar
+        company_std: varchar
+        is_recruitment_agency: boolean
+    columns:
+      - name: alias
+        data_tests:
+          - unique
+          - not_null
+      - name: company_std
+        data_tests:
+          - not_null
+
+  - name: seed_experience_levels
+    description: >
+      Workable and SmartRecruiters experience values (LinkedIn's scale) mapped to the closed
+      list. Joined on lower(trim(raw value)); empty or null values become Unknown in SQL.
+    config:
+      column_types:
+        raw_value: varchar
+        experience_level: varchar
+    columns:
+      - name: raw_value
+        data_tests:
+          - unique
+          - not_null
+      - name: experience_level
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Internship', 'Entry', 'Associate', 'Mid-Senior', 'Director', 'Executive', 'Unknown']
+
+  - name: seed_sources
+    description: >
+      One row per source. source_type separates employer job boards (ATS), whose files list every
+      open job, from query-based aggregators. source_priority decides which listing represents a
+      job when several sources publish it: employer-published data first, the snippet-only
+      source last. Read by int_job_listings and dim_source.
+    config:
+      column_types:
+        source_name: varchar
+        source_type: varchar
+        collection_method: varchar
+        source_priority: number
+    columns:
+      - name: source_name
+        data_tests:
+          - unique
+          - not_null
+      - name: source_type
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['ATS', 'Aggregator']
+      - name: source_priority
+        data_tests:
+          - unique
+          - not_null
+  - name: seed_seniority_keywords
+    description: >
+      Title words that give a job's level when the source has no level field (data_model.md, section 6,
+      dim_job_attributes). Each rule was measured on the postings whose source gives a level
+      (26 September export, 1,510 labelled postings): a word is kept only when those postings
+      agree with it at least 70% of the time. labelled_postings and rule_precision record that
+      measurement. A row with an empty experience_level blocks the rules below it
+      ("assistant manager": 45% Mid-Senior). The lowest priority wins; "junior" (40% Entry),
+      "trainee" (44%) and "consultant" (64%) were measured and left out.
+    config:
+      column_types:
+        keyword: varchar
+        experience_level: varchar
+        priority: number
+        labelled_postings: number
+        rule_precision: number(4,2)
+    columns:
+      - name: keyword
+        data_tests:
+          - unique
+          - not_null
+      - name: experience_level
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Internship', 'Entry', 'Associate', 'Mid-Senior', 'Director', 'Executive']
+      - name: priority
+        data_tests:
+          - not_null
+
+  - name: seed_currency_rates
+    description: >
+      Rate to Saudi riyals for each salary currency seen. The riyal is pegged at 3.75 per US dollar.
+    config:
+      column_types:
+        currency: varchar
+        sar_per_unit: number(10,4)
+    columns:
+      - name: currency
+        data_tests:
+          - unique
+          - not_null
+      - name: sar_per_unit
+        data_tests:
+          - not_null
+
+  - name: seed_skills
+    description: >
+      Skill dictionary (data_model.md, section 6, dim_skill). keyword is matched as a whole word, in
+      normalize_text() form, against job titles and cleaned descriptions; several keywords can
+      name one skill_name ("ms office", "microsoft office"). Built from the 26 September export:
+      a term is kept when it appears in at least 10 of the 4,304 postings with a full description
+      (postings_measured). Words that are ambiguous in job ads were measured and left out:
+      sales (a job function), kpi, hospitality, tax ("tax-free salary"), lean, soc, iam, swift,
+      react (a verb), vulnerability, .net and c# (lost when punctuation is removed).
+    config:
+      column_types:
+        keyword: varchar
+        skill_name: varchar
+        skill_group: varchar
+        postings_measured: number
+    columns:
+      - name: keyword
+        data_tests:
+          - unique
+          - not_null
+      - name: skill_name
+        data_tests:
+          - not_null
+      - name: skill_group
+        data_tests:
+          - not_null
+
+  - name: seed_match_review
+    description: >
+      Manual verdicts on candidate matches (data_model.md, section 8.7). One row per reviewed pair
+      of listings, stored by source_record_sk so a verdict survives rebuilds. Filled from
+      analyses/fuzzy_review_sample.sql and analyses/match_review_sample.sql; read by
+      analyses/match_threshold_evaluation.sql to choose the fuzzy threshold.
+      Labelled on 2026-09-28 from the stratified sample of the final build: 88 pairs, 19 of them
+      the same job. A pair is the same job when it is the same role at the same rank and
+      specialisation; word order, punctuation, branding and requisition numbers are ignored. A
+      different rank ("Demi Chef de Partie") or specialisation ("IT Security Design") makes two
+      jobs, and a pair that cannot be decided from its titles is labelled false, because a wrong
+      merge removes a real job while a missed one only leaves a duplicate.
+    config:
+      column_types:
+        listing_a: varchar
+        listing_b: varchar
+        is_same_job: boolean
+        reviewer: varchar
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - listing_a
+              - listing_b
