@@ -1,0 +1,743 @@
+alias,company_std,is_recruitment_agency
+private,Unknown,false
+confidential,Unknown,false
+undisclosed,Unknown,false
+anonymous,Unknown,false
+not disclosed,Unknown,false
+sarjai,Sarj AI,false
+alan,Alan,false
+immersivelabs,Immersive Labs,false
+elevenlabs,ElevenLabs,false
+lilt production,Lilt,false
+hopper,Hopper,false
+checkout com,Checkout.com,false
+takein,Takein,false
+nash,Nash,false
+lakeora,Lakeora,false
+camunda,Camunda,false
+qiddiya,Qiddiya Investment Company,false
+qiddiya investment,Qiddiya Investment Company,false
+jasara pmc,JASARA PMC,false
+jasara program management,JASARA PMC,false
+wsp,WSP,false
+wsp global,WSP,false
+atkinsréalis,AtkinsRéalis,false
+atkinsrealis,AtkinsRéalis,false
+snc lavalin,AtkinsRéalis,false
+aramco overseas uk,Aramco Overseas Company,false
+eram talent,Eram Talent,true
+for humanity,Jobs for Humanity,true
+hudson manpower,Hudson Manpower,true
+rawaj human capital management,Rawaj HCM,true
+international hospitals recruitment,International Hospitals Recruitment,true
+sisco,Sisco Jobs,true
+career land center,Career Land Center,true
+qureos,Qureos,true
+antal international network ime office,Antal International,true
+stellar hunters,Stellar Hunters,true
+becarabia,BEC Arabia,false
+accorhotel,AccorHotel,false
+accorhotels,AccorHotel,false
+accor,AccorHotel,false
+marriott,Marriott,false
+marriott international,Marriott,false
+wsp in middle east,WSP,false
+hyatt,Hyatt,false
+hyatt hotels,Hyatt,false
+fairmont,Fairmont,false
+fairmont hotels resorts,Fairmont,false
+roland berger,Roland Berger,false
+roland berger gmbh,Roland Berger,false
+webook,WEbook,false
+webook com,WEbook,false
+hanmiglobal,HanmiGlobal,false
+hanmiglobal saudi,HanmiGlobal,false
+assystem,Assystem,false
+assystem gmbh,Assystem,false
+mbrf,MBRF,false
+mbrf global foods s a,MBRF,false
+saudi aramco,Saudi Aramco,false
+aramco,Saudi Aramco,false
+saudi aramco asc,Saudi Aramco,false
+rawaj hcm,Rawaj HCM,true
+ethra human resources,Ethra Human Resources,true
+talent diamond,Talent Diamond,true
+rm staffing b v,RM Staffing,true
+abba personnel services,ABBA Personnel Services,true
+fit staff recruitment agency,Fit Staff Recruitment Agency,true
+sct executive recruitment,SCT Executive Recruitment,true
+love recruitment international,Love Recruitment International,true
+talent blueprint fz,Talent Blueprint,true
+taj hr,Taj HR,true
+ssiam recruitment,Ssiam Recruitment,true
+aim it services manpower consulting,AIM IT Services & Manpower Consulting,true
+black grey hr,Black & Grey HR,true
+consulture search,Consulture Search,true
+nexttec technology outsourcing,Nexttec Technology Outsourcing,true
+jobgether,Jobgether,true
+jobcenter,Jobcenter,true
+job leader,Job Leader,true
+ecojob,ecojob,true
+uae job alert,UAE Job Alert,true
+energy jobline zr,Energy Jobline,true
+hijrajob,Hijrajob,true
+promedjobs,Promedjobs,true
+testhiring,TestHiring,true
+aajil,Aajil,false
+abis,ABIS,false
+accenture,Accenture,false
+accenture middle east,Accenture,false
+accor hotels,AccorHotel,false
+advansys,Advansys,false
+advansys is,Advansys,false
+aecom,AECOM,false
+aecom middle east,AECOM,false
+afaq warehouse branch,Afaq,false
+afaq warehouse branch j02,Afaq,false
+air arabia,Air Arabia,false
+airbus,Airbus,false
+al jomaih energy and water,Al Jomaih Energy and Water (JENWA),false
+jenwa,Al Jomaih Energy and Water (JENWA),false
+al tayer,Al Tayer Group,false
+al tayer career site,Al Tayer Group,false
+al dawaa medical services,Al-Dawaa Pharmacies,false
+al dawaa pharmacies,Al-Dawaa Pharmacies,false
+al futtaim,Al-Futtaim,false
+al futtaim private,Al-Futtaim,false
+abdulmajeed saleh al khedr automotive branded as a,Al-Khedr Automotive,false
+alkhedrcars,Al-Khedr Automotive,false
+al qadsiah club,Al-Qadsiah Club,false
+al qadsiah saudi club نادي القادسية السعودي,Al-Qadsiah Club,false
+al watania information systems,Al-Watania Information Systems,false
+alwatania information systems,Al-Watania Information Systems,false
+alan sa,Alan,false
+alconnexion,Alconnexion,false
+al gihaz holding,Algihaz Holding,false
+algihaz holding,Algihaz Holding,false
+algo app digital pvt,Algo App Digital,false
+algoappdigital,Algo App Digital,false
+align technology,Align Technology,false
+almarai,Almarai,false
+المراعي,Almarai,false
+alpla,ALPLA,false
+alpla plastics middle east saudi industrial,ALPLA,false
+alstom,Alstom,false
+alstom gruppe,Alstom,false
+andritz,ANDRITZ,false
+apple,Apple,false
+arabyads,ArabyAds,false
+areeb,Areeb,false
+as p albert speer partner gmbh,AS+P Albert Speer + Partner,false
+astrazeneca,AstraZeneca,false
+astrazeneca gmbh,AstraZeneca,false
+atoms,Atoms,false
+avanceon mea,Avanceon,false
+avanceon middle east south asia,Avanceon,false
+aviagen,Aviagen,false
+bae systems,BAE Systems,false
+bec arabia,BEC Arabia,false
+beond,Beond,false
+flybeond com,Beond,false
+blue yonder,Blue Yonder,false
+bonafide,Bonafide,false
+boston consulting,Boston Consulting Group,false
+boston consulting gmbh,Boston Consulting Group,false
+bupa arabia,Bupa Arabia,false
+bvlgari,Bvlgari,false
+c serv,C-Serv,false
+c serv global,C-Serv,false
+canon,Canon,false
+canon emea,Canon,false
+carrier,Carrier,false
+carrier global,Carrier,false
+ceer,Ceer,false
+ceermotors,Ceer,false
+697 cisco,Cisco,false
+cisco,Cisco,false
+cisco systems,Cisco,false
+cleanlife,CleanLife,false
+cleanlife كلين لايف,CleanLife,false
+clear,CLEAR,false
+clear corporate,CLEAR,false
+cleargrid,ClearGrid,false
+cleargrid debt collection,ClearGrid,false
+cohesity,Cohesity,false
+consertus,Consertus,false
+contentsquare,Contentsquare,false
+crown holdings,Crown Holdings,false
+dallah albaraka,Dallah Albaraka,false
+dallah albaraka holding,Dallah Albaraka,false
+danfoss,Danfoss,false
+danfoss gmbh,Danfoss,false
+dar al riyadh,Dar Al Riyadh,false
+dar al riyadh consultants,Dar Al Riyadh,false
+datamatics technologies,Datamatics Technologies,false
+decima international,Decima International,false
+decimainternational,Decima International,false
+deepsource technologies,DeepSource Technologies,false
+ds deepsource,DeepSource Technologies,false
+delivery hero,Delivery Hero,false
+delivery hero se,Delivery Hero,false
+dell gmbh,Dell Technologies,false
+dell technologies,Dell Technologies,false
+deloitte,Deloitte,false
+deloitte touche m e,Deloitte,false
+dengage,Dengage,false
+d·engage,Dengage,false
+diaverum,Diaverum,false
+diaverum ab,Diaverum,false
+dozan,Dozan,false
+dxc technology,DXC Technology,false
+000780 eagleburgmann,EagleBurgmann,false
+eagleburgmann,EagleBurgmann,false
+egis,Egis,false
+emerson,Emerson,false
+engie,ENGIE,false
+ericsson,Ericsson,false
+ericsson gmbh,Ericsson,false
+esense,eSense,false
+european institute of policy research and human rights aisbl,European Institute of Policy Research and Human Rights,false
+european institute of policy research and human rights sia,European Institute of Policy Research and Human Rights,false
+ernst young,EY,false
+ernst young advisory services sdn bhd,EY,false
+flint international,Flint International,false
+fluidai medical,FluidAI Medical,false
+nerv technology d b a fluidai medical,FluidAI Medical,false
+fortinet,Fortinet,false
+ge vernova,GE Vernova,false
+vb0004 general electric global services gmbh,General Electric Global Services,false
+vb0004 general electric global services gmbh branch,General Electric Global Services,false
+vb0004 general electric global services gmbh branch al khobar,General Electric Global Services,false
+gibson dunn,Gibson Dunn,false
+gibson dunn crutcher,Gibson Dunn,false
+amana,Group AMANA,false
+glaxosmithkline,GSK,false
+gsk,GSK,false
+hill international,Hill International,false
+hill intl,Hill International,false
+hitachi,Hitachi,false
+hunger station,HungerStation,false
+hungerstation,HungerStation,false
+hungerstation هنقرستيشن,HungerStation,false
+idp education,IDP Education,false
+idp international education specialists,IDP Education,false
+idsccc,IDSCCC,false
+ikea alsulaiman,IKEA Alsulaiman,false
+ايكيا السليمان,IKEA Alsulaiman,false
+incorta,Incorta,false
+infinite pl,Infinite PL,false
+infinitepl,Infinite PL,false
+infobip,Infobip,false
+innovationteam,InnovationTeam,false
+ihg,InterContinental Hotels Group,false
+intercontinental hotels,InterContinental Hotels Group,false
+jll,JLL,false
+jones lang lasalle incorporated,JLL,false
+jones lang lasalle ip,JLL,false
+jones lang lasalle jll,JLL,false
+jotun middle east india and africa,Jotun,false
+jotun middle east india and africa meia,Jotun,false
+kafou energy,Kafou Energy,false
+kafouenergy,Kafou Energy,false
+kaust,KAUST,false
+king abdullah university of science and technology,KAUST,false
+kbr,KBR,false
+kempinski hotel,Kempinski Hotels,false
+kempinski hotels,Kempinski Hotels,false
+kpmg international,KPMG,false
+kpmg professional services,KPMG,false
+lamdax,Lamdax,false
+la petite maison lpm,LPM Restaurant & Bar,false
+lpm restaurant bar,LPM Restaurant & Bar,false
+lucidya,Lucidya,false
+m2r education,M2R Education,false
+ma aden,Ma'aden,false
+ma aden legal employer,Ma'aden,false
+maaden saudi arabian mining,Ma'aden,false
+ma’aden,Ma'aden,false
+mace,Mace,false
+mandarin oriental,Mandarin Oriental Hotel Group,false
+mandarin oriental hotel,Mandarin Oriental Hotel Group,false
+marriott hotels resorts,Marriott,false
+master works,Master Works,false
+mckinsey,McKinsey & Company,false
+mizan al arabia international,Mizan Al Arabia International,false
+monglish international,Monglish International Academy,false
+monglish international academy,Monglish International Academy,false
+moomoo,Moomoo,false
+movandi,Movandi,false
+musco lighting,Musco Sports Lighting,false
+musco sports lighting,Musco Sports Lighting,false
+napco,NAPCO National,false
+napco national,NAPCO National,false
+ncr atleos,NCR Atleos,false
+nice one,Nice One,false
+nice one نايس ون,Nice One,false
+ninja,Ninja,false
+ninja 🥷🏽 نينجا,Ninja,false
+noon academy,Noon Academy,false
+noon education for everyone,Noon Academy,false
+national oilwell varco,NOV,false
+nov,NOV,false
+otis elevator,Otis,false
+otis se,Otis,false
+otis worldwide,Otis,false
+national parcel stations network parcelat,Parcelat,false
+parcelat,Parcelat,false
+parsons,Parsons,false
+pepsico,PepsiCo,false
+pepsico deutschland gmbh,PepsiCo,false
+perfect vision,PerfectVision,false
+perfectvision,PerfectVision,false
+perfectvisionksa,PerfectVision,false
+prime gate,Prime Gate,false
+primegate,Prime Gate,false
+publicis groupe holdings b v,Publicis Groupe,false
+publicis groupe middle east,Publicis Groupe,false
+pulse,Pulse,false
+qassim ali contracting,Qassim Ali Contracting,false
+qiddiya القدية,Qiddiya Investment Company,false
+red hat,Red Hat,false
+red sea development,Red Sea Global,false
+red sea global,Red Sea Global,false
+retal,Retal Urban Development Company,false
+retal urban development,Retal Urban Development Company,false
+riyadh air,Riyadh Air,false
+riyadh air طيران الرياض,Riyadh Air,false
+roland berger strategy consultants,Roland Berger,false
+s k technologies,S&K Technologies,false
+saic,SAIC,false
+salesforce,Salesforce,false
+salesforce com,Salesforce,false
+samsung e a,Samsung E&A,false
+sap,SAP,false
+sap se,SAP,false
+sarj ai,Sarj AI,false
+saudi entertainment ventures seven,Saudi Entertainment Ventures (SEVEN),false
+seven,Saudi Entertainment Ventures (SEVEN),false
+saudi pan kingdom sapac,Saudi Pan Kingdom Company (SAPAC),false
+servicenow,ServiceNow,false
+shift4,Shift4,false
+shift4 payments,Shift4,false
+sifi simplified financial solutions,SiFi,false
+sifiapp,SiFi,false
+siham international trading,Siham International Trading,false
+sihamco,Siham International Trading,false
+sika,Sika,false
+sika ag,Sika,false
+silah tamkeen,Silah Tamkeen,false
+صلة تمكين العمل,Silah Tamkeen,false
+softwareone,SoftwareOne,false
+softwareone deutschland gmbh,SoftwareOne,false
+sohoby,Sohoby,false
+sohoby information technology,Sohoby,false
+soum,Soum,false
+spectrum technical services,Spectrum Technical Services,false
+spie,SPIE,false
+spiegroup,SPIE,false
+star services,Star Services,false
+saudi telecom,stc,false
+stc,stc,false
+sulzer,Sulzer,false
+sulzer ag,Sulzer,false
+team saudi,Team Saudi,false
+thales,Thales,false
+tradesapp,TradesApp,false
+trendyol,Trendyol,false
+united motors,United Motors,false
+v2x,V2X,false
+veeam,Veeam Software,false
+veeam software,Veeam Software,false
+visa,Visa,false
+waad education,Waad Education,false
+want more,Wantmore,false
+wantmore,Wantmore,false
+wood,Wood,false
+worley,Worley,false
+worleyparsons,Worley,false
+zakat tax and customs authority,"Zakat, Tax and Customs Authority",false
+هيئة الزكاة والضريبة والجمارك,"Zakat, Tax and Customs Authority",false
+zeeco,Zeeco,false
+ermenegildo zegna,Zegna,false
+ermenegildo zegna holditalia s p a,Zegna,false
+zegna,Zegna,false
+2coms,2COMS,true
+advanced consultancy sercives acs,Advanced Consultancy Services (ACS),true
+africa talent contours,Africa Talent Contours,true
+aitomic,Aitomic Jobs,true
+alfadhel for medical recruitment,Alfadhel for Medical Recruitment,true
+antal international,Antal International,true
+applymint,ApplyMint,true
+apt resources,Apt Resources,true
+asiatic consultants manpower resources,Asiatic Consultants Manpower Resources,true
+atlas teachers,Atlas Teachers,true
+avanta works,Avanta Works,true
+avensys consulting,Avensys Consulting,true
+azar human resource solutions,Azar Human Resource Solutions,true
+client of besst,Besst Group,true
+big fish recruitment,Big Fish Recruitment,true
+biopharma,BiopharmaCareers,true
+biopharmacareers,BiopharmaCareers,true
+black pearl consult,Black Pearl Consult,true
+brainstorm headhunting specialist,Brainstorm Headhunting Specialist,true
+bytegrid talent services,ByteGrid Talent Services,true
+candidzone,Candidzone,true
+careergroup companies,Career Group Companies,true
+career maker,Career Maker,true
+career maker consultant bpc,Career Maker,true
+careermaker,Career Maker,true
+careerdubai,CareerDubai,true
+client of cartel hr,Cartel HR,true
+cbtalents,CBTalents,true
+cc staffing international,CC Staffing International,true
+classifind,ClassiFind,true
+conflip,ConFlip,true
+core medical,Core Medical Group,true
+cutting edge recruitment,Cutting Edge Recruitment,true
+cynet health,Cynet Health,true
+dewan consultants,Dewan Consultants,true
+doroob hr consulting and recruitment,Doroob HR Consulting and Recruitment,true
+duncan ross,Duncan & Ross,true
+durucooperation,Duru Cooperation,true
+ebr consulting,EBR Consulting,true
+edvectus,Edvectus,true
+ejobsboard,Ejobsboard,true
+epergne solutions,Epergne Solutions,true
+erc international recruitment executive search,ERC International,true
+ethra for human resources consulting,Ethra Human Resources,true
+everhires,Everhires,true
+ewi recruitment,ewi Recruitment,true
+exclusive household staff,Exclusive Household Staff,true
+expertise recruitment,Expertise Recruitment,true
+fairygodboss,Fairygodboss,true
+fashionunited,FashionUnited,true
+first executive recruitment,First Executive Recruitment,true
+flyper,Flyper,true
+fnrco,FNRCO,true
+foreground,Foreground Consultancy,true
+foreground consultancy,Foreground Consultancy,true
+fusion medical staffing,Fusion Medical Staffing,true
+gis and rs opportunities,GIS and RS Opportunities,true
+glan management consultancy,Glan Management Consultancy,true
+gramian consulting,Gramian Consulting Group,true
+green recruitment,Green Recruitment Company,true
+gulf workforce,Gulf Workforce,true
+halian managed services recruitment and contract staffing agency,Halian,true
+heidrick struggles international,Heidrick & Struggles,true
+helen ziegler associates,Helen Ziegler & Associates,true
+helperplace find domestic helpers maids drivers,HelperPlace,true
+client of hire fellows,Hire Fellows,true
+hire fellows,Hire Fellows,true
+hirestar job bank,Hirestar Job Bank,true
+hudson it and manpower,Hudson Manpower,true
+client of imploy,Imploy,true
+imploy,Imploy,true
+ips powerful people,iPS Powerful People,true
+ixceed solutions,iXceed Solutions,true
+jameson legal,Jameson Legal,true
+jing hau,Jing Hau,true
+jobcubby,JobCubby,true
+jobenvo,Jobenvo,true
+jobskey consultancy,Jobskey Consultancy,true
+jobtailor,JobTailor,true
+client of joh partners,JOH Partners,true
+kaizen firm,Kaizen Firm,true
+kawader recruitment,Kawader Recruitment,true
+kayan recruitment,Kayan Recruitment,true
+key talent solutions,Key Talent Solutions,true
+khibraty,Khibraty,true
+kintec recruitment,Kintec Recruitment,true
+lancesoft,LanceSoft,true
+lancesoft middle east,LanceSoft,true
+localizationjobs com,LocalizationJobs,true
+manpower solutions,Manpower Solutions,true
+mbr recruitment,MBR Recruitment,true
+medical staff talent,Medical Staff Talent,true
+mena alliances,MENA Alliances,true
+menaalliances,MENA Alliances,true
+mena consultant,MENA Consultant,true
+mercor,Mercor,true
+merge recruitment agency,Merge Recruitment Agency,true
+michael page,Michael Page,true
+michael page international uae,Michael Page,true
+micro1,micro1,true
+mintskill hr solutions llp,Mintskill HR Solutions,true
+mourjan com,Mourjan,true
+multilink management consultants,Multilink Management Consultants,true
+müller s solutions,Müller's Solutions,true
+nadir ali shah hr consultants,Nadir Ali Shah HR Consultants,true
+ناس للموارد البشرية nas human resources,NAS Human Resources,true
+nathan nathan hr,Nathan & Nathan,true
+nes fircroft,NES Fircroft,true
+omanyp,OmanYP,true
+one95 global,One95 Global,true
+pe global healthcare,PE Global,true
+pe global uk,PE Global,true
+peergrowth consultancy,Peergrowth Consultancy,true
+platinum brothers int l manpower agency,Platinum Brothers International Manpower Agency,true
+ppoar,PPOAR,true
+praxis consultants,Praxis Consultants,true
+propel consult,Propel Consult,true
+qataryello,QatarYello,true
+ramz consultancy,Ramz Consultancy,true
+client of rawaj for recruitment,Rawaj HCM,true
+rawaj,Rawaj HCM,true
+rawajhcm,Rawaj HCM,true
+recruitis,Recruitis,true
+recruitme plus,RecruitMe Plus,true
+roots recruitment services,Roots Recruitment Services,true
+rrecruiter,RRecruiter,true
+saaki argus averil consulting,Saaki Argus & Averil Consulting,true
+saudi networkers services,Saudi Networkers Services,true
+searchplus hr,SearchPlus HR,true
+selective touch recruitment,Selective Touch Recruitment,true
+signature staff,Signature Staff,true
+skills provision,Skills Provision,true
+smartchoice international gcc,SmartChoice International,true
+soundlines,Soundlines Group,true
+spa staff,Spa Staff,true
+spa staff com,Spa Staff,true
+squadio,Squadio,true
+strike it recruitment services,Strike IT Recruitment Services,true
+supportfinity™,SupportFinity,true
+swisslinx middle east,Swisslinx,true
+sylvcare,SylvCare,true
+sylvcare for healthcare recruitment,SylvCare,true
+taeyen تعيين,Taeyen,true
+talent blueprint,Talent Blueprint,true
+tangent international,Tangent International,true
+tasc outsourcing,TASC Outsourcing,true
+techbiz global gmbh,TechBiz Global,true
+top notch consultancy,Top Notch Consultancy,true
+topengineer,topEngineer,true
+ummahjobs,UmmahJobs,true
+uplift people consulting,Uplift People Consulting,true
+virtual hire staffing,Virtual Hire Staffing,true
+virtucruit,Virtucruit,true
+وظائف السعودية wadhaef sa,Wadhaef SA,true
+whitecollars,Whitecollars,true
+woopel,Woopel,true
+workerera,WorkerEra,true
+worldteachers,Worldteachers,true
+xcede,Xcede,true
+yo ai labs,YO AI Labs,true
+yo it consulting,YO IT Consulting,true
+12000 sar,Unknown,false
+a specializing in solar energy br,Unknown,false
+amir hamza,Unknown,false
+canon 430exii,Unknown,false
+confidential construction,Unknown,false
+confidential government,Unknown,false
+confidential law firm,Unknown,false
+confidential manufacturing,Unknown,false
+confidential medical practice,Unknown,false
+development,Unknown,false
+empresa confidencial,Unknown,false
+front end,Unknown,false
+get started,Unknown,false
+hmza ali,Unknown,false
+in dammam,Unknown,false
+industrial area,Unknown,false
+khaled emira,Unknown,false
+mahmoud fayez,Unknown,false
+mahmoud jkavavg,Unknown,false
+mohamad sukkar,Unknown,false
+mohamed saeid,Unknown,false
+open to opportunities,Unknown,false
+referrals only,Unknown,false
+riyas ngl project,Unknown,false
+saudi,Unknown,false
+sultan alenazi,Unknown,false
+sw,Unknown,false
+uk western europe,Unknown,false
+unspecified,Unknown,false
+vagas para rj,Unknown,false
+very big transport in dammam for different projects,Unknown,false
+what,Unknown,false
+work standard,Unknown,false
+x,Unknown,false
+أحمد العسيري,Unknown,false
+احمد محروس,Unknown,false
+اريام هادي,Unknown,false
+اسراء ميرغني,Unknown,false
+فاطمة العطاس,Unknown,false
+مصنع ألومنيوم,Unknown,false
+مطلوب سائق نقل ثقيل للعمل علي سائق تريلا سطحة في الدمام,Unknown,false
+وظائف الدمام مطلوب مدخل بيانات ومستلم بضائع بسوبر ماركت,Unknown,false
+abdul latif jameel motors,Abdul Latif Jameel Motors,false
+عبدالعزيز محمد زين العابدين للمقاولات العامة,Abdulaziz Mohammed Zainalabdeen General Contracting,false
+actron global formerly saudi arabian actavo,Actron Global,false
+addar,Addar Group,false
+advinov contracting,Advinov Contracting,false
+agfa,Agfa,false
+aikidosecurity,Aikido Security,false
+aimstyle branding agency in dubai,Aimstyle,false
+اجدان ajdan,Ajdan,false
+الدهام al daham,Al Daham,false
+الرفقه لتاجير السيارات,Al Rafgha Rent A Car,false
+al rashed food,Al Rashed Food Company,false
+السخاء الذهبية,Al Sakhaa Al Thahabia,false
+مجمع الشامل,Al Shamel Complex,false
+البواني,Albawani,false
+allianz trade in middle east,Allianz Trade,false
+alrajhi,Alrajhi Group,false
+alsadara,Alsadara,false
+alsaleh enterprises,Alsaleh Enterprises,false
+مجموعة السليمان,Alsulaiman Group,false
+جمعية الوداد الخيرية alwedad charity wcfksa,Alwedad Charity,false
+أملاك amlak,Amlak,false
+anton,Anton,false
+arx smart minds,ARX,false
+asas althbat,Asas Althbat,false
+asteri beauty b corp™,Asteri Beauty,false
+أتمال,Atmaal,false
+autobia أوتوبيا,Autobia,false
+عوارض للمقاولات العامة,Awaredh General Contracting,false
+azad properties,Azad Properties,false
+عزم للاستشارات الهندسيه,AZM Engineering Consultancy,false
+بيتك ومسكنك العقارية,Baytak w Maskanak Real Estate,false
+blacklane,Blacklane,false
+blue limits,Blue Limits Group,false
+bravo® genset,BRAVO Genset,false
+breathe buff بريث آند باف,Breathe & Buff,false
+buna a leading general contractor,BUNA,false
+بروج المدينة للتطوير العقاري,Buroj Al Madinah Real Estate Development,false
+canasa,Canasa,false
+ces matlab® in middle east,CES - MATLAB in the Middle East,false
+coca cola bottling of,Coca-Cola Bottling Company of Saudi Arabia,false
+المجلس التنسيقي لمؤسسات وشركات خدمة حجاج الداخل في مكة المكرمة,Coordinating Council of Domestic Hajj Service Companies,false
+cr 54 crown arabia can,Crown Arabia Can Company,false
+dao badran,Dar Al Omran - Rasem Badran,false
+29 dexcom arabia,Dexcom,false
+dia pro,Dia Pro,false
+0255 diversey,Diversey,false
+dlocal,dLocal,false
+dolce gabbana,Dolce&Gabbana,false
+downe house riyadh,Downe House Riyadh,false
+مجمع الدكتور سعود السيف الطبي,Dr. Saud Alsaif Polyclinics,false
+dsv global transport and logistics,DSV,false
+east magnetite مغنيتايت الشرق,East Magnetite,false
+ejada,Ejada,false
+el grocer online grocery delivery,el Grocer,false
+elegaci إليجسي,Elegaci,false
+engineeringuk,EngineeringUK,false
+صندوق البيئة,Environment Fund,false
+enwan events عنوان الفعاليات,Enwan Events,false
+etihadtechco,Etihadtechco,false
+extremenetworks,Extreme Networks,false
+مجموعة فاب للمقاولات,FAB Contracting Group,false
+faena,Faena,false
+falcon multi services,Falcon Multi Services,false
+فرج للنقليات والخدمات العامه,Faraj Transport & General Services,false
+flip retail,Flip Retail,false
+flowlife,Flowlife,false
+fls al rushaid,FLS Al-Rushaid,false
+four seasons hotels resorts,Four Seasons Hotels & Resorts,false
+k60006 ge energy manufacturing technology center factory,GE Energy Manufacturing Technology Center,false
+gems saudi international schools dhahran,GEMS Saudi International Schools,false
+green earth الارض الخضراء,Green Earth,false
+al8072 grid solution arabia,Grid Solution Arabia,false
+مجمع الخليج الطبي,Gulf Medical Complex,false
+قوى الخليج البحريه,Gulf Power & Marine,false
+جيمنيشن,GymNation,false
+haier saudi,Haier,false
+هامات hamat,Hamat,false
+hugging face ai,Hugging Face,false
+5010 hydril pressure controlling arabia,Hydril Pressure Controlling Arabia,false
+ibis,ibis,false
+ايكون,Icon,false
+idaratech platform منصة إدارتك,Idaratech,false
+idea nest,Idea Nest,false
+إيمنسا,Immensa,false
+iota,IOTA Group,false
+ism prefab,ISM Prefab,false
+jeddah airports مطارات جدة,Jeddah Airports,false
+وسط جدة للتطوير jeddah central development,Jeddah Central Development Company,false
+jtccs,JTCCS,false
+kalsoft,Kalsoft,false
+keld كلد العقارية,Keld,false
+king s college hospital london jedda,King's College Hospital London - Jeddah,false
+kpler,Kpler,false
+lalamove,Lalamove,false
+lenskartcareers,Lenskart,false
+life lover لايف لافر,Life Lover,false
+limitless solution for conferences and seminars ليمتلس لتنظيم المعارض و الؤتمرات,Limitless Solution for Conferences and Seminars,false
+mada properties,Mada Properties,false
+manha service,Manha Service,false
+مراكيز marakez,Marakez,false
+marbs ماربس,MARBS,false
+مهاد mehad,Mehad,false
+mercure,Mercure,false
+مينا التميز,Mina Excellence,false
+mindrift data annotation projects,Mindrift,false
+مسك الخيرية,Misk Foundation,false
+mogi i o ott podcast short video apps for you,Mogi I/O,false
+محمد عبد الرحمن فرحات للمقاولات,Mohammed Abdulrahman Farhat Contracting,false
+morison global modernity الحداثة الدولية للتدقيق الحسابات,Morison Global - Modernity,false
+mukoun,Mukoun,false
+myclinicksa,My Clinic,false
+my little kingdom international school for girls mlkis jeddah,My Little Kingdom International School for Girls (MLKIS),false
+movenpick,Mövenpick,false
+nadecfoods,NADEC,false
+نقشة,Naqsha,false
+novotel,Novotel,false
+olayancareer,Olayan Group,false
+اسس osus,OSUS,false
+oveeq technologies,Oveeq Technologies,false
+panda retail – savola,Panda Retail Company,false
+pulse mena,Pulse MENA,false
+pwc middle east,PwC Middle East,false
+ربع ساعة للتسويق quarter hour,Quarter Hour,false
+raffles,Raffles,false
+sa02 richemont,Richemont,false
+rime رايم,RIME,false
+rixos,Rixos,false
+robusta,Robusta,false
+رخام القابضة,Rukham Holding,false
+sabic,SABIC,false
+salem balhamer,Salem Balhamer Group,false
+الشركة السعودية لمعدات الديزل المحدودة,Saudi Diesel Equipment Company,false
+saudi geophysical consulting office a sole proprietorship,Saudi Geophysical Consulting Office,false
+مجموعة مستشفيات السعودي الألماني,Saudi German Health,false
+البريد السعودي,Saudi Post (SPL),false
+الأسمدة السعودية المتحدة,Saudi United Fertilizers (Al-Asmida),false
+secure line,Secure Line,false
+shabakkat member of ipt powertech,Shabakkat,false
+shaffra,Shaffra,false
+sheba joy,Sheba Joy,false
+shifra an inforte,Shifra,false
+sias سياس,SIAS,false
+sigma paints,Sigma Paints,false
+site سايت,SITE,false
+six angles,Six Angles,false
+sofitel,Sofitel,false
+steel force trading,Steel Force Trading,false
+suliyan,Suliyan Company,false
+e581 sulzer chemtech middle east,Sulzer Chemtech,false
+e603 sulzer saudi pump,Sulzer Saudi Pump Company,false
+دعم و تمكين support and empowerment,Support and Empowerment,false
+swissotel,Swissôtel,false
+تابي,Tabby,false
+🌮⭐️ tacostars,TacoStars,false
+takamul projects consultancy شـركة تكامل المشاريع للإستشارات المهنية,Takamul Projects Consultancy,false
+tarabut finance ترابط للتمويل,Tarabut Finance,false
+tashweesh agency,Tashweesh Agency,false
+tawantech,Tawantech,false
+tawazon,Tawazon,false
+telus digital,TELUS Digital,false
+teneo external feed for linkedin,Teneo,false
+الجمعية الأولى للتوحد,The First Autism Association,false
+luxury collection,The Luxury Collection,false
+thoughtwin a cmmi level 3,ThoughtWin,false
+tkxel,Tkxel,false
+c0035 tony blair institute,Tony Blair Institute,false
+tecnicas reunidas,Técnicas Reunidas,false
+union technical foundation for refrigeration and air conditi,Union Technical Foundation for Refrigeration and Air Conditioning,false
+ur support,UR Support,false
+sa791 valmet flow control industrial,Valmet Flow Control,false
+0551 varex imaging arabia commercial,Varex Imaging,false
+ڤراڤلو,Vravello,false
+wadiwalk وادي ووك,WadiWalk,false
+westernunion,Western Union,false
+wvb connect,WVB Connect,false
+yusuf bin ahmed kanoo of companies,Yusuf Bin Ahmed Kanoo,false

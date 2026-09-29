@@ -1,0 +1,15 @@
+# requirements.txt
+# Pinned so a new clone installs the same versions the pipeline was tested with.
+# Install from 02_code:  pip install -r requirements.txt
+
+# extraction and landing (pipeline/)
+requests==2.34.2
+python-dotenv==1.2.3
+azure-storage-blob==12.30.3      # upload_to_adls.py uses the Blob endpoint, the one Snowflake's stage reads
+
+# transformation (dbt/); dbt-snowflake also installs snowflake-connector-python
+dbt-core==1.12.3
+dbt-snowflake==1.12.0
+
+# optional, for the secret-scanning hook in .pre-commit-config.yaml
+pre-commit==4.6.2

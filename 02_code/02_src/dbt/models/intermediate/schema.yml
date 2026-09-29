@@ -1,0 +1,381 @@
+# dbt/models/intermediate/schema.yml
+version: 2
+
+models:
+  - name: int_job_listings
+    description: >
+      All six sources combined, one row per listing (one posting on one source; for Workable,
+      one posting in one city). Adds source metadata from seed_sources, the publisher, the
+      standardized company, city, region, job category, experience level and remote status,
+      the plain-text description, and the matching keys (title_norm, company_norm, city_std)
+      used by int_jobs_matched. See data_model.md, Sections 8.2 and 10.
+    data_tests:
+      # no HTML tag or entity left in the description (warning while the rule is new)
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "not regexp_like(description_text, '.*(<[a-zA-Z/][^>]*>|&lt;|&gt;|&amp;).*', 's')"
+          config:
+            where: "description_text is not null"
+            severity: warn
+    columns:
+      - name: source_record_sk
+        description: "Listing key carried over from staging. Unique across all sources."
+        data_tests:
+          - unique
+          - not_null
+      - name: posting_sk
+        description: "One posting across its cities: hash of source_name and source_job_id."
+        data_tests:
+          - not_null
+      - name: source_type
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['ATS', 'Aggregator']
+      - name: source_priority
+        description: "Order used to choose the representative listing (1 = preferred)."
+        data_tests:
+          - not_null
+      - name: publisher
+        description: "Who put the advertisement online: the employer's board for ATS, the originating site for aggregators. Two listings from the same publisher are never merged."
+        data_tests:
+          - not_null
+      - name: company_name
+        description: "Standard name from seed_company_aliases when listed, otherwise the source's name; 'Unknown' for placeholders and missing names."
+        data_tests:
+          - not_null
+      - name: employment_type
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Full-time', 'Part-time', 'Contract', 'Internship', 'Temporary', 'Volunteer', 'Full-time and Part-time', 'Other', 'Unknown']
+      - name: workplace_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Hybrid', 'OnSite', 'Unknown']
+      - name: remote_status
+        description: "From workplace_type first, then the source's remote flag. Hybrid is Not remote."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Remote', 'Not remote', 'Unknown']
+      - name: experience_level
+        description: "Mapped by seed_experience_levels. A raw value missing from the seed passes through unchanged and fails this test."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Internship', 'Entry', 'Associate', 'Mid-Senior', 'Director', 'Executive', 'Unknown']
+      - name: location_level
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['city', 'region', 'country']
+      - name: job_category
+        description: "From title keywords in seed_job_categories; 'Other' when no keyword matches, 'Unknown' when there is no title."
+        data_tests:
+          - not_null
+      - name: is_active
+        description: "ATS: present in the latest pull of its own board. Aggregators: null (unknown), because a query result is not a full list of open jobs."
+        data_tests:
+          - not_null:
+              config:
+                where: "source_type = 'ATS'"
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: "is null"
+              config:
+                where: "source_type = 'Aggregator'"
+      - name: title_norm
+        description: "Matching key only: lower-case, punctuation, bracketed notes and hiring/location noise removed."
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+      - name: description_text
+        description: "Plain text: HTML entities decoded, tags removed, whitespace collapsed."
+      - name: description_basis
+        description: "'snippet' for Jooble (a short excerpt), 'full' for every other source."
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['full', 'snippet']
+      - name: board
+        description: "The unit that is pulled: the ATS board file, or the aggregator source as a whole."
+        data_tests:
+          - not_null
+      - name: experience_level_basis
+        description: "Where experience_level came from: 'source' (the source's own field), 'title' (seed_seniority_keywords), or 'unknown'."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['source', 'title', 'unknown']
+      - name: cities_named
+        description: "Distinct cities named by the location text (or city field). Above 1, the listing is kept at the region the cities share, else at country level."
+      - name: salary_period
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['hour', 'day', 'week', 'month', 'year']
+      - name: salary_currency
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['SAR', 'USD']
+      - name: salary_is_parsed
+        description: "True when salary_text follows the salary grammar; false marks a text left unparsed. Null when there is no salary."
+        data_tests:
+          - not_null:
+              config:
+                where: "salary_text is not null"
+                severity: warn
+          - accepted_values:
+              arguments:
+                values: [true]
+                quote: false
+              config:
+                where: "salary_text is not null"
+                severity: warn
+      - name: first_seen_date
+        description: "Date of first sighting in Asia/Riyadh."
+        data_tests:
+          - not_null
+      - name: is_baseline
+        description: "First seen in the baseline pull of its board (ATS) or in the first collection week of its source (aggregators)."
+        data_tests:
+          - not_null
+      - name: is_disappeared
+        description: "ATS only: absent from K successful pulls of its own board (var disappearance_misses). Null for aggregators."
+        data_tests:
+          - not_null:
+              config:
+                where: "source_type = 'ATS'"
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: "is null"
+              config:
+                where: "source_type = 'Aggregator'"
+
+  - name: int_jobs_matched
+    description: >
+      One row per listing with the job (job_sk) it belongs to after cross-source matching.
+      Tier 1: exact groups from int_listing_groups. Tier 2: two exact groups are merged when their
+      score in int_match_candidates reaches var('fuzzy_match_threshold') and each is the other's
+      best candidate (Jaccard at 80; a null threshold turns the tier off). is_representative marks the listing whose
+      values represent the job. data_model.md, section 8.
+    columns:
+      - name: source_record_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: job_sk
+        description: "source_record_sk of the opening's earliest listing."
+        data_tests:
+          - not_null
+      - name: is_representative
+        data_tests:
+          - not_null
+      - name: match_tier
+        description: "'fuzzy' (tier-2 merge), 'exact' (several postings with one match key) or 'single'."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['exact', 'fuzzy', 'single']
+
+  - name: int_listing_groups
+    description: >
+      One row per listing with its exact match group: title_norm + company_norm + city_std, the
+      publisher rule, and rank-to-rank pairing of one publisher's postings on one source. Tier 1 of
+      matching.
+    columns:
+      - name: source_record_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: match_group
+        data_tests:
+          - not_null
+
+  - name: int_match_candidates
+    description: >
+      Candidate pairs of exact groups for the fuzzy tier: same company and city, different titles,
+      no shared publisher, same level words, and a score of at least 50 on one of the two measures.
+      Holds both scores and no threshold, so the threshold can be chosen from a labelled sample
+      (analyses/fuzzy_review_sample.sql, analyses/match_threshold_evaluation.sql).
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - match_group_a
+              - match_group_b
+    columns:
+      - name: candidate_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: jaccard_score
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 100
+      - name: jaro_winkler_score
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 100
+
+  - name: int_landed_files
+    description: >
+      One row per landed file or API page, with file-level metadata only: source, board, pull
+      date (Asia/Riyadh), query label for aggregators, and whether the payload is a job list.
+      Reads RAW directly because a failed or empty pull leaves no trace in staging.
+    columns:
+      - name: file_name
+        data_tests:
+          - not_null
+      - name: pull_date
+        data_tests:
+          - not_null
+      - name: is_successful_file
+        data_tests:
+          - not_null
+
+  - name: int_board_pulls
+    description: >
+      Pull calendar: one row per ATS board per ingest date, and per aggregator per collection
+      date. is_successful drives every lifecycle rule, so a failed pull closes nothing.
+      is_baseline_pull marks the pull whose contents already existed before the pipeline looked.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - source_name
+              - board
+              - pull_date
+    columns:
+      - name: pull_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: source_type
+        data_tests:
+          - not_null
+
+  - name: int_source_weeks
+    description: >
+      Collection coverage: one row per source per week with a successful file. is_full_pull: for an
+      ATS source, every board that existed by the end of the week and ever held a posting was pulled
+      successfully; for an aggregator, a week that repeats the baseline campaign's queries (var
+      aggregator_campaign_coverage). Evidence for the data quality report:
+      it shows which sources were collected when, so a change between periods can be read against it.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - source_name
+              - week_start_date
+    columns:
+      - name: source_week_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: is_full_pull
+        data_tests:
+          - not_null
+
+  - name: int_job_skills
+    description: >
+      One row per job per skill from seed_skills, matched as whole words on the titles and cleaned
+      descriptions of all the job's listings. Feeds bridge_job_skill and dim_skill.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - job_sk
+              - skill_name
+    columns:
+      - name: job_skill_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: job_sk
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('int_job_openings')
+                field: job_sk
+      - name: matched_in
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['title', 'description']
+
+  - name: int_job_openings
+    description: >
+      One row per job opening (job_sk) with the survivorship rules of data_model.md, Section 8.4,
+      applied once: values from the representative listing, first known values by source
+      priority, ATS-first posting date and status, and the listing counts. Every mart reads it.
+    columns:
+      - name: job_sk
+        data_tests:
+          - unique
+          - not_null
+      - name: posting_sk
+        data_tests:
+          - not_null
+      - name: posting_date
+        description: "Earliest ATS posting date, else the earliest of any listing. A date before 2015 would stretch dim_date and signals a parsing error."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              arguments:
+                expression: ">= '2015-01-01'::date"
+              config:
+                where: "posting_date is not null"
+      - name: status_basis
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['employer board', 'aggregator query']
+      - name: lifecycle_status
+        description: "'open' (still on an employer board), 'disappeared' (gone from every board it was on, after K successful misses), 'unknown' (aggregators only: no evidence)."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['open', 'disappeared', 'unknown']
+      - name: open_until_date
+        description: "Last day the job counts as open: day before it disappeared, else latest evidence plus var('recent_window_days'), capped at the latest successful pull."
+        data_tests:
+          - not_null
+      - name: opening_date
+        description: "First seen date for jobs with an employer-board listing that were not seen in any baseline pull. Null for baseline jobs and for aggregator-only jobs, whose first sighting in a ranked query result is not evidence of a new opening."
+      - name: days_listed
+        description: "Disappeared jobs only: days from the posting date (else first seen) to the disappeared date. Summarised by median."
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+              config:
+                where: "days_listed is not null"
+      - name: experience_level_basis
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['source', 'title', 'unknown']
+      - name: description_basis
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['full', 'snippet', 'none']
+      - name: match_tier
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['exact', 'fuzzy', 'single']

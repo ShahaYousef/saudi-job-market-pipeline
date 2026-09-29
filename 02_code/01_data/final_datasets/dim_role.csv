@@ -1,0 +1,21 @@
+ROLE_SK,JOB_CATEGORY,ROLE_FAMILY
+03a83dcce2c9a53f21328453c2e6052e,IT & Software,Technology and Data
+db5fa64de3b155a93f81b08a65a4bae0,Data & Analytics,Technology and Data
+ab0268fb8036a892dc341945cb7ae3be,Engineering,Engineering and Construction
+13d38e78b4b40540f114b49eab1181b3,Construction & Trades,Engineering and Construction
+fe4dbcab9b910577e5035e97ac068dae,Management,Business and Finance
+91053255b6e362ad34fad523455578d2,Consulting & Strategy,Business and Finance
+38a03c01e27600cfd0f4a19f6303cd8f,Finance & Accounting,Business and Finance
+a10a9bcd450087de1ce1f80b35f44883,Legal,Business and Finance
+7258e7251413465e0a3eb58094430bde,Administration,Business and Finance
+161e248a818bceb709a66950fdabf946,HR & Recruitment,Business and Finance
+37099b153bc4bb9ab662f4fba563890e,Sales & Business Development,"Sales, Marketing and Service"
+7cb15e416d62919b1b40298324fbe30b,Marketing,"Sales, Marketing and Service"
+d5552e0564007d93ff5937a9cb3bc491,Customer Service,"Sales, Marketing and Service"
+6c8ef737113e803645607dd1287661e5,Design & Creative,"Sales, Marketing and Service"
+0453b376589d98fd630c442c59b978a9,Operations & Supply Chain,Operations and Hospitality
+ff6d36448615224a5688b6b00b1a3bb8,Hospitality & Food,Operations and Hospitality
+4ee2a6c7bb7c40af94c5a15dbf7eb673,Healthcare,Health and Education
+4d57306397be8fccecbe31071bfca14d,Education & Training,Health and Education
+6311ae17c1ee52b36e68aaf4ad066387,Other,Other
+-1,Unknown,Unknown

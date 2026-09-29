@@ -1,0 +1,298 @@
+[
+  {
+    "id": "744000095392835",
+    "name": "Software Development Intern",
+    "uuid": "77862544-4459-4a76-9a53-858a401e790b",
+    "jobAdId": "32da0014-49ca-4ac7-b213-31e69414b10e",
+    "defaultJobAd": true,
+    "refNumber": "REF272237F",
+    "company": {
+      "identifier": "BoschGroup",
+      "name": "Bosch Group"
+    },
+    "releasedDate": "2025-11-25T11:24:41.454Z",
+    "location": {
+      "city": "Riyadh",
+      "country": "sa",
+      "address": "Riyadh",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Riyadh, , Saudi Arabia"
+    },
+    "industry": {
+      "id": "mechanical_engineering",
+      "label": "Mechanical Or Industrial Engineering"
+    },
+    "department": {},
+    "function": {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    "typeOfEmployment": {
+      "id": "part-time",
+      "label": "Part-time"
+    },
+    "experienceLevel": {
+      "id": "internship",
+      "label": "Internship"
+    },
+    "customField": [
+      {
+        "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+        "fieldLabel": "Contract type",
+        "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+        "valueLabel": "Limited"
+      },
+      {
+        "fieldId": "5abe28e96d8bc56863dd9746",
+        "fieldLabel": "Tariff Area",
+        "valueId": "867edbd6-09f9-400d-b247-004548ff3797",
+        "valueLabel": "United Arab Emirates Local Grades"
+      },
+      {
+        "fieldId": "586a997ee4b05fd937b86098",
+        "fieldLabel": "Legal Entity(acronym)",
+        "valueId": "44189c5f-8374-4355-bc0a-04493ac2e180",
+        "valueLabel": "RBMI"
+      },
+      {
+        "fieldId": "586a99b5e4b0daa006ae1079",
+        "fieldLabel": "Working Location",
+        "valueId": "2feaf266-3068-4e5d-92b4-7742e603d512",
+        "valueLabel": "Dubai"
+      },
+      {
+        "fieldId": "5abe295a6d8bc56863dd9747",
+        "fieldLabel": "Global Salary Level",
+        "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+        "valueLabel": "Others"
+      },
+      {
+        "fieldId": "5abe29f9b60a5e486a2d9b1c",
+        "fieldLabel": "Working hours",
+        "valueId": "36d67fff-2442-44b6-b51d-8070aeaca6e6",
+        "valueLabel": "Part-time"
+      },
+      {
+        "fieldId": "586a9995e4b0daa006ae1078",
+        "fieldLabel": "Legal Entity",
+        "valueId": "d08bcdfa-5e4f-42ca-a8d5-0ccc6ed99c5e",
+        "valueLabel": "Robert Bosch Middle East FZE"
+      },
+      {
+        "fieldId": "5abe27936d8bc56863dd9745",
+        "fieldLabel": "Position type",
+        "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+        "valueLabel": "Intern"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "586a971ee4b0daa006ae1077",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Bosch Group"
+      },
+      {
+        "fieldId": "586a996ce4b05fd937b86097",
+        "fieldLabel": "Working Country",
+        "valueId": "ed456e84-6934-4b87-ac20-01379d0ad2c7",
+        "valueLabel": "United Arab Emirates"
+      },
+      {
+        "fieldId": "586a9b22e4b05fd937b8609a",
+        "fieldLabel": "Local Grade",
+        "valueId": "12fffef6-7989-4d29-9731-bbb76cbf0737",
+        "valueLabel": "AE_RBMI_INTERN"
+      },
+      {
+        "fieldId": "586a99a5e4b05fd937b86099",
+        "fieldLabel": "Division",
+        "valueId": "61a5ceca-50be-4997-b8ad-fa5fdaf3df3f",
+        "valueLabel": "RBKS"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000095392835",
+    "creator": {
+      "name": "BEYZA NUR İLDAM (GS/HRS1-CEE-TR)"
+    },
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Do you want beneficial technologies being shaped by your ideas? Whether in the areas of mobility solutions, consumer goods, industrial technology or energy and building technology - with us, you will have the chance to improve quality of life all across the globe. Welcome to Bosch.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Business Unit:</strong> Software and Digital Solutions</p><p>Are you passionate about Artificial Intelligence, Cloud Computing, and next-gen technology?<br>\nWe’re looking for ambitious students or recent graduates who are eager to kickstart their careers in one of the most in-demand fields in the world.</p><p>As a <strong>Software Development Intern</strong>, you’ll gain hands-on experience with cutting-edge tools, work alongside industry experts, and contribute to real-world projects that impact businesses across the region.</p><p>During your internship, you will:</p><ul><li>Design and deploy scalable applications on cloud platforms</li><li>Explore AI/ML models, data pipelines, and automation workflows</li><li>Assist in developing intelligent cloud-native solutions that drive innovation</li><li>Collaborate with cross-functional teams on digital transformation projects</li><li>Learn DevOps practices, cloud security, and performance optimization</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>University students or recent graduates in Computer Science, Software Engineering, AI, Data Science, or related fields</li><li>Passionate about technology, innovation, and continuous learning</li><li>Familiar with basic programming (Python, Java, or C#)&#xa0;</li><li>Knowledgeable in cloud fundamentals or AI concepts is a plus</li><li>Excellent problem-solvers and communicators</li><li>Fluent in Arabic and English</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000095392785",
+    "name": "Business Management Intern",
+    "uuid": "a2468eee-84c4-4f2c-a19a-80e8e680c419",
+    "jobAdId": "2d55a4cc-eabc-4b8a-abc7-81bffdba59f9",
+    "defaultJobAd": true,
+    "refNumber": "REF272236G",
+    "company": {
+      "identifier": "BoschGroup",
+      "name": "Bosch Group"
+    },
+    "releasedDate": "2025-11-25T11:24:13.325Z",
+    "location": {
+      "city": "Riyadh",
+      "country": "sa",
+      "address": "Riyadh",
+      "remote": false,
+      "hybrid": false,
+      "fullLocation": "Riyadh, , Saudi Arabia"
+    },
+    "industry": {
+      "id": "mechanical_engineering",
+      "label": "Mechanical Or Industrial Engineering"
+    },
+    "department": {},
+    "function": {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    "typeOfEmployment": {
+      "id": "part-time",
+      "label": "Part-time"
+    },
+    "experienceLevel": {
+      "id": "internship",
+      "label": "Internship"
+    },
+    "customField": [
+      {
+        "fieldId": "5abe2a4ab60a5e486a2d9b1d",
+        "fieldLabel": "Contract type",
+        "valueId": "98487475-2a49-44f5-a615-408b525b3821",
+        "valueLabel": "Limited"
+      },
+      {
+        "fieldId": "5abe28e96d8bc56863dd9746",
+        "fieldLabel": "Tariff Area",
+        "valueId": "867edbd6-09f9-400d-b247-004548ff3797",
+        "valueLabel": "United Arab Emirates Local Grades"
+      },
+      {
+        "fieldId": "586a997ee4b05fd937b86098",
+        "fieldLabel": "Legal Entity(acronym)",
+        "valueId": "44189c5f-8374-4355-bc0a-04493ac2e180",
+        "valueLabel": "RBMI"
+      },
+      {
+        "fieldId": "586a99b5e4b0daa006ae1079",
+        "fieldLabel": "Working Location",
+        "valueId": "2feaf266-3068-4e5d-92b4-7742e603d512",
+        "valueLabel": "Dubai"
+      },
+      {
+        "fieldId": "5abe295a6d8bc56863dd9747",
+        "fieldLabel": "Global Salary Level",
+        "valueId": "80ae06a1-4738-48e8-8aea-4613f58ecd57",
+        "valueLabel": "Others"
+      },
+      {
+        "fieldId": "5abe29f9b60a5e486a2d9b1c",
+        "fieldLabel": "Working hours",
+        "valueId": "36d67fff-2442-44b6-b51d-8070aeaca6e6",
+        "valueLabel": "Part-time"
+      },
+      {
+        "fieldId": "586a9995e4b0daa006ae1078",
+        "fieldLabel": "Legal Entity",
+        "valueId": "d08bcdfa-5e4f-42ca-a8d5-0ccc6ed99c5e",
+        "valueLabel": "Robert Bosch Middle East FZE"
+      },
+      {
+        "fieldId": "5abe27936d8bc56863dd9745",
+        "fieldLabel": "Position type",
+        "valueId": "f524b939-fe55-407b-a0b0-e8f4eec28997",
+        "valueLabel": "Intern"
+      },
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "586a971ee4b0daa006ae1077",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "Bosch Group"
+      },
+      {
+        "fieldId": "586a996ce4b05fd937b86097",
+        "fieldLabel": "Working Country",
+        "valueId": "ed456e84-6934-4b87-ac20-01379d0ad2c7",
+        "valueLabel": "United Arab Emirates"
+      },
+      {
+        "fieldId": "586a9b22e4b05fd937b8609a",
+        "fieldLabel": "Local Grade",
+        "valueId": "12fffef6-7989-4d29-9731-bbb76cbf0737",
+        "valueLabel": "AE_RBMI_INTERN"
+      },
+      {
+        "fieldId": "586a99a5e4b05fd937b86099",
+        "fieldLabel": "Division",
+        "valueId": "61a5ceca-50be-4997-b8ad-fa5fdaf3df3f",
+        "valueLabel": "RBKS"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings/744000095392785",
+    "creator": {
+      "name": "BEYZA NUR İLDAM (GS/HRS1-CEE-TR)"
+    },
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Do you want beneficial technologies being shaped by your ideas? Whether in the areas of mobility solutions, consumer goods, industrial technology or energy and building technology - with us, you will have the chance to improve quality of life all across the globe. Welcome to Bosch.</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p><strong>Business Unit:</strong> Software and Digital Solutions</p><p>Are you a strategic thinker with a passion for business, sales, and Technology?<br>\nJoin us as a <strong>Business Management Intern</strong> in our Presales and Sales Operations team — and gain hands-on experience driving business growth and supporting cutting-edge digital solutions.</p><p>As a Business Management Intern, you’ll work closely with our sales, marketing, and technical experts, helping shape go-to-market strategies for Cloud, AI, and digital transformation services that empower organizations across Saudi Arabia.</p><p>During your internship, you will:</p><ul><li>Support the Presales team in preparing client proposals, presentations, and RFP documentation</li><li>Conduct market research and analyze customer needs to support solution positioning</li><li>Assist in tracking sales performance, KPIs, and pipeline management using CRM tools</li><li>Collaborate with cross-functional teams (marketing, finance, operations) to streamline sales processes</li><li>Help design sales enablement materials, such as product sheets and value propositions</li></ul>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<ul><li>Students or recent graduates in Business Administration, Management, Marketing or Finance</li><li>Strong communicators with analytical and organizational skills</li><li>Proficient in Microsoft Office Suite (especially Excel and PowerPoint</li><li>Eager to learn in a fast-paced, collaborative, and tech-driven environment</li><li>Fluent in Arabic and English</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  }
+]

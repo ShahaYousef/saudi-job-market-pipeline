@@ -1,0 +1,59 @@
+LOCATION_SK,CITY,REGION,COUNTRY,LOCATION_LEVEL,LOCATION_LABEL
+c2314772e02a75cf4d8b6d6309ac35d1,Unknown,Madinah,SA,region,Madinah (no city given)
+07187e6c63b87a9c55d7856c4b80e893,AMAALA,Tabuk,SA,city,AMAALA
+c317c0291591fd33815247afde0ef622,Duba,Tabuk,SA,city,Duba
+61a32772750afc23557bb49e6b4bdca3,Red Sea Project,Tabuk,SA,city,Red Sea Project
+f7cabf4af9c8ca357859269004edc564,Ras Tanura,Eastern Province,SA,city,Ras Tanura
+76de6d77762d72b65ae5292d73ea6bc1,Arar,Northern Borders,SA,city,Arar
+c22cf1c0d907235b3fe3a079df42b8ba,Qatif,Eastern Province,SA,city,Qatif
+4bb464380ff1fb7752d1a305fad8b462,Unaizah,Qassim,SA,city,Unaizah
+be5d68989db83325c86b2e4d5324a67c,Dhurma,Riyadh,SA,city,Dhurma
+b4475bf00ddbbcca9bbb54f4dfa44445,As Sulayyil,Riyadh,SA,city,As Sulayyil
+-1,Unknown,Unknown,Unknown,unknown,Unknown
+39e6ef27cbccee80ff11d836995a5d27,Jubail,Eastern Province,SA,city,Jubail
+0460894d77e33ff811d44efa3a0a0a6d,King Abdullah Economic City,Makkah,SA,city,King Abdullah Economic City
+6614c7186cec3db6b356ea91b201c7f1,Unknown,Unknown,SA,country,Saudi Arabia (no city given)
+93bfe35a32d26da10e96b44a61f484b3,Unknown,Eastern Province,SA,region,Eastern Province (no city given)
+8ca319b159406878bb7b2650a995caf1,Unknown,Qassim,SA,region,Qassim (no city given)
+9ccebc2e84ba54164c54b1f597123a2d,Abha,Asir,SA,city,Abha
+5044d7a139b3975ddb8056e71dec2517,Unknown,Riyadh,SA,region,Riyadh (no city given)
+16164bd8d5bf3daa51e2c72e3037e4f4,Najran,Najran,SA,city,Najran
+f0a581580197c7d630c3fcf667fde5ca,Sharurah,Najran,SA,city,Sharurah
+5bc239e1c9fe6d73c137fb2afbae588e,Dammam,Eastern Province,SA,city,Dammam
+f80d1b957a76b5fa1e3193179f5882ff,Madinah,Madinah,SA,city,Madinah
+83ccc13affdda9b1fd8d15e6e15b7e00,Al Kharj,Riyadh,SA,city,Al Kharj
+a4b0092a8e836a81c6c6b472d169fe0b,Jazan,Jazan,SA,city,Jazan
+9b568dcbcaaa60983cfdcce255137664,Rabigh,Makkah,SA,city,Rabigh
+f33c774ef235c37dac9645a986b38f6e,Al Bahah,Al Bahah,SA,city,Al Bahah
+c3c0d03e3a0404a010fdccd0d7d3c59d,Al Ahsa,Eastern Province,SA,city,Al Ahsa
+82cba4b3dd5cb5b6c72ca7305e8bef78,Ar Rass,Qassim,SA,city,Ar Rass
+dcf39aa4390ecd7db6d2288885054091,Unknown,Tabuk,SA,region,Tabuk (no city given)
+6f898904fa91551dba2b47c80efd4d31,Al Khafji,Eastern Province,SA,city,Al Khafji
+cf3a2b6bb5629865b9b65895bcb3df69,Buraidah,Qassim,SA,city,Buraidah
+aacc578216485ed4682f10f700af0ca8,Haradh,Eastern Province,SA,city,Haradh
+092b326a058fc7b0a699eae64ff13bd1,AlUla,Madinah,SA,city,AlUla
+3450667c49cd62ae893cec09136f922d,Unknown,Northern Borders,SA,region,Northern Borders (no city given)
+e5a775a56d1b44e8700d1acb4ceabff6,Umluj,Tabuk,SA,city,Umluj
+fc391264a2ffde7b95744ea24a24d73f,Tabuk,Tabuk,SA,city,Tabuk
+de4fe6350b3d135ee622cd4ede12cb53,Hail,Hail,SA,city,Hail
+936534f41567a11836e21643d65c90b5,Al Wajh,Tabuk,SA,city,Al Wajh
+8add93129c6110660fb1795c0c6b5c2a,Dhahran,Eastern Province,SA,city,Dhahran
+17a0982e47464cec10c50ad78a64dfcb,Khamis Mushait,Asir,SA,city,Khamis Mushait
+bb2ca21296ca66905cd87416fd1aa2b9,Al Khobar,Eastern Province,SA,city,Al Khobar
+c25bbee98f3e4464dd6ff2c39d0bcfff,Turaif,Northern Borders,SA,city,Turaif
+591e4f60b35d18beaad774ebae4b31e1,Unknown,Makkah,SA,region,Makkah (no city given)
+8fb115ae9f3b9c3128ab20968d36f14a,Thuwal,Makkah,SA,city,Thuwal
+0ef1c0abb4de726a2275865d8f04cbb0,Abqaiq,Eastern Province,SA,city,Abqaiq
+b21d4d35ea865a33a48653c95daf399c,Ras Al Khair,Eastern Province,SA,city,Ras Al Khair
+b1840ee43c66638b4b29c00a94c14a39,Udhailiyah,Eastern Province,SA,city,Udhailiyah
+50909c897de78fe17e675a67b5ef49bc,Riyadh,Riyadh,SA,city,Riyadh
+1163d6ed0e7909a6ede77319a9bb9ee6,Jeddah,Makkah,SA,city,Jeddah
+9ecf8b7a154a240c7ca63ffdfc03985f,Taif,Makkah,SA,city,Taif
+b4cb6fe78d0fcda2175bfaa1a86b37cd,Al Mubarraz,Eastern Province,SA,city,Al Mubarraz
+32ff5047b68d7a22e254ebcfcbd1c298,Makkah,Makkah,SA,city,Makkah
+3edac439db4ec1aad18ee31b80b4a838,Yanbu,Madinah,SA,city,Yanbu
+29200c5f3d81c76876fada66a5bde32e,Diriyah,Riyadh,SA,city,Diriyah
+eaf8bd6186dfa222e02b4356018f7443,Al Bukayriyah,Qassim,SA,city,Al Bukayriyah
+8b30c27c6d0003bb032b86f0ee01c0fc,Al Majmaah,Riyadh,SA,city,Al Majmaah
+b7ca7e6af3577726870c2fe4c122670e,Sakaka,Al Jawf,SA,city,Sakaka
+cb4ec4c4bdc06b0b2e71a3c5c2b71fc3,Saihat,Eastern Province,SA,city,Saihat

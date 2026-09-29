@@ -1,0 +1,84 @@
+JOB_ATTRIBUTES_SK,EMPLOYMENT_TYPE,WORKPLACE_TYPE,REMOTE_STATUS,EXPERIENCE_LEVEL,EXPERIENCE_LEVEL_BASIS
+97d634004c30e6cec785535607e6cf5c,Full-time,OnSite,Not remote,Entry,source
+919022f9df43a48954038091db656655,Full-time,Unknown,Unknown,Mid-Senior,title
+f2ae2bbba728997bc888e43919b25acf,Unknown,Unknown,Not remote,Mid-Senior,title
+2038a6ff4c2d7b380a90e9669cda0c52,Full-time,OnSite,Not remote,Executive,source
+e6297ac14052fc0d480f49e3fdca5c30,Unknown,Unknown,Unknown,Internship,title
+8ebdea703e7e91c396a85fc1b42e1369,Internship,Unknown,Not remote,Internship,title
+b6629881e464a8898a53b7023294e4bc,Full-time,Unknown,Not remote,Director,source
+52abb57a534644d65ec62e9e5f055ced,Full-time,Remote,Remote,Director,source
+08a3e280dc62f356ba24ddeecdfaf0d6,Contract,OnSite,Not remote,Mid-Senior,source
+50176bb47daa05646d7df90c248341ef,Other,Unknown,Not remote,Mid-Senior,title
+15a99113e03e4d0a9303ca22f3919505,Unknown,Remote,Remote,Mid-Senior,title
+7de403b12fbe46fcef91a350c8b42e44,Part-time,Remote,Remote,Mid-Senior,source
+b6c6dc5329e6de57a4c418c0ba0841e6,Internship,OnSite,Not remote,Internship,title
+7c7a59dd3388c97e5650f9c277dea2aa,Contract,OnSite,Not remote,Director,source
+be24667868b726b8bc5dea96605ea962,Full-time,Unknown,Not remote,Unknown,unknown
+3c7e27e73fc6220cee3b278d38b906fe,Contract,Unknown,Not remote,Unknown,unknown
+7bfc609cdcc104c62057be9e450e2884,Full-time,OnSite,Not remote,Director,source
+347e1c9f2a12b8dd859267b62278cc56,Contract,Unknown,Not remote,Associate,source
+e511eda9752c7b44f983c25f27f58633,Contract,Remote,Remote,Unknown,unknown
+a2d8a0f918bd1d0b42a82523f496e3e1,Contract,Unknown,Not remote,Director,title
+4674f16ac01fae7c66a5da79c0be86c8,Full-time and Part-time,Unknown,Not remote,Unknown,unknown
+919553dc437c4b1a84b9d480c09ce462,Contract,Remote,Remote,Associate,source
+6f723996e0c95bc4687eb2a83ddf9019,Full-time,Unknown,Not remote,Mid-Senior,title
+5856d16ea99d3982a19f21d61a06c565,Part-time,OnSite,Not remote,Mid-Senior,source
+2a6073f6e24ddbc3e39a8c0eda9212ab,Unknown,Unknown,Not remote,Director,title
+cd02be5499f7165d2a5d750a8e26a324,Full-time,Remote,Remote,Mid-Senior,title
+3aff95dc2e6c99a55518d0cb6c1f1db1,Internship,Unknown,Not remote,Mid-Senior,title
+7284dc43898432f7db8e69a00ef8737a,Part-time,OnSite,Not remote,Internship,source
+d893ecdcd93a15eb924186918164d173,Contract,OnSite,Not remote,Executive,source
+b15e2096421764c189e8f23bf957f38d,Other,Unknown,Not remote,Entry,source
+8a4ae1e091c3a9a178c5e33fe76d42b8,Unknown,Unknown,Unknown,Mid-Senior,title
+7792dc51262cfec9758f6c6624360ecf,Contract,Unknown,Not remote,Entry,source
+da4e820442e675c260d238929e4aeb91,Unknown,Unknown,Not remote,Unknown,unknown
+b09cc27d126c24684eaa93d5ff3e7039,Full-time,Unknown,Unknown,Unknown,unknown
+e6898e987fefd08dada907a84b2e718f,Unknown,Unknown,Unknown,Director,title
+fdaa6433a9b92eeb865f46a4b36ba741,Full-time,OnSite,Not remote,Associate,source
+2c0a488c73cac84068af03ee73eb473f,Full-time,OnSite,Not remote,Unknown,unknown
+e296a131e8d9fc343d32281ef604d73f,Full-time,Remote,Remote,Mid-Senior,source
+5af5d3f278ab7aae41af5c200c6df6a8,Internship,OnSite,Not remote,Internship,source
+75264a69c9c2d48b08a2e814d4682938,Contract,Unknown,Not remote,Director,source
+fe66719aead97a80f035fbf83d867458,Unknown,Unknown,Not remote,Mid-Senior,source
+54522ac1b5183a7986ed31587deade34,Full-time,Remote,Remote,Executive,source
+57591debe5e92dd98b10363b717351f1,Contract,Remote,Remote,Entry,source
+-1,Unknown,Unknown,Unknown,Unknown,unknown
+b73cb7d3b613a0056226198d7656bc61,Full-time,Unknown,Not remote,Mid-Senior,source
+c08674f717c84e221fda5dba147f2768,Full-time,Unknown,Not remote,Entry,source
+dd57104bdab44988104ff22509e42667,Contract,Unknown,Not remote,Mid-Senior,title
+f12a90fa783e23e5b1f0125751e129a3,Full-time,Hybrid,Not remote,Associate,source
+b7b6c12e0c8797610ce7162478e92351,Full-time,Remote,Remote,Entry,source
+b0dfe32868a759caf4eec488fa982426,Full-time,Remote,Remote,Associate,source
+b332b8311e9d7f740c48122b976041ff,Full-time,Unknown,Not remote,Executive,source
+2992e7c80d371a9f64685a0f7ad1cdfb,Part-time,Unknown,Not remote,Mid-Senior,title
+fe9aa80389ffe4efefb8ab96560e8263,Unknown,Unknown,Not remote,Internship,title
+281936b81604cabf01317950a9b2b9d0,Full-time,Hybrid,Not remote,Mid-Senior,title
+5d00ba4cb037b49962390f1766b07f2b,Full-time,Unknown,Not remote,Director,title
+d1ae6303a7b4c845abea59b092945a30,Internship,OnSite,Not remote,Associate,source
+2c5b36e594faac20dbc5288b45c801fb,Full-time,Hybrid,Not remote,Entry,source
+6462e6029929296998143c8c3595ed31,Full-time,Unknown,Not remote,Internship,title
+c7da868c2fbec3c4f9e422653587ffd7,Other,Unknown,Not remote,Unknown,unknown
+01a1209cf6ceff62773804afd2ac94f9,Contract,Remote,Remote,Director,source
+918895a74a72d67af4f7f0f31d9ad1ee,Contract,Unknown,Not remote,Mid-Senior,source
+9ff8af27a7359baaba2ca40a4523acd8,Part-time,Remote,Remote,Unknown,unknown
+3b8da990c8d79a2c9fd8e84031a8db7c,Temporary,Unknown,Not remote,Unknown,unknown
+2e1195baa5942cb2605adc292a89415f,Part-time,Unknown,Not remote,Director,source
+d8942ebfde5e9c17d2ae0dbc5d7a285b,Full-time,OnSite,Not remote,Internship,source
+9cbafbf5cdf45b170cf081de3177e697,Contract,Remote,Remote,Mid-Senior,source
+379715375f2aa6389a6c2ccea7b416cf,Full-time,Hybrid,Not remote,Mid-Senior,source
+d00f341426785fac6cdfb9514aa8fe73,Contract,OnSite,Not remote,Associate,source
+761a9cf80f6329bab89a66a589f7de6a,Part-time,OnSite,Not remote,Director,source
+3a29a2ba4583dfef0ba31ee94cb83118,Full-time,Unknown,Not remote,Associate,source
+3b799a8200584c15f508bded404a9fb5,Full-time,OnSite,Not remote,Mid-Senior,source
+61d4f6a77841a1be8fa355f14ee86f11,Full-time,OnSite,Not remote,Mid-Senior,title
+ccf3508a442db57d7ed7c67b3cf4a942,Full-time,Remote,Remote,Unknown,unknown
+0b6586767696208e2681292125b5e8e9,Part-time,Unknown,Not remote,Unknown,unknown
+26d9c68f3341db5286b97f6c510b540c,Internship,Unknown,Not remote,Unknown,unknown
+878c96d280ba1eb5986f9e6aa2f679a3,Volunteer,Unknown,Not remote,Unknown,unknown
+87f67b2b68a12aab0aecfc24fc2d3f5b,Contract,OnSite,Not remote,Entry,source
+369c8a5f55a24167dfdd8e74519c5d28,Temporary,Unknown,Not remote,Mid-Senior,title
+522c4ec2b5a70ba1b75f8724d8d542fc,Full-time,Hybrid,Not remote,Unknown,unknown
+69fcd8dc8a37948e122f1db5a40cb73b,Full-time,Unknown,Not remote,Internship,source
+b47ad8aa6a08d0e1e8653b6afe29dbcf,Full-time,OnSite,Not remote,Internship,title
+e30fb9025da2f679a1a5615f962c117b,Unknown,Unknown,Not remote,Entry,source
+896097578d7429e2a7b40ad842ad962f,Full-time,Remote,Remote,Director,title

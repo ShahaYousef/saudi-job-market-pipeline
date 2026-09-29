@@ -1,0 +1,316 @@
+{
+    "jobs": [
+        {
+            "absolute_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8583194002",
+            "data_compliance": [
+                {
+                    "type": "gdpr",
+                    "requires_consent": false,
+                    "requires_processing_consent": false,
+                    "requires_retention_consent": false,
+                    "retention_period": null,
+                    "demographic_data_consent_applies": false
+                }
+            ],
+            "internal_job_id": 6397382002,
+            "location": {
+                "name": "Riyadh, KSA"
+            },
+            "metadata": [
+                {
+                    "id": 101318496002,
+                    "name": "FADV_Account",
+                    "value": null,
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 101318497002,
+                    "name": "FADV_Package",
+                    "value": null,
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 115785358002,
+                    "name": "Brand",
+                    "value": "Pronto",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 117533222002,
+                    "name": "Division",
+                    "value": "Operations",
+                    "value_type": "single_select"
+                }
+            ],
+            "id": 8583194002,
+            "updated_at": "2026-09-08T13:21:19-04:00",
+            "requisition_id": "5960",
+            "title": "Field Engineer",
+            "company_name": "ATOMS Careers page",
+            "first_published": "2026-06-09T12:17:08-04:00",
+            "language": "en",
+            "application_deadline": null,
+            "content": "&lt;p&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;br&gt;&lt;br&gt;Pronto AI is a global leader in commercializing autonomous vehicle (AV) technology, deploying Autonomous Haulage Systems (AHS) that automate operations in mines, quarries, and construction sites worldwide. While much of the industry remains in R&amp;amp;D, we deliver real, production-ready autonomy that is already operating in the field. &lt;br&gt;&lt;br&gt;We are on a mission to make mining operations safer, smarter, and more efficient through cutting-edge technology, and we are building toward becoming the world’s first profitable AV technology company.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;The Field Engineer is a hands-on role responsible for installing, calibrating, maintaining, and troubleshooting Pronto’s autonomous technology on heavy equipment at a mining site in Saudi Arabia. This role will support the on-site deployment of Pronto’s autonomous systems. The position requires strong electrical and mechanical skills and comfort working in outdoor industrial environments.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Installation &amp;amp; Deployment&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Perform on-site installation of Pronto hardware and software solutions, including sensor systems, DBW kits, power integration, and vehicle interfaces.&lt;/li&gt;\n&lt;li&gt;On-site installation of peripheral hardware such as network stations, gate systems, and office infrastructure.&lt;/li&gt;\n&lt;li&gt;Conduct system calibrations and validation tests to ensure installations meet operational standards.&lt;/li&gt;\n&lt;li&gt;Collaborate with Engineering and Customer teams to ensure field deployments align with specifications and best practices, as well as collaborating on R&amp;amp;D projects.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Maintenance &amp;amp; Troubleshooting&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Carry out scheduled maintenance tasks to ensure system health, reliability, and long-term performance.&lt;/li&gt;\n&lt;li&gt;Monitor and log equipment conditions, identifying signs of wear, degradation, or environmental impacts&lt;/li&gt;\n&lt;li&gt;Diagnose and repair hardware, software, and connectivity issues in the field.&lt;/li&gt;\n&lt;li&gt;Utilize diagnostic tools and logs to identify root causes and implement fixes with minimal downtime.&lt;/li&gt;\n&lt;li&gt;Communicate findings clearly to engineering teams for deeper analysis and continuous improvement.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Customer Site Support&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Serve as the face of Pronto during on-site visits, maintaining professional and responsive communication with customer personnel.&lt;/li&gt;\n&lt;li&gt;Provide basic training to customer staff when required.&lt;/li&gt;\n&lt;li&gt;Document all service activities, updates, and issues using internal ticketing and CRM tools.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we’re looking for&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;4+ years of experience in field service, automotive electronics, mechatronics, or a similar technical support role.&lt;/li&gt;\n&lt;li&gt;Proficiency with hand tools, diagnostic equipment, and electrical testing tools.&lt;/li&gt;\n&lt;li&gt;Solid understanding of vehicle systems (power, CAN bus, sensors, ECUs).&lt;/li&gt;\n&lt;li&gt;Ability to read wiring diagrams, schematics, and follow technical documentation.&lt;/li&gt;\n&lt;li&gt;Comfortable working independently in field environments with minimal supervision.&lt;/li&gt;\n&lt;li&gt;Excellent interpersonal and communication skills.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Experience with autonomous vehicle systems, machine control, robotics, or complex sensor integrations.&lt;/li&gt;\n&lt;li&gt;Familiarity with Linux-based systems and remote diagnostics.&lt;/li&gt;\n&lt;li&gt;OSHA 10, MSHA Part 48 or equivalent safety certification.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why join us&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Work on real, production-deployed autonomy.&lt;/li&gt;\n&lt;li&gt;Build technology that directly improves safety, efficiency, and productivity.&lt;/li&gt;\n&lt;li&gt;Tackle complex challenges in demanding, real-world environments.&lt;/li&gt;\n&lt;li&gt;Be part of a fast-moving team with high ownership and impact.&lt;/li&gt;\n&lt;li&gt;See your work deployed and making a difference in the field.&lt;/li&gt;\n&lt;li&gt;Collaborate closely with experienced engineers and industry operators.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What else you need to know&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;On-site role at a mining operation in Saudi Arabia.&lt;/li&gt;\n&lt;li&gt;Accommodation provided during deployments.&lt;/li&gt;\n&lt;li&gt;Mining rotation schedule (e.g., 2 weeks on-site followed by 1 week time off).&lt;/li&gt;\n&lt;li&gt;Field-based role in rugged mine environments.&lt;/li&gt;\n&lt;li&gt;Compliance with site-specific safety and health requirements.&lt;/li&gt;\n&lt;/ul&gt;",
+            "departments": [
+                {
+                    "id": 4133926002,
+                    "name": "Mining - Operations",
+                    "child_ids": [],
+                    "parent_id": 4133924002
+                }
+            ],
+            "offices": [
+                {
+                    "id": 4026806002,
+                    "name": "Saudi Arabia",
+                    "location": null,
+                    "child_ids": [
+                        4021581002,
+                        4035551002
+                    ],
+                    "parent_id": 4026809002
+                }
+            ],
+            "ai_disclaimer": null,
+            "include_ai_disclaimer": null,
+            "ai_opt_out_request_url": null
+        },
+        {
+            "absolute_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8457727002",
+            "data_compliance": [
+                {
+                    "type": "gdpr",
+                    "requires_consent": false,
+                    "requires_processing_consent": false,
+                    "requires_retention_consent": false,
+                    "retention_period": null,
+                    "demographic_data_consent_applies": false
+                }
+            ],
+            "internal_job_id": 6251150002,
+            "location": {
+                "name": "Riyadh, KSA"
+            },
+            "metadata": [
+                {
+                    "id": 101318496002,
+                    "name": "FADV_Account",
+                    "value": "NA",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 101318497002,
+                    "name": "FADV_Package",
+                    "value": "NA",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 115785358002,
+                    "name": "Brand",
+                    "value": "Atoms",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 117533222002,
+                    "name": "Division",
+                    "value": "Real Estate",
+                    "value_type": "single_select"
+                }
+            ],
+            "id": 8457727002,
+            "updated_at": "2026-08-07T09:25:51-04:00",
+            "requisition_id": "R2327",
+            "title": "Real Estate Analyst",
+            "company_name": "ATOMS Careers page",
+            "first_published": "2026-03-10T17:10:56-04:00",
+            "language": "en",
+            "application_deadline": null,
+            "content": "&lt;p&gt;&lt;strong&gt;Who we are&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Atoms is building the machines that power the next era of progress.&lt;/p&gt;\n&lt;p&gt;Over the last decade, software has transformed the digital world. But the physical world, where food is made, minerals are mined, goods are moved, and industries are run, remains far less intelligent, far less efficient, and far more constrained. We’re changing that.&lt;/p&gt;\n&lt;p&gt;Atoms builds Physical AI— real-world robots for the industries that move civilization forward, starting with food, mining, and transport. Our systems are designed to understand, predict, and control the real world with precision, turning complex physical operations into something more reliable, more scalable, and more productive.&lt;/p&gt;\n&lt;p&gt;This work requires more than robotics. It requires deep integration across hardware, software, AI, operations, manufacturing, and real estate. We don’t just build machines in a lab. We deploy them into real environments, operate them, learn from them, and improve them until they work at scale.&lt;/p&gt;\n&lt;p&gt;We are roboticists, engineers, operators, and builders. We believe the next great technology companies will not only transform information, but the physical systems that shape everyday life.&lt;/p&gt;\n&lt;p&gt;If you want to work on hard problems with real-world impact, join us.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Source new properties, landlords and local authority areas&lt;/li&gt;\n&lt;li&gt;Negotiate with owner and/or landlords&lt;/li&gt;\n&lt;li&gt;Conduct comprehensive market research and analysis to identify real estate trends, opportunities, and risks.&lt;/li&gt;\n&lt;li&gt;Prepare detailed financial models, forecasts, and feasibility studies for potential investments and developments.&lt;/li&gt;\n&lt;li&gt;Assist in the preparation of investment memorandums, presentations, and reports for stakeholders.&lt;/li&gt;\n&lt;li&gt;Monitor and analyze key economic indicators, regulatory changes, and market dynamics impacting the real estate sector in Saudi Arabia&lt;/li&gt;\n&lt;li&gt;Collaborate with cross-functional teams, including finance, legal, and development, to support decision-making processes.&lt;/li&gt;\n&lt;li&gt;Maintain and update real estate databases, ensuring data accuracy and integrity.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we’re looking for&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Fresh graduate with a Bachelor’s degree in Engineering (Civil, Construction, Mechanical, Electrical or related field).&lt;/li&gt;\n&lt;li&gt;Strong proficiency in financial modeling, Excel, and data analysis tools.&lt;/li&gt;\n&lt;li&gt;Excellent analytical and quantitative skills with attention to detail.&lt;/li&gt;\n&lt;li&gt;An understanding of the commercial real estate market in Saudi Arabia&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Strong written and verbal communication skills in English and Arabic (essential), with the ability to present complex information clearly and concisely.&lt;/li&gt;\n&lt;li&gt;Ability to work independently and as part of a team in a fast-paced environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Preferred Qualifications&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Curiosity - an insatiable appetite to understand customers’ challenges; a lifelong learner, coachable&lt;/li&gt;\n&lt;li&gt;Hustler - bold, hard-working and an inner drive to hit targets&lt;/li&gt;\n&lt;li&gt;Adaptability - you’re highly flexible and responsive to changing external conditions&lt;/li&gt;\n&lt;li&gt;Communicator - creative, innovative, strategic&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why join us&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Atoms, you’ll work on one of the defining challenges of our time—bringing automation into the physical world to drive real, lasting impact. We exist to uncover valuable unknown truths and turn them into progress, which means constantly pushing beyond what’s known and building what doesn’t yet exist. The work is ambitious and often challenging, but it’s grounded in a shared sense of purpose and a team committed to seeing it through together. Our work only matters if it serves others, and we know that meaningful progress depends on the trust of the people we serve and the strength of our team—so we invest in both, creating an environment where you can do your best work and grow.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What else you need to know&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This role is based in our Riyadh office. As a company driven by innovation and continuous change, close collaboration is essential. We’re constantly reimagining our industry, creating new products, and refining our processes, and we do our best work together. That’s why all of our office-based teams work onsite, five days a week.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Ready to join us as we serve those who serve others?&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;#LI-Onsite&lt;/em&gt;&lt;/p&gt;",
+            "departments": [
+                {
+                    "id": 4053274002,
+                    "name": "Acquisitions and Development",
+                    "child_ids": [],
+                    "parent_id": 4075835002
+                }
+            ],
+            "offices": [
+                {
+                    "id": 4026806002,
+                    "name": "Saudi Arabia",
+                    "location": null,
+                    "child_ids": [
+                        4021581002,
+                        4035551002
+                    ],
+                    "parent_id": 4026809002
+                }
+            ],
+            "ai_disclaimer": null,
+            "include_ai_disclaimer": null,
+            "ai_opt_out_request_url": null
+        },
+        {
+            "absolute_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8621523002",
+            "data_compliance": [
+                {
+                    "type": "gdpr",
+                    "requires_consent": false,
+                    "requires_processing_consent": false,
+                    "requires_retention_consent": false,
+                    "retention_period": null,
+                    "demographic_data_consent_applies": false
+                }
+            ],
+            "internal_job_id": 6440818002,
+            "location": {
+                "name": "Riyadh, KSA"
+            },
+            "metadata": [
+                {
+                    "id": 101318496002,
+                    "name": "FADV_Account",
+                    "value": "NA",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 101318497002,
+                    "name": "FADV_Package",
+                    "value": "NA",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 115785358002,
+                    "name": "Brand",
+                    "value": "KitchenPark",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 117533222002,
+                    "name": "Division",
+                    "value": "Sales",
+                    "value_type": "single_select"
+                }
+            ],
+            "id": 8621523002,
+            "updated_at": "2026-09-07T18:36:42-04:00",
+            "requisition_id": "R3512",
+            "title": "Sales Account Executive",
+            "company_name": "ATOMS Careers page",
+            "first_published": "2026-07-06T15:29:32-04:00",
+            "language": "en",
+            "application_deadline": null,
+            "content": "&lt;p&gt;&lt;strong&gt;Who we are&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Kitchen Park, our mission is centered on enhancing affordability, quality, and convenience for all. By repurposing underutilized properties into smart, fully equipped kitchens, we empower restaurateurs to thrive in the evolving food delivery landscape while delivering better experiences to customers and local communities.&lt;/p&gt;\n&lt;p&gt;We offer customized kitchen spaces designed for modern chefs and restaurant owners looking to tap into or scale within the delivery market. Our facilities support the production of virtually all cuisine types and can be tailored in both layout and equipment to meet specific operational needs. As our partners grow, we grow with them—providing flexible solutions that support expansion at every stage.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Engage with prospects by phone, email, or face-to-face in the Mid-Market-Enterprise Cuisine across Saudi Arabia - Riyadh.&lt;/li&gt;\n&lt;li&gt;Own the sales cycle: From outbound calls to closing deals, you will own the full-cycle sales process and be in control of your success.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Initiate discussions and build interest with potential partners for the business.&lt;/li&gt;\n&lt;li&gt;Arrange meetings with potential partners and set the sales cycle up for success.&lt;/li&gt;\n&lt;li&gt;Take an interest in clients&#39; business priorities and how KitchenPark can stimulate their growth.&lt;/li&gt;\n&lt;li&gt;Understand from sourced leads the potential value added to the business.&lt;/li&gt;\n&lt;li&gt;You will be given full product &amp;amp; sales training, doing lots of shadowing for the first 8 weeks.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we’re looking for&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years experience within a full-cycle sales experience in a direct quota-carrying role.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Bachelor’s degree in a business-related discipline (marketing, sales, finance, economics)&lt;/li&gt;\n&lt;li&gt;Consultative selling skills: You are intellectually curious and have exceptional closing skills.&lt;/li&gt;\n&lt;li&gt;Communication skills: You have outstanding communication and interpersonal skills both in person and on the phone.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Goal-oriented: You have a sharp focus on your goals and a belief that your daily, weekly, and monthly activities will help you achieve success.&lt;/li&gt;\n&lt;li&gt;Strong work ethic: You can demonstrate a strong work ethic and a commitment to doing what it takes to be successful in sales. You’re smart, passionate, competitive, driven to be the best.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Extremely ambitious, hard working and self motivated&lt;/li&gt;\n&lt;li&gt;Results and detail-oriented&lt;/li&gt;\n&lt;li&gt;Resilient with the ability to adapt, learn and operate with a growth mindset&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why join us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Headquartered in Riyadh we’re a team that wears a million hats – constantly learning, innovating, and problem-solving. We&#39;re building the infrastructure for better food in every major city of the world, and need to hire the planet&#39;s smartest people. Come and join the world&#39;s fastest rocketship.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Demand for online food delivery is growing really fast! In the last 5 years, just in the US, the overall market has expanded 10X from $10B to $100B, and could expand to $500bn- $1T by 2030.&lt;/li&gt;\n&lt;li&gt;Changing the restaurant industry: You’ll be part of a team that helps restaurants succeed in online food delivery.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Collaborative environment: You will receive support and guidance from experienced colleagues and managers, helping you to learn, grow and achieve your goals, and you’ll work closely with other teams to ensure our customer’s success.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What else you need to know&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This role is based in our Riyadh office. As a company driven by innovation and continuous change, close collaboration is essential. We’re constantly reimagining our industry, creating new products, and refining our processes, and we do our best work together. That’s why all of our office-based teams work onsite, five days a week.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Ready to join us as we serve those who serve others?&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;#LI-Onsite&lt;/em&gt;&lt;/p&gt;",
+            "departments": [
+                {
+                    "id": 4075854002,
+                    "name": "EMEA Kitchens Sales",
+                    "child_ids": [],
+                    "parent_id": 4075853002
+                }
+            ],
+            "offices": [
+                {
+                    "id": 4026806002,
+                    "name": "Saudi Arabia",
+                    "location": null,
+                    "child_ids": [
+                        4021581002,
+                        4035551002
+                    ],
+                    "parent_id": 4026809002
+                }
+            ],
+            "ai_disclaimer": null,
+            "include_ai_disclaimer": null,
+            "ai_opt_out_request_url": null
+        },
+        {
+            "absolute_url": "https://job-boards.greenhouse.io/cssmerge/jobs/8785395002",
+            "data_compliance": [
+                {
+                    "type": "gdpr",
+                    "requires_consent": false,
+                    "requires_processing_consent": false,
+                    "requires_retention_consent": false,
+                    "retention_period": null,
+                    "demographic_data_consent_applies": false
+                }
+            ],
+            "internal_job_id": 6506334002,
+            "location": {
+                "name": "Riyadh, KSA"
+            },
+            "metadata": [
+                {
+                    "id": 101318496002,
+                    "name": "FADV_Account",
+                    "value": "NA",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 101318497002,
+                    "name": "FADV_Package",
+                    "value": "NA",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 115785358002,
+                    "name": "Brand",
+                    "value": "KitchenPark",
+                    "value_type": "single_select"
+                },
+                {
+                    "id": 117533222002,
+                    "name": "Division",
+                    "value": "Real Estate",
+                    "value_type": "single_select"
+                }
+            ],
+            "id": 8785395002,
+            "updated_at": "2026-09-07T15:23:34-04:00",
+            "requisition_id": "R3829",
+            "title": "Workplace Associate",
+            "company_name": "ATOMS Careers page",
+            "first_published": "2026-09-07T11:44:22-04:00",
+            "language": "en",
+            "application_deadline": null,
+            "content": "&lt;p&gt;&lt;strong&gt;Who we are&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Namaa, we build and operate tech-enabled urban infrastructure that gives consumers fast, reliable access to meals, groceries, and everyday essentials.&lt;/p&gt;\n&lt;p&gt;Traditional retail models, built around brick-and-mortar locations, often struggle to compete in today’s digital-first landscape. Challenges such as cost efficiency per square foot, logistics-optimized locations, and seamless technology integration have made it clear that a new approach is needed.&lt;/p&gt;\n&lt;p&gt;We believe the future of foodservice and commerce lies in purpose-built infrastructure designed for speed, accuracy, and scalability. That’s why Namaa was established—to power the next generation of digital food and quick commerce ecosystems across the Middle East.&lt;/p&gt;\n&lt;p&gt;Our ecosystem is driven by a portfolio of specialized business units, including &lt;strong&gt;KitchenPark&lt;/strong&gt;, &lt;strong&gt;CloudRetail&lt;/strong&gt;, and &lt;strong&gt;Profood Properties&lt;/strong&gt;, each playing a key role in enabling brands to grow and thrive in an increasingly on-demand world.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Ensures the smooth operation of the corporate office by managing daily workplace activities, facilities, and vendor relationships. Supports space planning, onboarding, and office logistics to create an efficient and engaging environment for employees. Partners with cross-functional teams to enhance workplace experience, optimize resources, and maintain a professional, safe, and productive office setting.&lt;br&gt;&lt;br&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Oversee daily office operations to ensure a professional, efficient, and welcoming workplace environment.&lt;/li&gt;\n&lt;li&gt;Act as the primary point of contact for office-related inquiries, coordinating with vendors, building management, and internal departments.&lt;/li&gt;\n&lt;li&gt;Manage office supplies, equipment, and services to support smooth business operations.&lt;/li&gt;\n&lt;li&gt;Coordinate workspace planning, desk assignments, and meeting room logistics in collaboration with Facilities and IT teams.&lt;/li&gt;\n&lt;li&gt;Support new hire onboarding by preparing workstations, access badges, and necessary equipment.&lt;/li&gt;\n&lt;li&gt;Organize and assist with corporate events, meetings, and employee engagement activities.&lt;/li&gt;\n&lt;li&gt;Maintain office security and access systems, including visitor management and safety protocols.&lt;/li&gt;\n&lt;li&gt;Monitor and track office expenses, vendor contracts, and service-level agreements to ensure cost efficiency and compliance.&lt;/li&gt;\n&lt;li&gt;Partner with HR and leadership to enhance workplace culture and the employee experience.&lt;/li&gt;\n&lt;li&gt;Identify opportunities to improve operational processes and optimize the functionality and comfort of the office environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What we’re looking for&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;1-2 years of experience in Operations, HR Ops, People &amp;amp; Culture, or Events Management&lt;/li&gt;\n&lt;li&gt;Strong organizational and multitasking skills&lt;/li&gt;\n&lt;li&gt;Customer-obsessed mindset with strong ownership and follow-up&lt;/li&gt;\n&lt;li&gt;Excellent communication in English and Arabic&lt;/li&gt;\n&lt;li&gt;High attention to detail&lt;/li&gt;\n&lt;li&gt;Strong collaboration skills&lt;/li&gt;\n&lt;li&gt;Proficient in Google Suite; comfortable with ticketing systems (Jira, Zendesk)&lt;/li&gt;\n&lt;li&gt;Basic understanding of budgets, forecasting, and expense management&lt;/li&gt;\n&lt;li&gt;Working knowledge of People Ops&lt;/li&gt;\n&lt;li&gt;Experience coordinating office events&lt;/li&gt;\n&lt;li&gt;Willingness to travel to other office locations within Saudi Arabia and the Middle East&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Why join us&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Demand for online food delivery is growing really fast! In the last 5 years, just in the US, the overall market has expanded 10X from $10B to $100B, and could expand to $500bn- $1T by 2030.&lt;/li&gt;\n&lt;li&gt;Changing the restaurant industry: You’ll be part of a team that helps restaurants succeed in online food delivery.&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Collaborative environment: You will receive support and guidance from experienced colleagues and managers, helping you to learn, grow and achieve your goals, and you’ll work closely with other teams to ensure our customer’s success.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What else you need to know&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This role is based in our Riyadh office location. As a company driven by innovation and continuous change, close collaboration is essential. We’re constantly reimagining our industry, creating new products, and refining our processes, and we do our best work together. That’s why all of our office-based teams work onsite, five days a week.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Ready to join us as we serve those who serve others?&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;#LI-Onsite&lt;/em&gt;&lt;/p&gt;",
+            "departments": [
+                {
+                    "id": 4075835002,
+                    "name": "Real Estate",
+                    "child_ids": [
+                        4102641002,
+                        4089217002,
+                        4075870002,
+                        4075871002,
+                        4053274002,
+                        4053272002,
+                        4053276002,
+                        4056700002
+                    ],
+                    "parent_id": null
+                }
+            ],
+            "offices": [
+                {
+                    "id": 4026806002,
+                    "name": "Saudi Arabia",
+                    "location": null,
+                    "child_ids": [
+                        4021581002,
+                        4035551002
+                    ],
+                    "parent_id": 4026809002
+                }
+            ],
+            "ai_disclaimer": null,
+            "include_ai_disclaimer": null,
+            "ai_opt_out_request_url": null
+        }
+    ],
+    "meta": {
+        "total": 249
+    }
+}

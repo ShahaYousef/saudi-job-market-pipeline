@@ -1,0 +1,245 @@
+[
+  {
+    "id": "744000074280805",
+    "name": "Civil Site Engineer",
+    "uuid": "d55c81a5-e494-472a-9af3-cb05e0411707",
+    "jobAdId": "9350df11-846c-4334-a671-4ff06a494cd4",
+    "defaultJobAd": true,
+    "refNumber": "REF49E",
+    "company": {
+      "identifier": "EICO",
+      "name": "EICO"
+    },
+    "releasedDate": "2025-08-04T08:41:02.091Z",
+    "location": {
+      "city": "Haradh",
+      "region": "Eastern Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.1353686",
+      "longitude": "49.0817124",
+      "fullLocation": "Haradh, Eastern Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "construction",
+      "label": "Construction"
+    },
+    "department": {},
+    "function": {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e737e4b09a6d37a0d435",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "EICO"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EICO/postings/744000074280805",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Energy and Infrastructure Company EICO is an approved contractor for electrical projects with the Saudi Electricity Company.&#xa0;</p><p>&#xa0;</p><p>The project is located in Haradh area, southeast of Riyadh city.&#xa0;</p><p>Location:&#xa0;https://maps.app.goo.gl/TSK76LQ2omNdiJE4A</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Responsible for supervising all civil works on the project, including site preparation, foundations, structural works, and finishing. The role involves reviewing drawings, ensuring quality control, and coordinating daily activities to meet construction timelines.</p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p><strong>Required Qualifications &amp; Skills:</strong></p><p><strong>Required Education:</strong></p><ul><li><p>Bachelor's degree in civil engineering&#xa0;</p></li></ul><p><strong>Required Experience:</strong></p><ul><li><p>5-7 years of experience in civil site execution, preferably in the solar industry.</p></li><li><p>Hands-on experience in the execution of projects, including civil works such as foundation, structure installation, and site preparation.</p></li><li><p>Experience working with EPC (Engineering, Procurement, and Construction) contractors and managing site teams.</p></li></ul><p><strong>Required Technical Skills:</strong></p><ul><li><p>Proficiency in AutoCAD, Revit MEP, and MS Project.</p></li><li><p>Excellent problem-solving and troubleshooting skills.</p></li><li><p>Strong leadership and communication skills to coordinate with multiple stakeholders. -Ability to manage site activities and ensure compliance with safety regulations.</p></li><li><p>Strong report writing and documentation skills.</p></li><li><p>Language Proficiency: Fluency in English and Arabic is required.</p></li></ul><p>&#xa0;</p><p><strong>Tasks and Duties:</strong></p><ul><li>Review the structure proposal and construction drawings for civil work and steel structure work. Site Condition: Make the budget and execution scheme for civil work.</li><li>Supervise the execution of civil works, including excavation, foundations, concrete, steel, and other related construction activities. &#xa0;</li><li>Control the execution progress, quality, and safety, solve the problems during the civil work execution in a timely manner, and ensure the civil work is completed on time.&#xa0;</li><li>Monitor &amp; Manage contractor and subcontractor performance on site.&#xa0;&#xa0;</li><li>Conduct quality checks and ensure compliance with approved materials and specifications.&#xa0;&#xa0;</li><li>Coordinate civil inspection and testing activities (e.g., slump test, compaction test).</li><li>Ensure safety measures and housekeeping are maintained on civil works.</li><li>Make the progress report and other relevant reports for civil work.</li><li>Resolve technical issues or discrepancies with consultants or clients.</li><li>Track civil work schedules and support project planning updates.&#xa0;&#xa0;</li><li>Verify and approve civil-related as-built drawings and records</li><li>&#xa0;Liaise with local authorities if needed for civil-related permits or inspections &#xa0;</li><li>Specify the material, machines, and tools for civil work, and follow up on the delivery and status.</li></ul>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000074277905",
+    "name": "Mechanical Site Engineer",
+    "uuid": "50201c9e-6a18-4e6c-910f-10deeeffa4f1",
+    "jobAdId": "50b0a7f0-b1c6-4007-b092-b65a27c5a184",
+    "defaultJobAd": true,
+    "refNumber": "REF48M",
+    "company": {
+      "identifier": "EICO",
+      "name": "EICO"
+    },
+    "releasedDate": "2025-08-04T08:25:43.786Z",
+    "location": {
+      "city": "Haradh",
+      "region": "Eastern Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.1353686",
+      "longitude": "49.0817124",
+      "fullLocation": "Haradh, Eastern Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "construction",
+      "label": "Construction"
+    },
+    "department": {},
+    "function": {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e737e4b09a6d37a0d435",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "EICO"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EICO/postings/744000074277905",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Energy and Infrastructure Company EICO is an approved contractor for electrical projects with the Saudi Electricity Company.&#xa0;</p><p>&#xa0;</p><p>The project is located in Haradh area, southeast of Riyadh city.&#xa0;</p><p>Location:&#xa0;https://maps.app.goo.gl/TSK76LQ2omNdiJE4A</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>Responsible for reviewing mechanical design documents, supervising site installation activities, and ensuring that all mechanical systems (e.g., piping, pumps, HVAC, rotating equipment) are executed as per specifications and industry standards.</p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p><strong>Required Education:</strong><br>\n<br>\n-Bachelor’s degree in Mechanical Engineering or a related field.<br>\n<br>\n<br>\n<strong>Required Experience &amp; Certificates:</strong><br>\n<br>\n-Minimum of 8 years of experience in site supervision and mechanical installations within the construction or engineering consultancy industry.<br>\n-Experience in HVAC, plumbing, fire protection, and mechanical systems.<br>\n-Familiarity with Saudi codes and standards is a must.<br>\n-Certification in MEP (Mechanical, Electrical, Plumbing) systems or PMP (Project Management Professional) is an advantage.<br>\n-Experience in coordinating with contractors and consultants to resolve technical issues on-site.<br>\n<br>\n<br>\n<strong>Required Skills:</strong><br>\n<br>\n-Strong technical knowledge of mechanical systems, HVAC, plumbing, and fire protection.<br>\n-Proficiency in AutoCAD, Revit MEP, and MS Project.<br>\n-Excellent problem-solving and troubleshooting skills.<br>\n-Strong leadership and communication skills to coordinate with multiple stakeholders. -Ability to manage site activities and ensure compliance with safety regulations.<br>\n-Strong report writing and documentation skills.<br>\n-Language Proficiency: Fluency in English and Arabic is required.<br>\n<br>\n<br>\n<strong>Tasks and Duties:</strong><br>\n-Supervise and coordinate the installation, testing, and commissioning of mechanical systems including HVAC, plumbing, and fire protection systems.<br>\n-Ensure that all installations conform to approved design documents, technical specifications, and acceptance criteria.<br>\n-Conduct regular site inspections and quality control audits to identify and rectify any deviations or deficiencies.<br>\n-Collaborate closely with project managers, design engineers, subcontractors, and vendors to ensure seamless communication and project alignment.<br>\n-Organize and lead regular site meetings to review progress, address technical issues, and adjust plans as needed.<br>\n-Prepare detailed progress reports, highlighting achievements, potential risks, and recommended corrective actions.<br>\n-Provide on-site technical support and troubleshooting during the installation and commissioning phases.<br>\n-Utilize analytical skills to diagnose and resolve mechanical system issues, ensuring minimal disruption to project timelines.<br>\n-Implement value engineering practices to optimize mechanical solutions and improve cost efficiency without compromising quality.<br>\n-Ensure strict adherence to all safety protocols, building codes, and regulatory requirements.<br>\n-Maintain comprehensive documentation for all on-site activities, including inspection reports, testing records, and safety audits.<br>\n-Prepare issues log, discuss recommendations and resolution with project managers and stakeholders.<br>\n-Enforce established acceptance criteria for mechanical installations, ensuring consistency and quality across projects.<br>\n-Supervise and mentor junior engineers and technical staff on-site, fostering a collaborative and high-performance work environment.<br>\n-Provide technical guidance and training to enhance team competency and ensure adherence to industry best practices.<br>\n-Identify opportunities for process improvements and cost-saving measures, implementing innovative solutions to enhance project efficiency.<br>\n-Keep abreast of emerging technologies and industry trends to continually update technical knowledge and improve on-site practices.</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  },
+  {
+    "id": "744000074274528",
+    "name": "Electrical Site Engineer",
+    "uuid": "073aec4e-eeaa-47a7-80b2-4afbcb1b8473",
+    "jobAdId": "5c75bd74-bddc-42c1-b186-0bfbdf7d2e79",
+    "defaultJobAd": true,
+    "refNumber": "REF47C",
+    "company": {
+      "identifier": "EICO",
+      "name": "EICO"
+    },
+    "releasedDate": "2025-08-04T08:20:06.823Z",
+    "location": {
+      "city": "Haradh",
+      "region": "Eastern Province",
+      "country": "sa",
+      "remote": false,
+      "hybrid": false,
+      "latitude": "24.1353686",
+      "longitude": "49.0817124",
+      "fullLocation": "Haradh, Eastern Province, Saudi Arabia"
+    },
+    "industry": {
+      "id": "construction",
+      "label": "Construction"
+    },
+    "department": {},
+    "function": {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    "typeOfEmployment": {
+      "id": "permanent",
+      "label": "Full-time"
+    },
+    "experienceLevel": {
+      "id": "mid_senior_level",
+      "label": "Mid-Senior Level"
+    },
+    "customField": [
+      {
+        "fieldId": "COUNTRY",
+        "fieldLabel": "Country/Region",
+        "valueId": "sa",
+        "valueLabel": "Saudi Arabia"
+      },
+      {
+        "fieldId": "58b7e737e4b09a6d37a0d435",
+        "fieldLabel": "Brands",
+        "valueId": "default",
+        "valueLabel": "EICO"
+      }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/EICO/postings/744000074274528",
+    "language": {
+      "code": "en",
+      "label": "English",
+      "labelNative": "English (US)"
+    },
+    "jobAd": {
+      "sections": {
+        "companyDescription": {
+          "title": "Company Description",
+          "text": "<p>Energy and Infrastructure Company EICO is an approved contractor for electrical projects with the Saudi Electricity Company.&#xa0;</p><p>&#xa0;</p><p>The project is located in Haradh area, southeast of Riyadh city.&#xa0;</p><p>Location:&#xa0;https://maps.app.goo.gl/TSK76LQ2omNdiJE4A</p>"
+        },
+        "jobDescription": {
+          "title": "Job Description",
+          "text": "<p>upports the Project Manager in planning, coordinating, and supervising technical aspects of project execution. This role involves managing technical documentation, interfacing with design teams, coordinating with vendors and subcontractors, and ensuring compliance with specifications, timelines, and quality standards.</p>"
+        },
+        "qualifications": {
+          "title": "Qualifications",
+          "text": "<p><strong>Required Education:</strong><br>\n<br>\n-Bachelor’s degree in Electrical Engineering.<br>\n<br>\n<br>\n<strong>Required Experience &amp; Certificates:</strong><br>\n<br>\n-Minimum of 5-7 years of experience in electrical engineering, with at least 4 years of experience in on-site supervision or construction management for electrical systems. -PMP or other project management certification, LEED accreditation, or any other relevant electrical engineering certifications is a plus.<br>\n<br>\n<br>\n<strong>Required Skills:</strong><br>\n<br>\n-Proficient in electrical design and installation, including power distribution, lighting, fire alarm, and control systems.<br>\n-Strong knowledge of electrical codes, regulations, and industry standards (e.g., IEC, NEC, local regulations).<br>\n-Familiarity with electrical design software (AutoCAD, Revit, ETAP) and the ability to read electrical drawings and specifications.<br>\n-Experience with electrical testing, commissioning, and troubleshooting on construction sites.<br>\n-Experience managing electrical components of construction projects, including resource coordination, procurement, and scheduling.<br>\n-Excellent verbal and written communication skills.<br>\n-Fluency in Arabic and English (both written and spoken) is required.<br>\n<br>\n<br>\n<strong>Tasks and Duties:</strong><br>\n<br>\n-Oversee the installation, testing, and commissioning of electrical systems including power distribution, lighting, fire alarm systems, and low voltage equipment on-site, ensuring all work meets technical specifications and quality standards.<br>\n-Conduct regular site inspections to ensure compliance with electrical design plans, industry standards, and local regulations. Identify issues, recommend solutions, and implement corrective actions when required.<br>\n-Work closely with mechanical engineers, civil engineers, project managers, and subcontractors to ensure the smooth integration of electrical systems into the overall project.<br>\n-Provide technical support to resolve any electrical issues encountered during the installation and commissioning phases, ensuring minimal disruption to the project timeline.<br>\n-Maintain accurate records of electrical works, including installation reports, testing procedures, and quality assurance documentation. Provide regular progress reports and updates to project management.<br>\n-Ensure that all electrical work adheres to health and safety regulations, promoting a safe working environment on-site. Conduct risk assessments, safety audits, and enforce safety protocols for all electrical installations.<br>\n-Assist with the procurement of electrical materials and equipment, ensuring that they meet project specifications, are delivered on time, and are in compliance with relevant codes and standards.<br>\n-Supervise and participate in the testing and commissioning of electrical systems, ensuring they are functional, operational, and meet client expectations.<br>\n-Provide updates to clients and stakeholders, address any electrical-related concerns, and ensure that all electrical aspects of the project are delivered in alignment with the client's needs and expectations.<br>\n-Monitor the progress of electrical installations, manage schedules, and coordinate with subcontractors to ensure electrical works are completed within the stipulated timeline.</p>"
+        },
+        "additionalInformation": {
+          "title": "Additional Information",
+          "text": ""
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+keyword,experience_level,priority,labelled_postings,rule_precision
+assistant manager,,1,11,0.45
+director,Director,2,119,0.72
+intern,Internship,3,7,1.00
+interns,Internship,3,,
+internship,Internship,3,,
+senior,Mid-Senior,4,185,0.74
+lead,Mid-Senior,5,37,0.73
+leader,Mid-Senior,5,11,0.82
+manager,Mid-Senior,6,295,0.81

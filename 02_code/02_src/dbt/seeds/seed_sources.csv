@@ -1,0 +1,7 @@
+source_name,source_type,collection_method,source_priority
+workable,ATS,Company board API,1
+smartrecruiters,ATS,Company board API,2
+ashby,ATS,Company board API,3
+greenhouse,ATS,Company board API,4
+jsearch,Aggregator,Query matrix API,5
+jooble,Aggregator,Query matrix API,6
