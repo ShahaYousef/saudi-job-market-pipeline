@@ -4,6 +4,10 @@ import json, urllib.parse, urllib.request, urllib.error, sys, os
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
 from ingestion.jsearch import collector as jc
+from common import config
+
+OUT_DIR = os.path.join(config.RAW_DIR, "probes")   # outside the repository, like the other raw files
+os.makedirs(OUT_DIR, exist_ok=True)
 
 qs = urllib.parse.urlencode({"query": "jobs in Saudi Arabia", "country": "sa", "language": "en"})
 url = "https://api.openwebninja.com/jsearch/search-v2?" + qs
@@ -14,7 +18,7 @@ try:
 except urllib.error.HTTPError as e:
     s, raw = e.code, e.read().decode("utf-8", errors="replace")
 
-open(r"C:\Users\admin\Desktop\Data Engineering Bootcamp\capstone\verification\payloads\jsearch_v2_shape.json",
+open(os.path.join(OUT_DIR, "jsearch_v2_shape.json"),
      "w", encoding="utf-8").write(raw)
 print("http=%s  bytes=%d" % (s, len(raw)))
 o = json.loads(raw)
