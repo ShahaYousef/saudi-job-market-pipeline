@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """JSearch probe. 4 requests. Resolves pagination, date fields, country filter, id stability."""
-import json, urllib.request, urllib.error, time, collections
+import json, os, urllib.request, urllib.error, time, collections
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "pipeline"))  # repo/pipeline/
@@ -8,6 +8,8 @@ from common import config
 
 API_KEY = config.jsearch_api_keys()[0]
 BASE = "https://api.openwebninja.com/jsearch/search"
+OUT_DIR = os.path.join(config.RAW_DIR, "probes")   # outside the repository, like the other raw files
+os.makedirs(OUT_DIR, exist_ok=True)
 
 def call(params):
     qs = "&".join("%s=%s" % (k, urllib.parse.quote(str(v))) for k, v in params.items())
@@ -32,7 +34,7 @@ for name, p in PROBES:
     print("-" * 58)
     print("PROBE " + name + "   " + json.dumps(p, ensure_ascii=False))
     s, raw = call(p)
-    open(r"C:\Users\admin\Desktop\Data Engineering Bootcamp\capstone\verification\payloads\jsearch_probe_%s.json" % name,
+    open(os.path.join(OUT_DIR, "jsearch_probe_%s.json" % name),
          "w", encoding="utf-8").write(raw)
     print("http: %s" % s)
     if s != 200:
